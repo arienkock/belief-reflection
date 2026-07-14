@@ -1,0 +1,345 @@
+{
+  "topic": "Social Media and Adolescent Mental Health",
+  "generated": "2026-07-14",
+  "registers": [
+    "research",
+    "simple"
+  ],
+  "default_register": "research",
+  "nodes": [
+    {
+      "id": "n_root",
+      "parent_id": null,
+      "evidence_quality": "pending-phase2",
+      "label": "What does the evidence say about social media's effects on adolescent mental health — and on which question, exactly?",
+      "children": [
+        "n_assoc",
+        "n_trend",
+        "n_mech",
+        "n_policy"
+      ],
+      "role": "topic",
+      "question": {
+        "research": "What does the evidence say about social media's effects on adolescent mental health — and on which question, exactly?",
+        "simple": "Is social media harming teenagers?"
+      },
+      "depends_on": {
+        "research": "'Harmful' is not one measurable quantity. The literature separately measures the individual-level association, whether it is causal, whether it explains the population trend since ~2010, the mechanism, and what restriction policies change — with sharply different degrees of consensus. Public debate routinely lets confidence on one of these stand in for all of them; this tree exists to keep them apart.",
+        "simple": "There's no single 'is it harmful' score. Whether heavy users feel worse, whether social media is the cause, whether it explains why teen mental health got worse, and whether bans help are four different questions with different-quality evidence. Pick one."
+      },
+      "coverage_note": "Authored dimensions: individual association & causation, the population trend, mechanisms, restriction policies. DELIBERATELY NOT COVERED (invisible to this tool): content-specific harms with their own literatures (cyberbullying prevalence, grooming/exploitation, CSAM, pro-self-harm content exposure); 'problematic use'/addiction as a clinical construct; effects on adults; polarization and civic effects; physical-health outcomes; platform-by-platform design comparisons; privacy/data-rights harms; and whether age bans are JUSTIFIED all things considered — a values question this tool records no verdict on. Absence is a scope choice, not evidence of no effect. Note also: 'screen time' is not 'social media use'; findings based on general screen measures are labelled as such and must not be read as social-media-specific.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "How is social media use related to individual adolescents' mental health — and is the relationship causal?",
+      "children": [
+        "n_assoc_magnitude",
+        "n_assoc_causal",
+        "n_assoc_hetero",
+        "n_assoc_benefits"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "How is social media use related to individual adolescents' mental health — and is the relationship causal?",
+        "simple": "Do teens who use social media more actually feel worse — and is social media the reason?"
+      },
+      "depends_on": {
+        "research": "Depends on WHICH question (correlation magnitude vs. causal effect), HOW use is measured (self-report inflates associations relative to device logs), WHO (average adolescent vs. vulnerable subgroups and developmental windows), and WHICH direction of effect (harms and benefits can coexist in the same population).",
+        "simple": "Depends on what you're asking (do heavy users feel worse, or does social media make them feel worse — not the same thing), how use is measured (people misremember their own use), and which teens you mean (averages can hide groups who are hit harder — or helped)."
+      },
+      "coverage_note": "Captures individual-level association, causal evidence, heterogeneity, and benefits. Does not cover clinical 'problematic use' constructs, and platform-specific differences (e.g. image-based vs. text-based) are visible only where a finding happens to carry them.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_magnitude",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Is heavier social media use meaningfully associated with worse adolescent depression and anxiety?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Is heavier social media use meaningfully associated with worse adolescent depression and anxiety?",
+        "simple": "Do teens who use social media more report feeling worse?"
+      },
+      "claim_evaluated": {
+        "research": "Heavier social media use is associated with worse depression/anxiety in adolescents at a magnitude that is practically meaningful, not trivially small.",
+        "simple": "Teens who spend more time on social media report noticeably worse mental health — the link is big enough to matter."
+      },
+      "depends_on": {
+        "research": "The live dispute is magnitude, not existence: pooled correlations around r 0.2 (problematic-use measures higher) vs. specification-curve work bounding variance explained near zero. What counts as 'practically meaningful' is itself contested; findings must report the number, not the adjective.",
+        "simple": "Almost everyone agrees there's SOME link. The fight is over whether it's big enough to matter — so look at the actual size, not the headline."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_causal",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Does social media use causally worsen adolescent mental health?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does social media use causally worsen adolescent mental health?",
+        "simple": "Does social media actually cause worse mental health — not just go along with it?"
+      },
+      "claim_evaluated": {
+        "research": "Social media use causally worsens adolescent mental health.",
+        "simple": "Social media makes teens' mental health worse (it's the cause, not just a coincidence)."
+      },
+      "depends_on": {
+        "research": "Depends on the causal contrast: platform introduction (quasi-experiments), short-run individual deactivation (RCTs, mostly adult samples), and lifelong non-adoption answer different questions. A causal effect in one contrast does not establish the others.",
+        "simple": "Depends what you compare: what happened when social media first arrived, what happens when someone quits for a few weeks, and what a life without it would be like are three different questions."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_hetero",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Are harms concentrated in vulnerable subgroups and developmental windows rather than uniform?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Are harms concentrated in vulnerable subgroups and developmental windows rather than uniform?",
+        "simple": "Are some teens — like young girls — hit much harder than others?"
+      },
+      "claim_evaluated": {
+        "research": "Negative effects of social media are concentrated in specific subgroups and developmental windows (notably girls in early adolescence) rather than spread uniformly.",
+        "simple": "Social media's harms hit certain groups — especially girls around ages 11–13 — much harder than teens in general."
+      },
+      "depends_on": {
+        "research": "If true, population-average effects understate risk for the sensitive groups and overstate it for everyone else — which changes what both the null-average findings and the alarm-raising findings mean.",
+        "simple": "If some groups are hit hard while most aren't, then 'on average it's fine' and 'it's harming kids' can both be half-true."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_benefits",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Does social media provide real mental-health-relevant benefits to some adolescents?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does social media provide real mental-health-relevant benefits to some adolescents?",
+        "simple": "Does social media genuinely help some teens?"
+      },
+      "claim_evaluated": {
+        "research": "Social media provides real mental-health-relevant benefits to some adolescents — community, connection, and support, especially for marginalized youth.",
+        "simple": "For some teens — especially ones who feel isolated where they live — social media genuinely helps, giving them community and support."
+      },
+      "depends_on": {
+        "research": "Depends on WHICH adolescents (marginalized youth, e.g. LGBTQ+ teens in unsupportive environments, are the strongest case) and whether benefits are weighed within the same population that carries the harms — both can be true at once.",
+        "simple": "Depends which teens you mean. The strongest case is kids who can't find their community offline. Helping some and harming others can both be true."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_trend",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "Did adolescent mental health really deteriorate after ~2010, and is social media the driver?",
+      "children": [
+        "n_trend_real",
+        "n_trend_attrib"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "Did adolescent mental health really deteriorate after ~2010, and is social media the driver?",
+        "simple": "Did teen mental health really get worse since about 2010 — and is social media why?"
+      },
+      "depends_on": {
+        "research": "Two separable claims: that the deterioration is real (vs. changed reporting, screening, and diagnostic practice) and that social media adoption is its principal cause. The second presupposes the first but does not follow from it — the timing coincidence plus an individual-level association is not, by itself, population-level attribution.",
+        "simple": "First question: did things really get worse, or are teens just more willing to report problems? Second question: even if it's real, is social media the reason? Yes to the first doesn't mean yes to the second."
+      },
+      "coverage_note": "Covers the reality and the attribution of the post-2010 trend in high-income countries. Competing explanations (economic insecurity, academic pressure, parenting shifts, opioid-era spillovers) are visible only as they appear inside attribution findings; they are not separately scored.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_trend_real",
+      "parent_id": "n_trend",
+      "evidence_quality": "pending-phase2",
+      "label": "Has adolescent mental health genuinely deteriorated since ~2010?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Has adolescent mental health genuinely deteriorated since ~2010?",
+        "simple": "Did teen mental health really get worse — or are teens just reporting it more?"
+      },
+      "claim_evaluated": {
+        "research": "Adolescent mental health has genuinely deteriorated since ~2010; the rise is not an artifact of changed reporting, screening, or diagnostic practice.",
+        "simple": "Teen mental health really did get worse after about 2010 — it's not just that teens talk about it more now."
+      },
+      "depends_on": {
+        "research": "Depends on the outcome series: self-report symptom scales are vulnerable to reporting change; hospitalizations and suicide statistics are harder to explain away but have their own recording issues. Measurement-invariance tests are the direct evidence on the artifact question.",
+        "simple": "Surveys can shift because attitudes shift. Harder numbers — hospital visits, suicides — are more convincing, but even those have counting quirks."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_trend_attrib",
+      "parent_id": "n_trend",
+      "evidence_quality": "pending-phase2",
+      "label": "Is social media adoption the principal driver of the post-2010 deterioration?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Is social media adoption the principal driver of the post-2010 deterioration?",
+        "simple": "Is social media the main reason teen mental health got worse?"
+      },
+      "claim_evaluated": {
+        "research": "Social media adoption is the principal driver of the post-2010 deterioration in adolescent mental health.",
+        "simple": "Social media is the main cause of the decline in teen mental health since about 2010."
+      },
+      "depends_on": {
+        "research": "This is the map's most conflation-prone claim: it inherits unearned confidence from the association and causation leaves. Scaling an individual-level effect into the principal population driver requires additional assumptions (dose, coverage, absence of comparable rival shocks) that must be argued, not assumed.",
+        "simple": "This is where people cheat: 'heavy users feel worse' quietly becomes 'social media caused the whole decline.' The second claim needs much more proof than the first."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_mech",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "Through what pathway would social media harm adolescents — and which pathways are actually evidenced?",
+      "children": [
+        "n_mech_sleep"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "Through what pathway would social media harm adolescents — and which pathways are actually evidenced?",
+        "simple": "HOW would social media hurt teens — and which explanation has real evidence?"
+      },
+      "depends_on": {
+        "research": "Proposed pathways differ in testability. Sleep displacement is separately measurable and is scored here. Social comparison and algorithmic amplification are evidenced mainly as mechanism findings inside other studies (e.g. the Facebook-rollout comparison evidence) and via expert synthesis — they surface in this map as findings and crosslinks on the causal leaves, not as scored leaves of their own.",
+        "simple": "Some explanations can be measured on their own — like whether phones cost teens sleep — so that one gets scored. Others, like 'comparing yourself to others online', show up inside other studies rather than as their own yes/no question."
+      },
+      "coverage_note": "Only sleep displacement is scored. Social comparison, algorithmic amplification, and displacement of in-person time are DELIBERATELY NOT scored as leaves — the literature evidences them as embedded mechanism findings rather than as independently testable claims with good-faith evidence on both sides; forcing them into scored leaves would manufacture false balance. They remain visible via findings and crosslinks on n_assoc_causal. This is a Phase 1 scope decision, revisitable if the mechanism literature matures.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_mech_sleep",
+      "parent_id": "n_mech",
+      "evidence_quality": "pending-phase2",
+      "label": "Does social media / device use displace or degrade adolescent sleep?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does social media / device use displace or degrade adolescent sleep?",
+        "simple": "Do phones and social media cost teens sleep?"
+      },
+      "claim_evaluated": {
+        "research": "Social media and portable-device use displaces or degrades adolescent sleep (quantity and quality).",
+        "simple": "Phones and social media meaningfully cut into how much and how well teens sleep."
+      },
+      "depends_on": {
+        "research": "Most of this literature measures screens/devices generally, not social media specifically — every finding must state which. Between-person associations also run larger than within-person (same teen, day-to-day) estimates; the design must be stated.",
+        "simple": "Watch two things: many studies measure ALL screen use, not just social media; and comparing different teens gives bigger numbers than following the same teen night by night."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "What do restriction policies — school phone bans, individual deactivation, age-based platform bans — measurably change?",
+      "children": [
+        "n_policy_school",
+        "n_policy_deact",
+        "n_policy_ban"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "What do restriction policies — school phone bans, individual deactivation, age-based platform bans — measurably change?",
+        "simple": "Do phone bans and social media bans actually work?"
+      },
+      "depends_on": {
+        "research": "Depends on the intervention's dose and scope (school-hours phone removal vs. weeks of personal deactivation vs. society-wide age limits), on the outcome measured (use, wellbeing, grades), and on enforcement. Evidence that harm exists does not establish that a given restriction reduces it — and a restriction failing to reduce USE says nothing yet about what reduced use would do.",
+        "simple": "'Does it work' depends on which ban (phones out of class, quitting for a month, a national age limit), what you count as working (less use? happier kids? better grades?), and whether kids can just work around it."
+      },
+      "coverage_note": "Covers what restriction policies measurably change. Whether bans are JUSTIFIED (autonomy, proportionality, enforcement costs, expression rights) is a values question outside this map. Age-verification technology and its privacy costs are not scored.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy_school",
+      "parent_id": "n_policy",
+      "evidence_quality": "pending-phase2",
+      "label": "Do school smartphone bans improve student mental health and academic outcomes?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do school smartphone bans improve student mental health and academic outcomes?",
+        "simple": "Does banning phones in school help kids do and feel better?"
+      },
+      "claim_evaluated": {
+        "research": "School smartphone bans improve student mental health and academic outcomes.",
+        "simple": "Banning phones in school improves kids' mental health and grades."
+      },
+      "depends_on": {
+        "research": "Depends on policy dose (bell-to-bell vs. classroom-only), on design (causal ban-timing studies vs. cross-sectional policy comparisons — the headline null and the headline positive currently come from different designs and countries), and on which subgroup (reported gains concentrate among girls and lower-achieving students).",
+        "simple": "Depends how strict the ban is, how the study was run (the 'it works' and 'no difference' headlines come from different kinds of studies), and which kids you look at."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy_deact",
+      "parent_id": "n_policy",
+      "evidence_quality": "pending-phase2",
+      "label": "Does individually reducing or deactivating social media improve wellbeing?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does individually reducing or deactivating social media improve wellbeing?",
+        "simple": "Does quitting or cutting back on social media make people feel better?"
+      },
+      "claim_evaluated": {
+        "research": "Individually reducing or deactivating social media use improves subjective wellbeing.",
+        "simple": "People who quit or cut back on social media end up feeling better."
+      },
+      "depends_on": {
+        "research": "Depends on duration (days vs. weeks), sample (landmark RCTs are adult samples — adolescent transportability is an assumption), and aggregation (competing meta-analyses of the same RCT pool reach opposite headlines and are themselves disputed). Short-run individual deactivation also cannot estimate population-wide or never-adoption effects.",
+        "simple": "Depends how long people quit, who was studied (mostly adults, not teens), and which summary you trust — rival round-ups of the same experiments disagree. And one person quitting for a month is not the same as nobody having it."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy_ban",
+      "parent_id": "n_policy",
+      "evidence_quality": "pending-phase2",
+      "label": "Do age-based platform bans actually reduce under-age social media use?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do age-based platform bans actually reduce under-age social media use?",
+        "simple": "Do national age limits actually keep kids off social media?"
+      },
+      "claim_evaluated": {
+        "research": "Age-based platform bans (the Australian under-16 model) effectively reduce under-age social media use.",
+        "simple": "National bans like Australia's actually keep under-16s off social media."
+      },
+      "depends_on": {
+        "research": "Deliberately scoped to USE, not mental health: no mental-health outcome data from any national ban exists yet. Early evidence measures one quarter of a contested rollout — an early null on use-reduction is not evidence about the mental-health effects of a well-enforced ban, and must not be laundered into one (nor the reverse).",
+        "simple": "This asks only whether bans keep kids off the apps — nobody yet has data on whether banned kids feel better. Early results from Australia measure just the first few months, when enforcement was leaky."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    }
+  ]
+}

@@ -1,6 +1,11 @@
 # Proposal: Social Media and Adolescent Mental Health
 
-_Proposed 2026-07-14. Status: candidate — pre-Phase-1. Nothing here is frozen._
+_Proposed 2026-07-14. Status: **Phase 1 complete — nodes frozen 2026-07-14**;
+see [`nodes.json`](nodes.json) and
+[`phase1-to-phase2-handoff.md`](phase1-to-phase2-handoff.md). The dimension
+sketch below is the pre-freeze draft, kept for the record; where it differs
+from `nodes.json` (e.g. the mechanism-pathway leaf was cut), the frozen tree
+and the handoff's decision log govern._
 
 ## Working title and scope
 
