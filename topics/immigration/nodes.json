@@ -1,0 +1,376 @@
+{
+  "topic": "Immigration",
+  "generated": "2026-06-30",
+  "registers": [
+    "research",
+    "simple"
+  ],
+  "default_register": "research",
+  "nodes": [
+    {
+      "id": "n_root",
+      "parent_id": null,
+      "evidence_quality": "well-evidenced",
+      "label": "What does the evidence say about immigration's effects on the host country \u2014 and on which dimension?",
+      "children": [
+        "n_econ",
+        "n_fiscal",
+        "n_innov",
+        "n_social"
+      ],
+      "role": "topic",
+      "question": {
+        "research": "What does the evidence say about immigration's effects on the host country \u2014 and on which dimension?",
+        "simple": "Is immigration good or bad for the country it moves to?"
+      },
+      "depends_on": {
+        "research": "'Net beneficial' is not one measurable quantity. The literature measures separate dimensions; pick one. The global verdict is a values-weighted sum of these, not an empirical result.",
+        "simple": "There's no single 'good or bad' score. Studies measure separate areas; pick one. Your overall view depends on how much each area matters to you."
+      },
+      "coverage_note": "Authored dimensions: labour market, public finances, innovation, social outcomes. DELIBERATELY NOT COVERED (invisible to this tool): housing & rents, congestion of public services, gains to employers/capital owners (the counterpart to any wage effect), effects on origin countries (brain drain / remittances), and political/electoral effects. Absence is a scope choice, not evidence of no effect.",
+      "scored": false,
+      "evidence_caveats": [
+        "single-source-heavy: OECD-migration supplies 1/2 findings here"
+      ]
+    },
+    {
+      "id": "n_econ",
+      "parent_id": "n_root",
+      "evidence_quality": "well-evidenced",
+      "label": "How does immigration affect the host labour market and economic output?",
+      "children": [
+        "n_econ_wages_overall",
+        "n_econ_wages_lowskill",
+        "n_econ_gdp_pc"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "How does immigration affect the host labour market and economic output?",
+        "simple": "How does immigration affect jobs, pay, and the economy?"
+      },
+      "depends_on": {
+        "research": "Depends on WHICH workers (all natives vs the low-skilled natives & prior immigrants who are closest substitutes) and WHICH metric (aggregate GDP vs GDP per capita).",
+        "simple": "Depends on which workers you mean (everyone, or the lower-paid who compete most) and which measure (the economy's total size, or how well-off each person is)."
+      },
+      "coverage_note": "Captures effects on workers and output. The split of gains between labour and capital is only partly visible (low-skill wage findings); gains to employers are not separately scored.",
+      "scored": false,
+      "evidence_caveats": [
+        "single-source-heavy: NAS-2016 supplies 2/3 findings here",
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_fiscal",
+      "parent_id": "n_root",
+      "evidence_quality": "well-evidenced",
+      "label": "What is immigration's effect on host public finances?",
+      "children": [
+        "n_fiscal_highskill",
+        "n_fiscal_lowskill",
+        "n_fiscal_horizon"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "What is immigration's effect on host public finances?",
+        "simple": "Does immigration cost the government more than it brings in?"
+      },
+      "depends_on": {
+        "research": "Depends on immigrant skill/education, the public-goods accounting assumption (average vs marginal cost), and the time horizon (static snapshot vs lifetime-with-descendants).",
+        "simple": "Depends on immigrants' education, how you count shared costs, and how far ahead you look (a snapshot now, or a lifetime including their children)."
+      },
+      "scored": false,
+      "evidence_caveats": [
+        "single-source-heavy: NAS-2016 supplies 1/2 findings here",
+        "mostly correlational \u2014 causal interpretation is not licensed"
+      ]
+    },
+    {
+      "id": "n_innov",
+      "parent_id": "n_root",
+      "evidence_quality": "well-evidenced",
+      "label": "How does immigration affect innovation and long-run productivity?",
+      "children": [
+        "n_innov_share",
+        "n_innov_complement"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "How does immigration affect innovation and long-run productivity?",
+        "simple": "Does immigration help new ideas, inventions, and businesses?"
+      },
+      "depends_on": {
+        "research": "Depends on whether you mean immigrants' OWN output (share of patents/startups) or their EFFECT on native innovators (complement vs crowd-out).",
+        "simple": "Depends on whether you mean immigrants' own inventions and firms, or their effect on local inventors."
+      },
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_social",
+      "parent_id": "n_root",
+      "evidence_quality": "thin",
+      "label": "How does immigration affect public safety and social cohesion?",
+      "children": [
+        "n_social_crime",
+        "n_social_trust",
+        "n_social_integration"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "How does immigration affect public safety and social cohesion?",
+        "simple": "Does immigration affect crime and how well people get along?"
+      },
+      "depends_on": {
+        "research": "Splits into outcomes with very different evidence quality: crime (well-studied), social trust/cohesion (contested, thin), and long-run integration (generational).",
+        "simple": "Splits into things with very different evidence: crime (well studied), trust (argued over, thin), and fitting in (slow, over generations)."
+      },
+      "scored": false,
+      "evidence_caveats": [
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_econ_wages_overall",
+      "parent_id": "n_econ",
+      "evidence_quality": "well-evidenced",
+      "label": "Does immigration lower wages or employment for native-born workers overall?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does immigration lower wages or employment for native-born workers overall?",
+        "simple": "Does immigration lower pay or cost jobs for workers already here?"
+      },
+      "claim_evaluated": {
+        "research": "Immigration lowers wages/employment for native-born workers overall.",
+        "simple": "Immigration lowers pay or costs jobs for workers already in the country."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: NAS-2016 supplies 2/3 findings here",
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_econ_wages_lowskill",
+      "parent_id": "n_econ",
+      "evidence_quality": "well-evidenced",
+      "label": "Does immigration lower wages or employment for low-skilled natives and prior immigrants?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does immigration lower wages or employment for low-skilled natives and prior immigrants?",
+        "simple": "Does immigration hurt pay for lower-paid workers and earlier immigrants?"
+      },
+      "claim_evaluated": {
+        "research": "Immigration lowers wages/employment for low-skilled natives and prior immigrants.",
+        "simple": "Immigration lowers pay or costs jobs for lower-paid workers and earlier immigrants."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: NAS-2016 supplies 3/4 findings here",
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_econ_gdp_pc",
+      "parent_id": "n_econ",
+      "evidence_quality": "well-evidenced",
+      "label": "Does immigration raise GDP per capita (not just total GDP)?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does immigration raise GDP per capita (not just total GDP)?",
+        "simple": "Does immigration make people better off on average, not just grow the economy?"
+      },
+      "claim_evaluated": {
+        "research": "Immigration raises GDP per capita, not merely aggregate GDP.",
+        "simple": "Immigration makes the country richer per person, not just bigger overall."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: OECD-migration supplies 3/3 findings here"
+      ]
+    },
+    {
+      "id": "n_fiscal_highskill",
+      "parent_id": "n_fiscal",
+      "evidence_quality": "well-evidenced",
+      "label": "Are high-skilled immigrants net fiscal contributors?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Are high-skilled immigrants net fiscal contributors?",
+        "simple": "Do higher-earning immigrants pay in more than they take out?"
+      },
+      "claim_evaluated": {
+        "research": "High-skilled immigrants are net fiscal contributors.",
+        "simple": "Higher-skilled immigrants pay more in taxes than they use in services."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: DallasFed-2017 supplies 2/2 findings here",
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_fiscal_lowskill",
+      "parent_id": "n_fiscal",
+      "evidence_quality": "thin",
+      "label": "Are low-skilled immigrants a net fiscal drain?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Are low-skilled immigrants a net fiscal drain?",
+        "simple": "Do lower-earning immigrants cost more than they pay in?"
+      },
+      "claim_evaluated": {
+        "research": "Low-skilled immigrants are a net fiscal drain.",
+        "simple": "Lower-skilled immigrants cost the government more than they pay in taxes."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_fiscal_horizon",
+      "parent_id": "n_fiscal",
+      "evidence_quality": "thin",
+      "label": "Does the fiscal picture turn positive once you count descendants and the long run?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does the fiscal picture turn positive once you count descendants and the long run?",
+        "simple": "Does it pay off over time, once you count immigrants' children?"
+      },
+      "claim_evaluated": {
+        "research": "Counting descendants and the long run, immigration is fiscally positive.",
+        "simple": "Over the long run, counting immigrants' children, immigration pays off for the public purse."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: NAS-2016 supplies 2/3 findings here",
+        "US-centric evidence \u2014 external validity to other destinations not established"
+      ]
+    },
+    {
+      "id": "n_innov_share",
+      "parent_id": "n_innov",
+      "evidence_quality": "well-evidenced",
+      "label": "Do immigrants contribute disproportionately to patents and entrepreneurship?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do immigrants contribute disproportionately to patents and entrepreneurship?",
+        "simple": "Do immigrants invent and start businesses more than their numbers?"
+      },
+      "claim_evaluated": {
+        "research": "Immigrants contribute disproportionately to patents and entrepreneurship.",
+        "simple": "Immigrants invent things and start businesses at a higher rate than their share of the population."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "US-centric evidence \u2014 external validity to other destinations not established",
+        "mostly correlational \u2014 causal interpretation is not licensed"
+      ]
+    },
+    {
+      "id": "n_innov_complement",
+      "parent_id": "n_innov",
+      "evidence_quality": "well-evidenced",
+      "label": "Do high-skilled immigrants complement (rather than crowd out) native innovators?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do high-skilled immigrants complement (rather than crowd out) native innovators?",
+        "simple": "Do skilled immigrants help or take opportunities from local inventors?"
+      },
+      "claim_evaluated": {
+        "research": "High-skilled immigrants complement rather than crowd out native innovators.",
+        "simple": "Skilled immigrants help local inventors rather than taking their spots."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "US-centric evidence \u2014 external validity to other destinations not established",
+        "mostly correlational \u2014 causal interpretation is not licensed"
+      ]
+    },
+    {
+      "id": "n_social_crime",
+      "parent_id": "n_social",
+      "evidence_quality": "well-evidenced",
+      "label": "Does immigration increase crime?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does immigration increase crime?",
+        "simple": "Does immigration raise crime?"
+      },
+      "claim_evaluated": {
+        "research": "Immigration increases crime.",
+        "simple": "Immigration raises crime."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "mostly correlational \u2014 causal interpretation is not licensed"
+      ]
+    },
+    {
+      "id": "n_social_trust",
+      "parent_id": "n_social",
+      "evidence_quality": "thin",
+      "label": "Does immigration / ethnic diversity erode social trust and cohesion?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does immigration / ethnic diversity erode social trust and cohesion?",
+        "simple": "Does more diversity make people trust each other less?"
+      },
+      "claim_evaluated": {
+        "research": "Immigration / ethnic diversity erodes social trust and cohesion.",
+        "simple": "More immigration and diversity make people trust each other less."
+      },
+      "depends_on": {
+        "research": "LEAF: research runs thin here. Effect sizes small, method- and context-dependent, confounded by segregation. Belief from here rests on values (weight on local neighbour-trust vs national generalised trust).",
+        "simple": "The research runs thin here. Effects are small, differ by place, and get tangled with segregation. From here it rests on your values \u2014 how much you weight local trust versus trust across the whole country."
+      },
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: Dinesen-2020 supplies 3/5 findings here",
+        "mostly correlational \u2014 causal interpretation is not licensed"
+      ]
+    },
+    {
+      "id": "n_social_integration",
+      "parent_id": "n_social",
+      "evidence_quality": "thin",
+      "label": "Do immigrants and their descendants integrate over generations?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do immigrants and their descendants integrate over generations?",
+        "simple": "Do immigrants and their kids fit in over time?"
+      },
+      "claim_evaluated": {
+        "research": "Immigrants and their descendants integrate over generations.",
+        "simple": "Immigrants and their children settle in and get on over the generations."
+      },
+      "depends_on": null,
+      "scored": true,
+      "evidence_caveats": [
+        "single-source-heavy: NAS-2016 supplies 2/3 findings here",
+        "US-centric evidence \u2014 external validity to other destinations not established",
+        "mostly correlational \u2014 causal interpretation is not licensed"
+      ]
+    }
+  ]
+}
