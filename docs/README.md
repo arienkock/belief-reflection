@@ -47,6 +47,10 @@ its build notes are the closest thing to a spec:
 
 - [`sourcing-protocol.md`](sourcing-protocol.md) — the rules bound to every
   (node, direction) findings ticket, applied at authoring time.
+- [`session-blueprint.md`](session-blueprint.md) — the end-to-end working
+  process for taking a topic from idea to published tool in one session,
+  with a numbered list of process improvements future sessions should
+  adopt.
 
 ## Starting a new tool
 
