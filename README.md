@@ -43,10 +43,17 @@ Core design choices (see `docs/reframe-changelog.md` for the full rationale):
 - `topics/<topic>/evidence-audit.md` — independent-corroboration audit per
   scored leaf (source-cluster counts, not vote-counting), plus source-tier,
   recency, and evidence-type sweeps.
+- `topics/<topic>/participant-state.example.json` — the shape of a
+  participant's session state: current node, path taken, `seen_evidence`,
+  and `self_reported_confidence` per scored leaf (recorded, never computed).
 - `docs/phase1-to-phase2-handoff.md` — the frozen question list handed from
   node-authoring (Phase 1) to evidence-gathering (Phase 2) for a topic.
 - `docs/reframe-changelog.md` — changelog mapping review findings to fixes,
   reframes, and accepted-as-features decisions.
+- `docs/sourcing-protocol.md` — the rules applied at authoring time for every
+  finding: inclusion-order tiering, tertiary-source ban, advocacy labelling,
+  the both-directions rule, independence tagging via `source_cluster`,
+  no-fabrication, recency flagging, and the `source_strength` rubric.
 
 ## Topics
 

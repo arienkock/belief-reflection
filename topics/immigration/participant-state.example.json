@@ -1,0 +1,21 @@
+{
+  "current_node_id": "n_root",
+  "path": [
+    "n_root"
+  ],
+  "self_reported_confidence": {
+    "n_econ_wages_overall": null,
+    "n_econ_wages_lowskill": null,
+    "n_econ_gdp_pc": null,
+    "n_fiscal_highskill": null,
+    "n_fiscal_lowskill": null,
+    "n_fiscal_horizon": null,
+    "n_innov_share": null,
+    "n_innov_complement": null,
+    "n_social_crime": null,
+    "n_social_trust": null,
+    "n_social_integration": null
+  },
+  "seen_evidence": [],
+  "note": "Confidence is SELF-REPORTED by the participant for each scored leaf node's claim_evaluated (0 = certainly false, 1 = certainly true). The system records, it does not compute or update these. Dimension and topic nodes are not scored."
+}
