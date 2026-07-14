@@ -1,0 +1,96 @@
+{
+  "topic": "Immigration",
+  "generated": "2026-06-30",
+  "tensions": [
+    {
+      "a": "F-wo-1",
+      "b": "F-wl-1",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "No measurable overall wage effect vs harm concentrated on low-skilled natives / prior immigrants \u2014 aggregate vs subgroup, not a true contradiction.",
+        "simple": "One says no overall effect on pay; the other says real harm to the lowest-paid. It's the whole versus a specific group \u2014 not a true clash."
+      }
+    },
+    {
+      "a": "F-fis-2",
+      "b": "F-fl-1",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "'Not heavier benefit users' vs a low-skill net drain \u2014 driven by the average- vs marginal-cost public-goods assumption.",
+        "simple": "One says immigrants aren't a drain; the other says lower-skilled ones are. The difference is how you count shared government costs."
+      }
+    },
+    {
+      "a": "F-fl-1",
+      "b": "F-fl-2",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "Same population: net drain (average-cost) vs net positive (marginal-cost). The accounting assumption alone flips the sign.",
+        "simple": "Same people, opposite results \u2014 a cost or a gain \u2014 depending only on how you count shared costs."
+      }
+    },
+    {
+      "a": "F-fhz-1",
+      "b": "F-fhz-2",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "Descendants make the long run look positive vs 75-yr projections being assumption-driven and manipulable.",
+        "simple": "Counting immigrants' children makes the long run look good; but these long-range forecasts can be bent to almost any answer."
+      }
+    },
+    {
+      "a": "F-cr-2",
+      "b": "F-cr-4",
+      "kind": "context-transportability",
+      "note": {
+        "research": "US: immigrants ~60% less likely incarcerated vs Europe: positive association for specific offences. Context differs; not a like-for-like clash.",
+        "simple": "In the US immigrants are locked up far less; in Europe some crimes rise with immigration. Different places \u2014 not a head-to-head clash."
+      }
+    },
+    {
+      "a": "F-cr-4",
+      "b": "F-cr-5",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "European cross-national correlational positive vs German selection-corrected null \u2014 a genuine identification dispute about whether the association is causal.",
+        "simple": "One European study finds a link to more crime; a more careful one finds none. They genuinely disagree on whether it's real."
+      }
+    },
+    {
+      "a": "F-econ-1",
+      "b": "F-tr-2",
+      "kind": "cross-dimension",
+      "note": {
+        "research": "Economic case (\u2248no harm overall) and cohesion case (small local trust erosion) point different ways and CANNOT be netted empirically \u2014 the weighting is a value choice.",
+        "simple": "The economy looks roughly unharmed, but local trust dips a little. These pull different ways and can't be added up \u2014 it's a values call."
+      }
+    },
+    {
+      "a": "F-is-1",
+      "b": "F-ic-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "Immigrants produce an outsized patent share vs possible marginal crowd-out of natives in fixed-slot systems.",
+        "simple": "Immigrants invent a lot; but where slots are limited, they might crowd some locals out. Both can be partly true."
+      }
+    },
+    {
+      "a": "F-wl-2",
+      "b": "F-econ-3",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "GDP-per-capita / surplus framing vs the claim that the surplus is a transfer from low-wage labour to employers \u2014 same facts, distributional reframing.",
+        "simple": "One frames it as the economy gaining; the other as money moving from low-paid workers to employers. Same facts, different emphasis."
+      }
+    },
+    {
+      "a": "F-tr-1",
+      "b": "F-tr-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "Putnam's constrict claim vs segregation-not-diversity: is the driver ethnic mix itself, or how it is spatially sorted?",
+        "simple": "Is it diversity itself that lowers trust, or the way neighbourhoods are split up? The studies point at different causes."
+      }
+    }
+  ]
+}

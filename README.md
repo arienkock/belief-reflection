@@ -20,12 +20,26 @@ Core design choices (see `docs/reframe-changelog.md` for the full rationale):
 
 ## Repository layout
 
+- `app/BeliefEngine.tsx` — the working prototype: a single-file React
+  component (Claude-artifact style, embeds its topic data inline) that walks
+  a participant through the node tree, shows findings per scored leaf, and
+  records self-reported confidence. Tracks which branches have been visited
+  and surfaces cross-node tensions inline.
+- `app/BeliefEngine.legacy.jsx` — an earlier iteration of the same component,
+  kept for reference (no visited-branch tracking, plainer styling, no
+  tension markers on choice screens).
 - `topics/<topic>/nodes.json` — the frozen node tree for a topic (topic →
   dimensions → scored leaves), each with research/simple-register question
   text, `claim_evaluated`, `evidence_quality`, and `evidence_caveats`.
-- `topics/<topic>/evidence-map.md` — human-readable rendering of the same
-  tree with FOR / AGAINST / COMPLICATES findings per scored leaf, sources,
-  and a typed cross-node tensions section.
+- `topics/<topic>/findings.json` — every evidence finding (FOR / AGAINST /
+  COMPLICATES) per node, with claim paragraph, effect size, source
+  citation/cluster, evidence type, source strength, and caveat — in both
+  research and simple registers.
+- `topics/<topic>/crosslinks.json` — typed tensions between findings
+  (empirical-contradiction / assumption-sensitivity / context-transportability
+  / scope-aggregation / cross-dimension), in both registers.
+- `topics/<topic>/evidence-map.md` — human-readable rendering of the node
+  tree plus findings and crosslinks above, for reading outside the app.
 - `topics/<topic>/evidence-audit.md` — independent-corroboration audit per
   scored leaf (source-cluster counts, not vote-counting), plus source-tier,
   recency, and evidence-type sweeps.
@@ -38,4 +52,4 @@ Core design choices (see `docs/reframe-changelog.md` for the full rationale):
 
 - **Immigration** (`topics/immigration/`) — effects of immigration on the
   host country across labour market, public finances, innovation, and social
-  outcomes.
+  outcomes. This is the topic currently embedded in `app/BeliefEngine.tsx`.
