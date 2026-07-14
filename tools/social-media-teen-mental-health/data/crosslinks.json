@@ -1,0 +1,105 @@
+{
+  "topic": "Social Media and Adolescent Mental Health",
+  "generated": "2026-07-14",
+  "tensions": [
+    {
+      "a": "F-mag-4",
+      "b": "F-cau-1",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "Tiny cross-sectional variance-explained vs a real quasi-experimental adoption effect — different estimands answering different questions; which one 'the effect of social media' means is an assumption, not a finding.",
+        "simple": "One study says the everyday link is tiny; another says Facebook's arrival genuinely hurt. They measure different things — both can be right."
+      }
+    },
+    {
+      "a": "F-mag-1",
+      "b": "F-mag-4",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "Moderate correlations for the 'problematic use' construct vs near-zero variance for time-spent measures — the construct choice, not the data, drives the headline magnitude.",
+        "simple": "Measure compulsive-style use and the link looks real; measure plain hours and it looks tiny. The choice of yardstick makes the headline."
+      }
+    },
+    {
+      "a": "F-het-1",
+      "b": "F-mag-4",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "Concentrated age/sex windows of sensitivity vs a tiny population average — same research group, both results: averages can hide the subgroups. Aggregation level, not contradiction.",
+        "simple": "The average across all teens is tiny, but certain ages — especially young girls — show real effects. The average hides the hotspots; same team found both."
+      }
+    },
+    {
+      "a": "F-att-1",
+      "b": "F-cau-1",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "An individual-level causal effect (college Facebook rollout) does not scale by itself into 'principal driver of the population trend' — the central conflation this map exists to keep apart.",
+        "simple": "Proving social media hurt some students is not the same as proving it caused the whole national decline. The jump between those two is where the debate cheats."
+      }
+    },
+    {
+      "a": "F-att-1",
+      "b": "F-att-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "The timing-and-pattern attribution case vs the National Academies' refusal to endorse population-level causation — a genuine live dispute about the same claim.",
+        "simple": "One side says the timing and pattern prove it; the top expert committee says it isn't proven. They genuinely disagree."
+      }
+    },
+    {
+      "a": "F-slp-1",
+      "b": "F-slp-2",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "Between-person device/sleep associations are consistently adverse; within-person day-to-day designs find little beyond a small onset delay. The design choice (who is compared to whom) largely determines the answer.",
+        "simple": "Compare screen-heavy kids to screen-light kids: sleep looks worse. Compare the same kid's heavy and light days: barely a difference. How you compare decides what you find."
+      }
+    },
+    {
+      "a": "F-sch-1",
+      "b": "F-sch-3",
+      "kind": "context-transportability",
+      "note": {
+        "research": "Norwegian causal ban-timing benefits vs English cross-sectional policy null — different countries, designs, and effective doses (registry-linked ban rollout vs school-hours policy snapshot). Not a like-for-like clash.",
+        "simple": "Norway's before-and-after study found benefits; England's snapshot found none. Different countries, different methods, different strictness — not a head-to-head fight."
+      }
+    },
+    {
+      "a": "F-dea-2",
+      "b": "F-dea-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "The largest deactivation RCTs find small precise emotional-state gains; the abstinence meta-analysis pools to null. A genuine dispute about whether short-run removal helps — durations, designs, and samples differ.",
+        "simple": "The biggest experiments say a six-week break helps a little; a round-up of smaller studies says breaks don't help at all. A real disagreement."
+      }
+    },
+    {
+      "a": "F-dea-4",
+      "b": "F-dea-5",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "Same experimental pool, opposite headlines: pooled-average null vs benefits once intervention length is modeled. The aggregation choice, not new data, flips the conclusion.",
+        "simple": "Same experiments, two conclusions: 'no effect' when you average everything, 'longer breaks help' when you sort by length. The math choice flips the answer."
+      }
+    },
+    {
+      "a": "F-ben-1",
+      "b": "F-cau-1",
+      "kind": "cross-dimension",
+      "note": {
+        "research": "Documented benefits (community for marginalized youth) and documented causal harm (social-comparison effects) coexist and CANNOT be netted empirically — how to weigh them across different adolescents is a value choice.",
+        "simple": "Social media genuinely helps some teens and genuinely hurt others. Those don't cancel out into one number — how to weigh them is a judgement call, not a fact."
+      }
+    },
+    {
+      "a": "F-ban-2",
+      "b": "F-dea-2",
+      "kind": "context-transportability",
+      "note": {
+        "research": "Individual deactivation gains do not predict population age-ban effects: a ban changes the whole peer network's equilibrium (or fails via circumvention), which no individual-level RCT can estimate.",
+        "simple": "One person quitting for six weeks tells you little about banning a whole age group — a real ban changes what ALL the kids' friends are doing, or gets dodged entirely."
+      }
+    }
+  ]
+}

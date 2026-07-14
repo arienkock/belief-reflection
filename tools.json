@@ -5,5 +5,12 @@
     "path": "tools/immigration/",
     "status": "published",
     "summary": "Evidence on immigration's effects on the host country across labour market, public finances, innovation, and social outcomes. You report your own confidence per claim — the tool does not compute or update it for you."
+  },
+  {
+    "id": "social-media-teen-mental-health",
+    "title": "Social Media & Teen Mental Health",
+    "path": "tools/social-media-teen-mental-health/",
+    "status": "published",
+    "summary": "Evidence on social media's effects on adolescent mental health across four separately-measured questions: the individual-level association, causation, the post-2010 population trend, and what restriction policies (school phone bans, deactivation, age bans) measurably change. You report your own confidence per claim — the tool does not compute or update it for you."
   }
 ]

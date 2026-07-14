@@ -1,0 +1,1050 @@
+{
+  "topic": "Social Media and Adolescent Mental Health",
+  "generated": "2026-07-14",
+  "registers": [
+    "research",
+    "simple"
+  ],
+  "default_register": "research",
+  "findings": [
+    {
+      "finding_id": "F-root-1",
+      "node_id": "n_root",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The literature never measures 'is social media harming teenagers?' directly. It separately measures the individual-level association, whether that association is causal, whether social media explains the population trend since ~2010, the mechanism, and what restriction policies change — each with its own data, methods, and degree of consensus. The 2024 National Academies consensus report is explicit that these questions have different answers: it affirms that specific design features can harm some young people while declining to endorse a population-level causal conclusion.",
+        "simple": "No study measures 'is social media bad for teens' all at once. Researchers ask separate questions — do heavy users feel worse, does social media cause it, did it drive the rise in teen distress, and do bans help — and the answers differ. Pick a question first; being sure about one doesn't make you right about the others."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "National Academies of Sciences, Engineering, and Medicine 2024, Social Media and Adolescent Health (consensus report).",
+      "triggers_split_to": [
+        "n_assoc",
+        "n_trend",
+        "n_mech",
+        "n_policy"
+      ],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "NAS-2024",
+      "caveat": {
+        "research": "Consensus synthesis across studies of varying design and quality.",
+        "simple": "A committee round-up of many studies of mixed quality."
+      }
+    },
+    {
+      "finding_id": "F-root-2",
+      "node_id": "n_root",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Evidence quality is sharply uneven across the sub-questions. Correlational associations are measured in hundreds of studies; causal evidence is a handful of quasi-experiments and RCTs, mostly on adults; population-trend attribution rests largely on timing correlations; and national-ban evidence barely exists. Most research to date is correlational and has generated a mix of small positive, negative, and null associations — confidence earned on the best-measured sub-question does not transfer to the others.",
+        "simple": "We know a lot about some parts and almost nothing about others. There are hundreds of studies on whether heavy users feel worse, only a few good experiments on whether social media is the cause, and almost no evidence yet on national bans. Don't let the well-studied part vouch for the rest."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Odgers & Jensen 2020, Annual Research Review, Journal of Child Psychology and Psychiatry 61:336-348.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "odgers-review",
+      "caveat": {
+        "research": "Narrative annual review, not a formal systematic search; pre-2020 literature.",
+        "simple": "An expert overview rather than a full formal count of every study; from 2020."
+      }
+    },
+    {
+      "finding_id": "F-assoc-1",
+      "node_id": "n_assoc",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Two distinctions govern this whole dimension. First, association is not causation: distressed adolescents may use more social media rather than the reverse, and the leading review concludes the correlational designs 'do not offer a way of distinguishing cause from effect'. Second, measurement matters: most studies rely on self-reported use, and associations measured from device logs run substantially weaker than self-report-based ones.",
+        "simple": "Two traps here. Unhappy teens might use social media more because they're unhappy — not the other way round. And most studies ask teens to guess their own screen time; when researchers check the phone's actual logs, the link with feeling bad gets weaker."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Odgers & Jensen 2020, J. Child Psychology & Psychiatry 61:336-348; Orben & Przybylski 2019, Nature Human Behaviour.",
+      "triggers_split_to": [
+        "n_assoc_magnitude",
+        "n_assoc_causal"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "odgers-review",
+      "caveat": {
+        "research": "A methodological framing, not a direct measurement.",
+        "simple": "A point about how studies work, not a new measurement."
+      }
+    },
+    {
+      "finding_id": "F-mag-1",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Meta-analysis of problematic social media use in adolescents and young adults finds moderate, statistically significant pooled correlations with depression (r = 0.27), anxiety (r = 0.35), and stress (r = 0.31). On the 'problematic use' construct — use with addiction-like features, not mere time spent — the association is not trivially small.",
+        "simple": "When researchers pool studies of teens whose social media use looks compulsive — not just heavy — those teens report clearly worse depression, anxiety, and stress. On that measure, the link is real and not tiny."
+      },
+      "effect_size": {
+        "research": "pooled r = 0.27 (depression), 0.35 (anxiety)",
+        "simple": "a clear, moderate link for compulsive-style use"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Shannon et al. 2022, Problematic Social Media Use in Adolescents and Young Adults: Systematic Review and Meta-analysis, JMIR Mental Health 9(4):e33450.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-mag-4"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "jmir-problematic-meta",
+      "caveat": {
+        "research": "'Problematic use' is a clinical-adjacent construct; results do not transfer to time-spent measures. Cross-sectional, self-report inputs — no causal direction.",
+        "simple": "This measures compulsive-style use, not hours. It also can't say which came first, the use or the distress."
+      }
+    },
+    {
+      "finding_id": "F-mag-2",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "A meta-analysis of 2020-2024 evidence on social-networking-site use and mental disorders in adolescents and young adults finds a significant positive pooled association of small-to-moderate magnitude (r ≈ 0.22) between exposure to SNS-related risk factors and mental-health problems — the recent literature, taken together, does not support a zero effect.",
+        "simple": "Pooling the newest studies (2020-2024), teens and young adults more exposed to social media risk factors report somewhat worse mental health. The newest evidence, added up, does not say 'no link at all'."
+      },
+      "effect_size": {
+        "research": "pooled r ≈ 0.22",
+        "simple": "a small-to-moderate link"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Associations Between Social Media Use and Mental Disorders in Adolescents and Young Adults: A Systematic Review and Meta-Analysis of Recent Evidence, Behavioral Sciences 15(11):1450 (2025).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "recent-sns-meta",
+      "caveat": {
+        "research": "Heterogeneous designs and exposure definitions pooled; overwhelmingly correlational, self-report inputs.",
+        "simple": "Mixes many kinds of studies, almost all of which just compare users rather than testing causes."
+      }
+    },
+    {
+      "finding_id": "F-mag-3",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "A dose-response meta-analysis of time spent on social media and adolescent depression finds depression risk rising with hours of daily use — the association is not flat across the usage range, which is what a purely spurious link would more easily produce.",
+        "simple": "Adding up studies that track hours: the more time teens spend on social media each day, the higher their odds of depression, step by step. The risk climbs with the dose, which makes a pure coincidence less likely — though it still doesn't prove cause."
+      },
+      "effect_size": {
+        "research": "monotone dose-response of depression risk in daily hours",
+        "simple": "risk climbs with each extra daily hour"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Time Spent on Social Media and Risk of Depression in Adolescents: A Dose-Response Meta-Analysis (2022; PMC9103874).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "dose-response-meta",
+      "caveat": {
+        "research": "Observational inputs with self-reported time; dose-response is consistent with but does not establish causation (reverse causation can also be dose-shaped).",
+        "simple": "Based on teens' own time estimates; more-distressed teens could also be choosing to use more."
+      }
+    },
+    {
+      "finding_id": "F-mag-4",
+      "node_id": "n_assoc_magnitude",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "Specification-curve analysis across three large adolescent datasets shows digital-technology use explains at most ~0.4% of the variation in well-being, and that defensible analytic choices can produce positive, negative, or null associations from the same data. Companion time-use-diary analyses find comparably tiny associations. On population-representative time-spent measures, the association is real but trivially small.",
+        "simple": "When researchers ran every reasonable version of the analysis on three huge datasets, screen and social media time explained well under 1% of the difference in how teens feel — and choosing the analysis differently could make the link look good, bad, or absent. On ordinary hours-spent measures, the link is tiny."
+      },
+      "effect_size": {
+        "research": "≤0.4% of well-being variance explained",
+        "simple": "tiny — under 1% of the differences between teens"
+      },
+      "source_type": "single-study",
+      "source_citation": "Orben & Przybylski 2019, The association between adolescent well-being and digital technology use, Nature Human Behaviour 3:173-182; Orben & Przybylski 2019, Screens, Teens, and Psychological Well-Being, Psychological Science 30(5).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-1",
+        "F-mag-1",
+        "F-het-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "orben-przybylski",
+      "caveat": {
+        "research": "Measures broad digital-technology/screen use more than social media specifically; cross-sectional variance-explained is not an estimate of any causal effect.",
+        "simple": "Counts all screen time, not just social media — and a tiny average link doesn't rule out real effects for some teens or from causes."
+      }
+    },
+    {
+      "finding_id": "F-mag-5",
+      "node_id": "n_assoc_magnitude",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The leading annual research review concludes that the most rigorous large-scale preregistered studies report small associations between daily digital-technology use and adolescent well-being that 'are unlikely to be of clinical or practical significance', and that the wider literature is a mix of conflicting small positive, negative, and null associations.",
+        "simple": "A major expert review of the best big studies concludes the link between daily use and how teens feel is small — probably too small to matter in practice — and that studies disagree, finding small good, bad, and no effects."
+      },
+      "effect_size": {
+        "research": "small; 'unlikely to be of clinical or practical significance'",
+        "simple": "small — likely too small to matter in practice"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Odgers & Jensen 2020, Annual Research Review, J. Child Psychology & Psychiatry 61:336-348.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "odgers-review",
+      "caveat": {
+        "research": "Narrative review; covers literature to 2019, before the strongest quasi-experimental work and the newest platforms.",
+        "simple": "An expert overview from 2020 — written before some newer, stronger studies."
+      }
+    },
+    {
+      "finding_id": "F-cau-1",
+      "node_id": "n_assoc_causal",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Exploiting the staggered rollout of Facebook across US colleges (2004-2006) as a natural experiment, Facebook's arrival worsened student mental health and increased self-reported academic impairment due to poor mental health; mechanism evidence points to unfavorable social comparison. This is the strongest causal identification in the literature, and it finds harm.",
+        "simple": "When Facebook arrived at some US colleges before others, researchers could compare. Students' mental health got worse when Facebook arrived — the best natural experiment we have, and it points to harm, likely from comparing yourself to others."
+      },
+      "effect_size": {
+        "research": "negative effect on a standardized mental-health index; qualitative here",
+        "simple": "a real worsening, modest in size"
+      },
+      "source_type": "single-study",
+      "source_citation": "Braghieri, Levy & Makarin 2022, Social Media and Mental Health, American Economic Review 112(11):3660-3693.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-mag-4",
+        "F-att-1",
+        "F-ben-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "quasi-experimental",
+      "source_cluster": "econ-quasiexp",
+      "caveat": {
+        "research": "College students in 2004-2006, one platform, US only — transportability to 2020s adolescents and today's algorithmic platforms not established.",
+        "simple": "It studied US college students twenty years ago on early Facebook — today's teens and apps may differ."
+      }
+    },
+    {
+      "finding_id": "F-cau-2",
+      "node_id": "n_assoc_causal",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "In a large randomized experiment (n ≈ 2,743), paying users to deactivate Facebook for the four weeks before the 2018 US midterms increased subjective well-being and offline activity. If removal improves well-being, continued use plausibly imposes a real ongoing cost — experimental evidence consistent with causal harm.",
+        "simple": "In a big experiment, people paid to switch off Facebook for a month felt better and spent more time offline with others. If turning it off helps, having it on was probably costing something."
+      },
+      "effect_size": {
+        "research": "positive SWB gain from 4-week deactivation",
+        "simple": "a real but modest mood boost from a month off"
+      },
+      "source_type": "single-study",
+      "source_citation": "Allcott, Braghieri, Eichmeyer & Gentzkow 2020, The Welfare Effects of Social Media, American Economic Review 110(3).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "experimental",
+      "source_cluster": "allcott-gentzkow",
+      "caveat": {
+        "research": "Adult sample — transportability to adolescents is an assumption; short-run withdrawal is not the effect of never adopting.",
+        "simple": "Done on adults, not teens — and a month's break isn't the same as growing up without it."
+      }
+    },
+    {
+      "finding_id": "F-cau-3",
+      "node_id": "n_assoc_causal",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The National Academies consensus committee, after reviewing the full literature, concluded that the available evidence 'did not support the conclusion that social media causes changes in adolescent health at the population level' — while acknowledging that specific design features can harm some young people. The strongest institutional synthesis declines to certify the causal claim.",
+        "simple": "The biggest expert committee to review all the evidence would NOT sign off on 'social media causes worse teen health overall'. They do say some features can harm some kids — but the sweeping causal claim isn't supported yet, in their view."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "National Academies of Sciences, Engineering, and Medicine 2024, Social Media and Adolescent Health.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "NAS-2024",
+      "caveat": {
+        "research": "Absence of certified population-level causation is not evidence of absence; the committee's bar is deliberately high.",
+        "simple": "'Not proven' is not the same as 'proven harmless' — the committee sets a high bar."
+      }
+    },
+    {
+      "finding_id": "F-cau-4",
+      "node_id": "n_assoc_causal",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A preregistered meta-analysis of 27 social-media reduction and exposure experiments found a pooled effect around d ≈ 0.09 whose confidence interval includes zero — no reliable average causal effect of experimentally changing social media use on mental health.",
+        "simple": "One researcher added up 27 experiments where people cut back on social media. On average, the benefit was so small it might be zero."
+      },
+      "effect_size": {
+        "research": "pooled d ≈ 0.09, 95% CI includes zero",
+        "simple": "possibly zero on average"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Ferguson 2024, Do social media experiments prove a link with mental health: a methodological and meta-analytic review, Psychology of Popular Media.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "thin",
+      "evidence_type": "review",
+      "source_cluster": "reduction-rct-pool",
+      "caveat": {
+        "research": "DISPUTED: published critiques (Rausch & Haidt 2025, SSRN 5224958) allege errors in effect sizes, sample sizes, and inclusion criteria; a 2025 reanalysis of the same pool finds benefits emerge for longer interventions. Carry this finding together with its dispute.",
+        "simple": "Heavily contested: critics say it contains real errors, and a re-analysis of the same experiments found longer breaks DO help. Read it alongside its critics."
+      }
+    },
+    {
+      "finding_id": "F-cau-5",
+      "node_id": "n_assoc_causal",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The causal question is really three: what platform INTRODUCTION did (quasi-experiments on rollout), what short-run individual DEACTIVATION does (RCTs, mostly adults), and what never-adopting or population-wide absence would do (essentially unmeasured). Positive evidence in one contrast does not establish the others — deactivation experiments, for instance, leave the participant in a world where everyone else is still online.",
+        "simple": "'Does it cause harm' hides three different questions: what happened when it arrived, what happens when one person quits for a few weeks, and what a world without it would be like. Evidence on one doesn't settle the others — someone who quits still lives among friends who haven't."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "National Academies 2024 (evidence-limitations discussion); Allcott et al. 2020 AER (interpretation discussion).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "NAS-2024",
+      "caveat": {
+        "research": "A framing of the evidence's limits, not a measurement.",
+        "simple": "A point about what the studies can and can't tell us."
+      }
+    },
+    {
+      "finding_id": "F-het-1",
+      "node_id": "n_assoc_hetero",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Analyses of two UK datasets (n = 84,011; longitudinal n = 17,409) identify distinct developmental windows in which higher social media use predicts lower life satisfaction a year later: ages 11-13 for girls, 14-15 for boys, and 19 for both sexes. Sensitivity is not uniform across adolescence — and the girls' window sits in early adolescence.",
+        "simple": "In two huge UK datasets, social media predicted feeling worse a year later only at particular ages — around 11-13 for girls, 14-15 for boys, and 19 for everyone. It's not all teens equally: timing and sex matter, with young girls in the most exposed window."
+      },
+      "effect_size": {
+        "research": "negative use→satisfaction prediction confined to specific age/sex windows",
+        "simple": "real but only at certain ages, especially young girls"
+      },
+      "source_type": "single-study",
+      "source_citation": "Orben, Przybylski, Blakemore & Kievit 2022, Windows of developmental sensitivity to social media, Nature Communications 13:1649.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-mag-4"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "orben-przybylski",
+      "caveat": {
+        "research": "Observational; estimated (not logged) use; same research group whose specification-curve work anchors the tiny-average-association case — the two are consistent (small average, concentrated windows), not contradictory.",
+        "simple": "Not an experiment, and from the same team that found the tiny average link — small-on-average and worse-for-some can both be true."
+      }
+    },
+    {
+      "finding_id": "F-het-2",
+      "node_id": "n_assoc_hetero",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The post-2010 rises in US adolescent depressive symptoms, suicide-related outcomes, and suicide rates are concentrated among girls, and new-media screen time is more strongly associated with mental-health problems among girls — the trend data's sex asymmetry matches the heterogeneity hypothesis.",
+        "simple": "The rise in teen distress after 2010 hit girls hardest, and the link between social media and feeling bad is also stronger for girls. The pattern fits the idea that harms are concentrated, not spread evenly."
+      },
+      "effect_size": {
+        "research": "rises and associations concentrated among girls",
+        "simple": "girls affected clearly more than boys"
+      },
+      "source_type": "single-study",
+      "source_citation": "Twenge, Joiner, Rogers & Martin 2018, Clinical Psychological Science 6(1):3-17.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "twenge",
+      "caveat": {
+        "research": "Correlational trend data; author is the most prominent proponent of the harm hypothesis — treat as one input, not a neutral referee.",
+        "simple": "Pattern-matching over time, not an experiment — and from the leading voice on one side of this debate."
+      }
+    },
+    {
+      "finding_id": "F-het-3",
+      "node_id": "n_assoc_hetero",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Causal evidence from Norwegian school smartphone bans shows benefits concentrated exactly where the heterogeneity hypothesis predicts: reduced psychological-symptom healthcare use among girls, and GPA/exam gains for girls, strongest for low-socioeconomic-status students. Removing the exposure helped the predicted subgroups most.",
+        "simple": "When Norwegian schools banned phones, the clearest gains — fewer mental-health visits, better grades — showed up among girls and poorer students. Taking the exposure away helped most exactly where you'd expect if harms are concentrated."
+      },
+      "effect_size": {
+        "research": "girls' math exam ≈ +0.22 SD; psych-care visits down among girls",
+        "simple": "girls' grades up noticeably; fewer mental-health visits for girls"
+      },
+      "source_type": "single-study",
+      "source_citation": "Abrahamsson 2024, Smartphone Bans, Student Outcomes and Mental Health, NHH Dept. of Economics Discussion Paper 01/2024 (SSRN 4735240).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "quasi-experimental",
+      "source_cluster": "nordic-ban",
+      "caveat": {
+        "research": "Indirect: policy-response heterogeneity, and smartphones-in-school, not social media per se; working paper at scan date.",
+        "simple": "It's about school phone bans, not social media directly — and not yet fully peer-reviewed."
+      }
+    },
+    {
+      "finding_id": "F-ben-1",
+      "node_id": "n_assoc_benefits",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The National Academies consensus report treats benefits as findings, not talking points: social media creates opportunities for community and support among marginalized youth — including LGBTQ+ adolescents in unsupportive environments — and provides everyday connection and enjoyment for the large majority of adolescent users.",
+        "simple": "The big expert report is clear that social media genuinely helps some teens: kids who can't find their community where they live — including LGBTQ+ teens — find real support online, and most teens get ordinary fun and connection from it."
+      },
+      "effect_size": {
+        "research": "qualitative; strongest for marginalized youth",
+        "simple": "real help, biggest for isolated kids"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "National Academies of Sciences, Engineering, and Medicine 2024, Social Media and Adolescent Health.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "NAS-2024",
+      "caveat": {
+        "research": "Benefit evidence is largely qualitative and self-report; no quantitative benefit meta-analysis is cited here.",
+        "simple": "Mostly based on what teens themselves report, not hard measurements."
+      }
+    },
+    {
+      "finding_id": "F-ben-2",
+      "node_id": "n_assoc_benefits",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The same review literature that undercuts large average harms also undercuts large average benefits: associations between use and well-being are a mix of small positive, small negative, and null. Benefits and harms plainly coexist within the same population — the honest reading is heterogeneity in both directions, not a net verdict.",
+        "simple": "The same studies that say the average harm is small also say the average benefit is small — some teens gain, some lose, many feel nothing much either way. Help and harm live side by side; there's no single net answer."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Odgers & Jensen 2020, J. Child Psychology & Psychiatry 61:336-348.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "odgers-review",
+      "caveat": {
+        "research": "Narrative review; pre-2020 literature.",
+        "simple": "Expert overview from 2020."
+      }
+    },
+    {
+      "finding_id": "F-trd-1",
+      "node_id": "n_trend",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Two claims travel together in public debate but are evidentially separate: that adolescent mental health really worsened after ~2010, and that social media caused it. The first can be true while the second is unproven — a timing coincidence plus an individual-level association is not population-level attribution. Rival explanations (economic insecurity, academic pressure, changed diagnostic practice) are rarely tested head-to-head.",
+        "simple": "'Teen mental health got worse' and 'social media did it' are two different claims. The first can be true while the second stays unproven — things lining up in time isn't the same as one causing the other, and other suspects (money worries, school pressure) rarely get tested side by side."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Odgers & Jensen 2020, JCPP; National Academies 2024.",
+      "triggers_split_to": [
+        "n_trend_real",
+        "n_trend_attrib"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "odgers-review",
+      "caveat": {
+        "research": "A framing, not a measurement.",
+        "simple": "A point about logic, not a new study."
+      }
+    },
+    {
+      "finding_id": "F-real-1",
+      "node_id": "n_trend_real",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "US adolescents' depressive symptoms, suicide-related outcomes, and suicide RATES all rose after 2010, especially among girls. Because the rise includes objectively recorded outcomes (suicide deaths), it cannot be fully explained by greater help-seeking, awareness, or willingness to report distress.",
+        "simple": "After 2010, US teens didn't just say they felt worse — self-harm and suicide statistics, which don't depend on teens' willingness to talk, also rose, especially among girls. That's hard to explain as just more openness about mental health."
+      },
+      "effect_size": {
+        "research": "concurrent rises across self-report and objective series post-2010",
+        "simple": "worse on both surveys and hard statistics"
+      },
+      "source_type": "single-study",
+      "source_citation": "Twenge, Joiner, Rogers & Martin 2018, Clinical Psychological Science 6(1):3-17; Twenge 2020, Psychiatric Research and Clinical Practice 2:19-25.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "twenge",
+      "caveat": {
+        "research": "US-centric; suicide statistics have their own recording issues; author is the leading proponent of the social-media explanation.",
+        "simple": "Mostly US data, and from the strongest advocate of blaming social media."
+      }
+    },
+    {
+      "finding_id": "F-real-2",
+      "node_id": "n_trend_real",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "A Norwegian study directly tested the measurement-artifact objection: the depressive-symptoms instrument was measurement-invariant across 2010-2019 (the scale meant the same thing over time), the few non-invariant parameters had negligible impact, and latent mean symptom scores genuinely rose among girls from 2014. Where the artifact hypothesis has been formally tested, the increase survived.",
+        "simple": "Norwegian researchers checked the sceptics' favourite objection — 'maybe the survey questions just mean something different to today's teens'. The questions held steady in meaning, and girls' symptoms still genuinely rose. Where the excuse was tested, it failed."
+      },
+      "effect_size": {
+        "research": "latent-mean rise among girls from 2014; invariance held",
+        "simple": "a real rise for girls, not a survey quirk"
+      },
+      "source_type": "single-study",
+      "source_citation": "Time trends in adolescent depressive symptoms from 2010 to 2019 in Norway: real increase or artifacts of measurements?, Psychological Medicine (2024; PMC11578914).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "nordic-trend",
+      "caveat": {
+        "research": "One country, one instrument; the artifact hypothesis could still hold elsewhere or for other measures.",
+        "simple": "Only Norway, only one questionnaire — other countries' numbers could still have quirks."
+      }
+    },
+    {
+      "finding_id": "F-real-3",
+      "node_id": "n_trend_real",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The artifact concern is nonetheless live: most trend studies use raw sum scores without testing whether their measures are invariant over time — a prerequisite for meaningful trend inference that the Norwegian authors note is routinely skipped. Reporting norms, screening practices, and diagnostic thresholds all changed over the same decade; how much of the international rise they explain is not settled.",
+        "simple": "Still, most studies never check whether their survey questions kept meaning the same thing across the decade — the Norwegian team points out almost nobody tests this. Attitudes to mental health changed a lot in those years; how much of the worldwide rise that explains isn't settled."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Methodological framing in: Psychological Medicine 2024 Norway invariance study (PMC11578914).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "thin",
+      "evidence_type": "theoretical",
+      "source_cluster": "nordic-trend",
+      "caveat": {
+        "research": "No standalone quantitative artifact-hypothesis source located under the protocol at authoring time — this caution is carried from within a pro-real-increase source; the AGAINST side of this leaf is genuinely thin.",
+        "simple": "We couldn't find a strong study arguing the rise is fake — this doubt comes from inside a study that found the rise is real."
+      }
+    },
+    {
+      "finding_id": "F-att-1",
+      "node_id": "n_trend_attrib",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The timing and shape of the deterioration match the exposure: adolescent depressive symptoms, self-harm, and suicide rose precisely as smartphone-plus-social-media adoption saturated (post-2010/2012), the rises are concentrated among girls (the heaviest social-media users), and new-media screen time is associated with the same outcomes at the individual level. No rival explanation matches the timing, cross-national breadth, and sex pattern as well, on this argument.",
+        "simple": "The case for blaming social media: teen distress rose exactly when smartphones and social media took over, it rose most for girls — who use social media most — and heavy users are the ones who feel worst. Supporters argue no other explanation fits the timing and the girl/boy pattern as well."
+      },
+      "effect_size": {
+        "research": "timing + sex-pattern concordance; correlational",
+        "simple": "the timing and pattern fit — but it's circumstantial"
+      },
+      "source_type": "single-study",
+      "source_citation": "Twenge, Joiner, Rogers & Martin 2018, Clinical Psychological Science; Twenge 2020, Psychiatric Research and Clinical Practice (mechanisms review).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-1",
+        "F-att-3"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "twenge",
+      "caveat": {
+        "research": "Correlational timing evidence from the hypothesis's leading proponent; the FOR side of this leaf is single-cluster — flagged in the audit.",
+        "simple": "Circumstantial evidence, mostly from one research team that champions this theory."
+      }
+    },
+    {
+      "finding_id": "F-att-2",
+      "node_id": "n_trend_attrib",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The proposed mechanisms are articulated and individually plausible: displacement of sleep and in-person interaction, upward social comparison, and cyberbullying exposure — each with its own supporting literature — jointly connecting population-level adoption to population-level distress.",
+        "simple": "The theory also says HOW it would work: less sleep, less in-person time, constant comparison with others, and online bullying. Each piece has some evidence behind it."
+      },
+      "effect_size": {
+        "research": "qualitative (mechanism synthesis)",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Twenge 2020, Increases in Depression, Self-Harm, and Suicide Among U.S. Adolescents After 2012 and Links to Technology Use: Possible Mechanisms, Psychiatric Research and Clinical Practice 2:19-25.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "twenge",
+      "caveat": {
+        "research": "Mechanism plausibility is not attribution; same cluster as F-att-1 (no independent corroboration added).",
+        "simple": "Explaining how it COULD work isn't proof it DID — and this is the same team again."
+      }
+    },
+    {
+      "finding_id": "F-att-3",
+      "node_id": "n_trend_attrib",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The National Academies consensus review examined this literature and did not support the conclusion that social media causes changes in adolescent health at the population level — the direct institutional verdict on the attribution claim, from the strongest available synthesis tier.",
+        "simple": "The major expert committee looked at this exact question and would not endorse 'social media drove the decline'. That's the highest-level scientific review saying: not proven."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "National Academies of Sciences, Engineering, and Medicine 2024, Social Media and Adolescent Health.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-att-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "NAS-2024",
+      "caveat": {
+        "research": "High evidentiary bar; 'not supported' is not 'refuted'.",
+        "simple": "'Not proven' doesn't mean 'proven wrong'."
+      }
+    },
+    {
+      "finding_id": "F-att-4",
+      "node_id": "n_trend_attrib",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "Scaling objection: the best-measured individual-level associations are small and bidirectionally confounded, which makes social media an underpowered candidate for PRINCIPAL driver of a large population-level deterioration without additional strong assumptions. The review literature emphasizes that correlational designs cannot distinguish cause from effect at any scale.",
+        "simple": "The math problem: at the individual level the measured link is small. Turning a small, tangled link into 'this is the main cause of a big national decline' requires extra assumptions nobody has proven."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Odgers & Jensen 2020, J. Child Psychology & Psychiatry 61:336-348.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "odgers-review",
+      "caveat": {
+        "research": "An inference from association magnitudes, not a direct test of the attribution claim.",
+        "simple": "A logical objection, not a study that directly tested the claim."
+      }
+    },
+    {
+      "finding_id": "F-mech-1",
+      "node_id": "n_mech",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Proposed harm pathways differ in testability. Sleep displacement is independently measurable and is scored below. Social comparison and algorithmic amplification are evidenced mainly INSIDE other studies — e.g. the Facebook-rollout quasi-experiment attributes part of its effect to unfavorable social comparison, and the National Academies report identifies algorithmic amplification as a plausible channel — rather than as independently scored claims with good-faith evidence on both sides.",
+        "simple": "Of the ways social media might hurt teens, only one — costing them sleep — can be measured cleanly on its own, so only that one gets a score here. The others (comparing yourself to others, algorithms pushing harmful stuff) show up as clues inside other studies, not as separately settled questions."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Braghieri, Levy & Makarin 2022, AER (mechanism evidence); National Academies 2024 (design-feature channels).",
+      "triggers_split_to": [
+        "n_mech_sleep"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "econ-quasiexp",
+      "caveat": {
+        "research": "Scope decision recorded in this node's coverage note; mechanism claims remain visible via findings on the causal leaf.",
+        "simple": "A choice about what this tool scores, explained in the scope note."
+      }
+    },
+    {
+      "finding_id": "F-slp-1",
+      "node_id": "n_mech_sleep",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Meta-analysis of portable screen-based device access and use in 6-19-year-olds finds strong and consistent associations with reduced sleep quantity, worse sleep quality, and daytime sleepiness — present even for device ACCESS at bedtime without measured use, consistent with both displacement and arousal channels.",
+        "simple": "Adding up many studies of kids and teens: having or using a phone or tablet around bedtime goes with less sleep, worse sleep, and daytime tiredness — even just having the device in the room, unused, shows the pattern."
+      },
+      "effect_size": {
+        "research": "consistent adverse associations across sleep quantity, quality, daytime sleepiness",
+        "simple": "less and worse sleep, across many studies"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Carter, Rees, Hale, Bhattacharjee & Paradkar 2016, Association Between Portable Screen-Based Media Device Access or Use and Sleep Outcomes, JAMA Pediatrics 170(12):1202-1208.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-slp-2"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "carter-sleep-meta",
+      "caveat": {
+        "research": "Measures devices/screens generally, not social media specifically; correlational inputs; ≥10 years old in 2026 — flagged for refresh review under the protocol.",
+        "simple": "About screens in general, not social media alone; from 2016, so due for a refresh."
+      }
+    },
+    {
+      "finding_id": "F-slp-2",
+      "node_id": "n_mech_sleep",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A 2026 meta-analysis of WITHIN-PERSON designs — comparing the same young person's high-screen and low-screen days — finds only a small association between daily screen time and later sleep onset, and minimal impact on sleep duration, efficiency, or quality. Day-to-day, screens delay bedtime slightly but do not degrade sleep the way between-person comparisons imply.",
+        "simple": "A newer approach follows the SAME teen across days: on heavier-screen days they fall asleep a bit later, but their sleep isn't much shorter or worse. Comparing a teen to themselves shows a far smaller effect than comparing screen-heavy teens to screen-light ones."
+      },
+      "effect_size": {
+        "research": "small within-person delay in sleep onset; minimal effect on duration/efficiency/quality",
+        "simple": "slightly later bedtime; sleep itself barely changed"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Bourke et al. 2026, Within-Person Association Between Daily Screen Use and Sleep in Youth: A Systematic Review and Meta-Analysis, JAMA Pediatrics (May 2026).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-slp-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "uq-withinperson-meta",
+      "caveat": {
+        "research": "Within-person daily fluctuation is a different estimand from chronic heavy use: a stable heavy user shows no day-to-day variation to detect. Both metas can be right about different questions.",
+        "simple": "This measures day-to-day changes — it can miss harm from ALWAYS-heavy use. Both results can be true at once."
+      }
+    },
+    {
+      "finding_id": "F-pol-1",
+      "node_id": "n_policy",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The three restriction families differ enormously in dose, scope, and enforceability: a school phone ban removes a few school-hours of one device; personal deactivation removes weeks of individual exposure while the peer network stays online; a national age ban attempts population-wide removal against circumvention incentives. Evidence for one does not license expectations about another — and evidence that HARM exists does not by itself establish that any given restriction reduces it.",
+        "simple": "'Ban it' means three very different things: phones out of school hours, one person quitting for a while, or a whole country's age limit. Each works differently and each can fail differently — and proving social media harms teens still doesn't prove a particular ban will fix it."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "National Academies 2024 (policy discussion); design contrast across Abrahamsson 2024, Allcott et al. 2020, Barnes et al. 2026.",
+      "triggers_split_to": [
+        "n_policy_school",
+        "n_policy_deact",
+        "n_policy_ban"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "NAS-2024",
+      "caveat": {
+        "research": "A framing of intervention heterogeneity, not a measurement.",
+        "simple": "A point about comparing apples to oranges."
+      }
+    },
+    {
+      "finding_id": "F-sch-1",
+      "node_id": "n_policy_school",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Exploiting staggered ban adoption across 477 Norwegian middle schools (2010-2018) linked to national registry data: smartphone bans significantly reduced healthcare consultations for psychological symptoms among girls, reduced bullying for both sexes, and raised girls' GPA and externally graded math results (≈ +0.22 SD), with the largest gains for low-SES students.",
+        "simple": "In Norway, researchers compared hundreds of schools that banned phones at different times, using national health and school records. After bans: fewer mental-health visits for girls, less bullying for everyone, and better grades for girls — with the poorest students gaining most."
+      },
+      "effect_size": {
+        "research": "girls' math ≈ +0.22 SD; psych-consultations and bullying down",
+        "simple": "clearly better grades and fewer mental-health visits, mainly for girls"
+      },
+      "source_type": "single-study",
+      "source_citation": "Abrahamsson 2024, Smartphone Bans, Student Outcomes and Mental Health, NHH Discussion Paper 01/2024 (SSRN 4735240).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-sch-3"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "quasi-experimental",
+      "source_cluster": "nordic-ban",
+      "caveat": {
+        "research": "Working paper (not yet peer-reviewed at scan date); ban timing from retrospective school-leader surveys; Norway-specific institutions.",
+        "simple": "Not yet fully peer-reviewed, and schools reported their own ban dates from memory."
+      }
+    },
+    {
+      "finding_id": "F-sch-2",
+      "node_id": "n_policy_school",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Quasi-experimental evidence from a large Florida district's September 2023 cellphone ban: student phone use fell by about two-thirds, and test scores rose by roughly 1.1-1.3 percentage points within two years, with effects concentrated in middle/high school. Costs were real but transient: suspensions spiked in the first year (disproportionately among Black students) before dissipating.",
+        "simple": "In a big Florida school district that banned phones in 2023, phone use fell by about two-thirds and test scores rose modestly within two years. The downside: suspensions jumped at first — hitting Black students hardest — before settling back down."
+      },
+      "effect_size": {
+        "research": "test scores +1.1-1.3 pp; use down ~2/3; transient suspension spike",
+        "simple": "modestly better scores; a rocky first year of discipline"
+      },
+      "source_type": "single-study",
+      "source_citation": "Figlio & Özek 2025, The Impact of Cellphone Bans in Schools on Student Outcomes: Evidence from Florida, NBER Working Paper 34388.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "quasi-experimental",
+      "source_cluster": "nber-florida",
+      "caveat": {
+        "research": "Working paper; academic outcomes, with mental health not directly measured; one district.",
+        "simple": "Not yet peer-reviewed, one district, and it measured grades more than feelings."
+      }
+    },
+    {
+      "finding_id": "F-sch-3",
+      "node_id": "n_policy_school",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The SMART Schools study — 1,227 adolescents across 30 English secondary schools — found no significant difference in mental wellbeing, sleep, or attainment between schools with restrictive and permissive phone policies, and no difference in total phone/social-media time across the whole day: students compensated outside school hours.",
+        "simple": "In England, researchers compared 30 schools with strict and relaxed phone rules: the students felt the same, slept the same, and performed the same — because a school-hours ban barely changed their TOTAL daily phone time. They caught up after the bell."
+      },
+      "effect_size": {
+        "research": "no significant policy-level differences in wellbeing, sleep, attainment",
+        "simple": "no difference between strict and relaxed schools"
+      },
+      "source_type": "single-study",
+      "source_citation": "Goodyear et al. 2025, School phone policies and their association with mental wellbeing, phone use, and social media use (SMART Schools), The Lancet Regional Health - Europe.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-sch-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "smart-schools",
+      "caveat": {
+        "research": "Cross-sectional (no ban-timing identification); compares POLICY, i.e. a few school-hours of exposure difference — a null here is consistent with total-use effects and with the Norwegian causal design finding benefits.",
+        "simple": "A snapshot comparison, not a before-and-after — and school rules only touch a slice of the day, so this doesn't contradict bans changing more than that slice."
+      }
+    },
+    {
+      "finding_id": "F-sch-4",
+      "node_id": "n_policy_school",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The headline disagreement is largely a design-and-dose artifact: causal ban-timing studies (Norway, Florida) find benefits; the cross-sectional English policy comparison finds none. School policies alter a minority share of daily exposure, so studies contrasting school POLICY test a much weaker treatment than studies tracking actual behavior change — commentary in the same journal argues policy needs to go beyond school-hours restriction.",
+        "simple": "The 'it works' and 'no difference' headlines aren't really fighting: the studies that tracked what actually changed found benefits, while the snapshot compared rules that barely dent a teen's total phone day. Even the journal that published the null says school rules alone are too small a lever."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Smartphone use and mental health: going beyond school restriction policies, The Lancet Regional Health - Europe 2025 (commentary; PMC11850730).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "thin",
+      "evidence_type": "theoretical",
+      "source_cluster": "lancet-commentary",
+      "caveat": {
+        "research": "Commentary/interpretation, not new data.",
+        "simple": "An expert's argument, not a new study."
+      }
+    },
+    {
+      "finding_id": "F-dea-1",
+      "node_id": "n_policy_deact",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "In the landmark randomized experiment (n ≈ 2,743 adults), four weeks of Facebook deactivation before the 2018 US midterms increased subjective well-being, increased offline socializing, reduced political polarization, and produced a persistent post-experiment reduction in Facebook use — the cleanest early evidence that removal improves measured well-being.",
+        "simple": "In the classic experiment, people paid to turn off Facebook for a month felt better, saw friends and family more, and were less politically angry. Many kept using it less even after the experiment ended."
+      },
+      "effect_size": {
+        "research": "positive SWB effect of 4-week deactivation",
+        "simple": "a real, modest boost from a month off"
+      },
+      "source_type": "single-study",
+      "source_citation": "Allcott, Braghieri, Eichmeyer & Gentzkow 2020, The Welfare Effects of Social Media, American Economic Review 110(3).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "experimental",
+      "source_cluster": "allcott-gentzkow",
+      "caveat": {
+        "research": "Adults, one platform, pre-election period; payment-induced deactivation may not generalize to voluntary reduction.",
+        "simple": "Adults, not teens — and being paid to quit isn't quite the same as choosing to."
+      }
+    },
+    {
+      "finding_id": "F-dea-2",
+      "node_id": "n_policy_deact",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The largest deactivation experiment to date (~19,900 Facebook and ~15,500 Instagram users, six weeks around the 2020 US election) found deactivation improved an emotional-state index by 0.060 SD (Facebook) and 0.041 SD (Instagram) — small but precisely estimated gains, roughly 15-22% of the effect of a typical psychological intervention.",
+        "simple": "In the biggest experiment yet — 35,000 people off Facebook or Instagram for six weeks — people's mood improved by a small but reliably measured amount: roughly a fifth of what a course of therapy typically does."
+      },
+      "effect_size": {
+        "research": "+0.060 SD (Facebook), +0.041 SD (Instagram) emotional state",
+        "simple": "small but real mood gains"
+      },
+      "source_type": "single-study",
+      "source_citation": "Allcott, Gentzkow et al. 2025, The Effect of Deactivating Facebook and Instagram on Users' Emotional State, NBER Working Paper 33697.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-dea-3",
+        "F-ban-2"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "experimental",
+      "source_cluster": "allcott-gentzkow",
+      "caveat": {
+        "research": "Working paper; adults; election-period context; same core research team as F-dea-1 — one cluster, not independent corroboration.",
+        "simple": "Adults again, around a heated election, and by the same research team as the first experiment."
+      }
+    },
+    {
+      "finding_id": "F-dea-3",
+      "node_id": "n_policy_deact",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A preregistered systematic review and meta-analysis of social media ABSTINENCE interventions (10 studies, n = 4,674, 38 effect sizes) found no significant effects on positive affect, negative affect, or life satisfaction — and no relationship between abstinence duration and outcomes. Pooled across the abstinence literature, taking a break does not measurably improve well-being.",
+        "simple": "But when researchers pooled ten studies of people taking social media breaks — nearly 5,000 people — the breaks didn't significantly improve mood or life satisfaction at all, no matter how long they lasted."
+      },
+      "effect_size": {
+        "research": "no significant pooled effect on affect or life satisfaction",
+        "simple": "no measurable benefit on average"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Lemahieu et al. 2025, The effects of social media abstinence on affective well-being and life satisfaction: a systematic review and meta-analysis, Scientific Reports 15 (s41598-025-90984-3).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-dea-2"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "antwerp-abstinence-meta",
+      "caveat": {
+        "research": "Mostly small, short-duration studies of young adults; the large Allcott-Gentzkow deactivation RCTs are a different (payment-incentivized, longer) design and partly postdate the search window.",
+        "simple": "Mostly small, short studies of young adults — the giant six-week experiments were run differently and some came later."
+      }
+    },
+    {
+      "finding_id": "F-dea-4",
+      "node_id": "n_policy_deact",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The Ferguson meta-analysis of 27 reduction/exposure experiments likewise reports a pooled effect (d ≈ 0.09) whose confidence interval includes zero, concluding experimental reductions in social media use show no reliable average mental-health benefit.",
+        "simple": "Another round-up of 27 cut-back experiments also found an average benefit so small it might be zero."
+      },
+      "effect_size": {
+        "research": "pooled d ≈ 0.09, CI includes zero",
+        "simple": "possibly zero on average"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Ferguson 2024, Do social media experiments prove a link with mental health, Psychology of Popular Media.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-dea-5"
+      ],
+      "source_strength": "thin",
+      "evidence_type": "review",
+      "source_cluster": "reduction-rct-pool",
+      "caveat": {
+        "research": "DISPUTED (see F-cau-4): alleged data errors and contested pooling of heterogeneous designs/durations; read only alongside F-dea-5, which reanalyzes the same pool.",
+        "simple": "Contested — critics found errors, and a re-check of the same experiments reached a different conclusion (next card)."
+      }
+    },
+    {
+      "finding_id": "F-dea-5",
+      "node_id": "n_policy_deact",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "A 2025 reanalysis of the same experimental pool, testing moderation by intervention length, finds social-media reduction or abstinence DOES provide mental-health benefits — the null average masks a duration gradient in which longer interventions show benefits. The same data support 'no effect' or 'real benefit' depending on whether duration is modeled.",
+        "simple": "When other researchers re-ran the numbers on those same experiments, they found the breaks DO help — mainly the longer ones. Whether the experiments say 'no effect' or 'real benefit' depends on whether you account for how long the break lasted."
+      },
+      "effect_size": {
+        "research": "benefits emerge with longer intervention duration",
+        "simple": "longer breaks help; short ones don't show much"
+      },
+      "source_type": "meta-analysis",
+      "source_citation": "Social Media Reduction or Abstinence Interventions Are Providing Mental Health Benefits - Reanalysis of a Published Meta-Analysis, Psychology of Popular Media (2025).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-dea-4"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "reduction-rct-pool",
+      "caveat": {
+        "research": "Same underlying study pool as F-dea-4 (shared cluster — no independent corroboration between them); reanalysis is itself one team's modeling choice.",
+        "simple": "It re-uses the same experiments as the round-up it corrects, so they count as one body of evidence, not two."
+      }
+    },
+    {
+      "finding_id": "F-ban-1",
+      "node_id": "n_policy_ban",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The first evaluation of Australia's under-16 Social Media Minimum Age Act (408 adolescents aged 12-16 surveyed immediately before and three months after commencement) found no clear short-term reduction in use: over 86% of under-16s had accessed at least one platform post-ban, 54-68% via their own accounts, with circumvention (borrowed accounts, fake ages, private browsers) widespread and age checks easily bypassed.",
+        "simple": "Three months into Australia's world-first under-16 ban, more than 86% of under-16s were still on social media. Kids used borrowed accounts, fake birthdates, and private browsers; age checks were easy to beat."
+      },
+      "effect_size": {
+        "research": ">86% of under-16s still accessing platforms at 3 months; little change at 12-13, slight decrease at 14-15",
+        "simple": "almost everyone still on; barely a dent"
+      },
+      "source_type": "single-study",
+      "source_citation": "Barnes et al. 2026, Assessing early effects of Australia's Social Media Minimum Age Act on adolescents' social media use: observational study, BMJ (published 24 June 2026).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "aus-ban-eval",
+      "caveat": {
+        "research": "Small single cohort, self-report, three-month window during a chaotic rollout with incomplete platform compliance; measures use, not mental health.",
+        "simple": "One smallish survey, only three months in, while enforcement was still leaky — and it measured use, not how kids felt."
+      }
+    },
+    {
+      "finding_id": "F-ban-2",
+      "node_id": "n_policy_ban",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "No qualifying FOR evidence exists at authoring time: the case that age bans reduce use (and downstream harm) currently rests on policy expectation, not measured results — and symmetrically, the early Australian null must not be over-read. It covers one quarter of a leaky rollout and measures use only; it is not evidence about the mental-health effects of a mature, enforced ban, in either direction.",
+        "simple": "Fair warning in both directions: there's no measured evidence yet that bans DO keep kids off or make them feel better — but three messy early months also can't prove bans DON'T work. On the big question — does a real, enforced ban improve teen mental health — nobody has data yet."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Limitations discussion in Barnes et al. 2026, BMJ; no qualifying FOR-direction source located under the sourcing protocol at authoring time.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-dea-2"
+      ],
+      "source_strength": "thin",
+      "evidence_type": "theoretical",
+      "source_cluster": "aus-ban-eval",
+      "caveat": {
+        "research": "The FOR slot of this leaf is deliberately empty rather than padded — per protocol, absence of qualifying evidence is stated, not papered over.",
+        "simple": "We left the 'bans work' side blank on purpose — there was no solid study to put there yet."
+      }
+    }
+  ]
+}
