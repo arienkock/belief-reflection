@@ -12,5 +12,12 @@
     "path": "tools/social-media-teen-mental-health/",
     "status": "published",
     "summary": "Evidence on social media's effects on adolescent mental health across four separately-measured questions: the individual-level association, causation, the post-2010 population trend, and what restriction policies (school phone bans, deactivation, age bans) measurably change. You report your own confidence per claim — the tool does not compute or update it for you."
+  },
+  {
+    "id": "ultra-processed-foods",
+    "title": "Ultra-Processed Foods & Health",
+    "path": "tools/ultra-processed-foods/",
+    "status": "published",
+    "summary": "Evidence on ultra-processed foods and health across five separately-measured questions: whether the 'ultra-processed' category can even be applied consistently, how large the observational disease association is, whether it reflects processing or the nutrients it carries, whether controlled trials show processing itself causes overeating, and what ultra-processed-food policy measurably changes. You report your own confidence per claim — the tool does not compute or update it for you."
   }
 ]

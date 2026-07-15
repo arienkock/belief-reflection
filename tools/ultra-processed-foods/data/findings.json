@@ -1,0 +1,714 @@
+{
+  "topic": "Ultra-Processed Foods and Health",
+  "generated": "2026-07-15",
+  "registers": [
+    "research",
+    "simple"
+  ],
+  "default_register": "research",
+  "findings": [
+    {
+      "finding_id": "F-root-1",
+      "node_id": "n_root",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "There is no single measurement of 'are ultra-processed foods bad for you'. The literature separately measures whether the NOVA category can even be applied consistently, the size of the observational disease association, whether that association reflects processing or the nutrients it carries, whether controlled-feeding trials show processing itself causes overeating, and what policy changes. The strongest observational synthesis (an umbrella review of 45 pooled analyses covering ~9.9 million people) documents broad associations while explicitly stating that randomised trials are still needed and that residual confounding is the most pertinent limitation.",
+        "simple": "No study measures 'is ultra-processed food bad' all at once. Researchers ask separate questions — does 'ultra-processed' even mean one clear thing, do heavy eaters get sicker, is it the processing or the sugar and salt, do experiments show processing itself causes overeating, and do labels work — and the answers differ. Being sure about one doesn't make you right about the others."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Lane et al. 2024, Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses, BMJ 384:e077310.",
+      "triggers_split_to": [
+        "n_concept",
+        "n_assoc",
+        "n_cause",
+        "n_policy"
+      ],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "lane-umbrella",
+      "caveat": {
+        "research": "Umbrella review of observational meta-analyses; the authors note it 'did not consider specific confounder or mediator adjustments'.",
+        "simple": "A round-up of many observational studies — it can show links, not causes."
+      }
+    },
+    {
+      "finding_id": "F-root-2",
+      "node_id": "n_root",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Evidence quality is sharply uneven across the sub-questions. The observational association rests on millions of participants; the causal question rests on a handful of small, short feeding trials (a 2024 systematic review found only four qualifying RCTs, with no significant effect in 30 of 42 outcomes); and the classification underpinning all of it fails inter-rater reliability tests. Confidence earned on the best-measured sub-question does not transfer to the others.",
+        "simple": "We know a lot about some parts and little about others. Millions of people have been surveyed about their diets, but only a few small experiments actually test whether processing causes harm — and the very definition of 'ultra-processed' is applied inconsistently. Don't let the well-studied part vouch for the rest."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Dominguez-Rodriguez et al. 2024, Ultra-processed foods consumption and health-related outcomes: a systematic review of randomized controlled trials, Frontiers in Nutrition 11:1421728.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "rct-review",
+      "caveat": {
+        "research": "Systematic review of only four heterogeneous RCTs with 20-40% dropout in three of them.",
+        "simple": "Based on just four small experiments, several with lots of dropouts."
+      }
+    },
+    {
+      "finding_id": "F-concept-1",
+      "node_id": "n_concept",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "This dimension has two distinct failure modes that must not be conflated. A classification can be UNRELIABLE (different raters disagree on what is ultra-processed) or REDUNDANT (reliable but adding nothing over conventional nutrient profiling). They are separate questions with separate evidence, and a category could fail either test while passing the other.",
+        "simple": "Two different ways the label could be weak: experts might not agree on what counts as 'ultra-processed' (unreliable), or they might agree but the label tells you nothing that sugar-and-salt already doesn't (redundant). These are separate problems."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Braesco et al. 2022, Ultra-processed foods: how functional is the NOVA system?, European Journal of Clinical Nutrition 76:1245-1253.",
+      "triggers_split_to": [
+        "n_concept_reliable",
+        "n_concept_beyond"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "nova-reliability",
+      "caveat": {
+        "research": "A framing of the two failure modes, not a measurement.",
+        "simple": "A point about how the category could fail, not a new study."
+      }
+    },
+    {
+      "finding_id": "F-rel-1",
+      "node_id": "n_concept_reliable",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "When 159 and 177 food-and-nutrition specialists independently assigned foods to NOVA groups, inter-rater agreement was poor: Fleiss' kappa was 0.32 for 120 marketed products (with ingredient lists) and 0.34 for 111 generic items (without). Agreement stayed low even when full ingredient information was available, so it is not a fixable data-access problem. The authors conclude 'current NOVA criteria do not allow for robust and functional food assignments.'",
+        "simple": "When ~160-180 nutrition experts each sorted the same foods, they often disagreed on what was 'ultra-processed' — agreement was poor (a kappa of about 0.3, where 1 is perfect). It stayed poor even when they could see the full ingredient list. The researchers concluded the current rules don't let people classify foods consistently."
+      },
+      "effect_size": {
+        "research": "Fleiss' kappa 0.32 (marketed) / 0.34 (generic) — poor agreement",
+        "simple": "experts agreed only about a third as well as perfect agreement"
+      },
+      "source_type": "single-study",
+      "source_citation": "Braesco et al. 2022, Ultra-processed foods: how functional is the NOVA system?, European Journal of Clinical Nutrition 76:1245-1253.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-gui-2",
+        "F-lab-1",
+        "F-mag-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "nova-reliability",
+      "caveat": {
+        "research": "One reliability study, French specialists, online survey; a subset of foods (e.g. a 90-item cluster assigned 91% to NOVA-4) did classify consistently — the disagreement concentrates in ambiguous foods.",
+        "simple": "One study of French experts; some clearly-processed foods were easy to agree on — the disagreement is about the borderline cases."
+      }
+    },
+    {
+      "finding_id": "F-rel-2",
+      "node_id": "n_concept_reliable",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Defenders of the concept argue that NOVA has validity and utility for science and policy and that the ultra-processed category tracks something real that nutrient profiling misses. But these defences are made on grounds of utility and construct validity, not measured reliability: no located source rebuts the inter-rater figures with a competing reliability estimate. So they complicate the picture (the category may be useful despite poor agreement) without providing evidence that classifiers actually agree — the FOR direction of this leaf carries no independent evidence.",
+        "simple": "Supporters argue the 'ultra-processed' idea is useful and captures something real a nutrient label misses. That may be true — but it's an argument about usefulness, not about whether experts agree on what counts. Nobody has shown they DO agree, so there's really no evidence on the 'yes, it's consistent' side."
+      },
+      "effect_size": {
+        "research": "qualitative; utility argued, measured reliability not rebutted",
+        "simple": "argues usefulness, not that experts agree"
+      },
+      "source_type": "single-study",
+      "source_citation": "e.g. Monteiro et al., The validity and utility of Nova and the concept of ultra-processed foods for science and policy, Nature Food (2026); AJCN 2023 debate 'YES' position.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "thin",
+      "evidence_type": "theoretical",
+      "source_cluster": "nova-defence",
+      "caveat": {
+        "research": "Position/utility argument from the concept's proponents; not a measured reliability rebuttal — the FOR side of this leaf carries no independent evidence, so the leaf is effectively one-sided.",
+        "simple": "An argument from the idea's supporters, not evidence that classification is consistent."
+      }
+    },
+    {
+      "finding_id": "F-bey-1",
+      "node_id": "n_concept_beyond",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "A review of 37 prospective-cohort studies (91 models, 87 outcomes) found that 64 of 66 significant ultra-processed-food–outcome associations remained significant after adjustment for diet quality or dietary pattern, and 136 of 142 individual adjustments did not explain the association (all-cause mortality 15/15 unchanged; CVD 29/31; cancer 8/8). The authors conclude 'the adverse consequences of UPFs are independent of dietary quality or pattern.'",
+        "simple": "In a review of 37 long-term studies, the link between ultra-processed food and disease stayed almost every time even after accounting for how healthy the diet was overall (64 of 66 links held). The authors concluded the harm seems to be about the processing itself, not just the nutrients."
+      },
+      "effect_size": {
+        "research": "64/66 associations survive diet-quality adjustment",
+        "simple": "the link held in 64 of 66 cases after accounting for diet quality"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Dicken & Batterham 2022, The Role of Diet Quality in Mediating the Association between Ultra-Processed Food Intake, Obesity and Health-Related Outcomes: A Review of Prospective Cohort Studies, Nutrients 14(1):23.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-bey-2",
+        "F-bey-3",
+        "F-con-2"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "dietquality-review",
+      "caveat": {
+        "research": "Reviews observational studies whose exposure and confounders are both from self-reported diet; 'unchanged after adjustment' can also reflect over- or under-adjustment, and residual confounding remains.",
+        "simple": "Built from studies where people report their own diets; 'the link held' isn't the same as proof it's the processing."
+      }
+    },
+    {
+      "finding_id": "F-bey-2",
+      "node_id": "n_concept_beyond",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A 2024 systematic review of UPF randomized trials concludes that 'the added value of classifying foods based on their industrial processing compared to traditional nutrient-based systems remains an unresolved controversy' — the experimental evidence does not establish that the processing dimension adds information beyond nutrients. Combined with the poor reliability of the classification, the case that the category itself carries independent predictive value is weak on trial evidence.",
+        "simple": "A 2024 review of the actual experiments says whether the 'ultra-processed' label adds anything beyond checking nutrients is still an open, unsettled question. The experiments don't show the label carries extra information on its own."
+      },
+      "effect_size": {
+        "research": "qualitative; added value 'unresolved'",
+        "simple": "unresolved — no clear extra value shown"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Dominguez-Rodriguez et al. 2024, Frontiers in Nutrition 11:1421728.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-bey-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "rct-review",
+      "caveat": {
+        "research": "Only four RCTs; absence of demonstrated added value is not proof of no added value.",
+        "simple": "Based on only four experiments — 'not shown' isn't 'disproven'."
+      }
+    },
+    {
+      "finding_id": "F-bey-3",
+      "node_id": "n_concept_beyond",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The large 2024 US cohort found its ultra-processed-food–mortality association became 'less pronounced after overall dietary quality was taken into account, suggesting that dietary quality has a stronger influence on long term health than ultra-processed food consumption' — evidence that, in at least this dataset, much of the signal tracks nutrients the category is supposed to add value beyond. The added-value question and the confounding question are the same statistic read from two sides.",
+        "simple": "The biggest recent US study found the ultra-processed link got weaker once overall diet quality was accounted for — hinting that a lot of the harm is really about the nutrients, which is exactly what the label is supposed to add value beyond. Whether the label adds anything and whether the link is confounded are the same question."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Fang et al. 2024, Association of ultra-processed food consumption with all cause and cause specific mortality, BMJ 385:e078476.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-bey-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "bmj-cohort",
+      "caveat": {
+        "research": "'Less pronounced' is not 'eliminated'; adjusting for diet quality may over-control if nutrients lie on the causal pathway of processing.",
+        "simple": "The link shrank but didn't vanish — and adjusting this way can hide real effects too."
+      }
+    },
+    {
+      "finding_id": "F-assoc-1",
+      "node_id": "n_assoc",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Three distinct questions govern this dimension: whether an association exists and how large, whether it survives adjustment for nutrients and confounders, and whether it is uniform or concentrated in subgroups. Almost all of the evidence is observational and rests on self-reported diet (food-frequency questionnaires), so residual confounding and healthy-user bias are live throughout — the same measurement error affects both the exposure and the attempts to adjust it away.",
+        "simple": "Three separate questions here: is there a link and how big, does it hold up when you account for a generally poor diet, and is every ultra-processed food equally to blame. Nearly all of it comes from people reporting their own eating, which is error-prone — so you can never fully rule out other explanations."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Lane et al. 2024, BMJ 384:e077310 (residual-confounding discussion).",
+      "triggers_split_to": [
+        "n_assoc_magnitude",
+        "n_assoc_confound",
+        "n_assoc_subgroup"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "lane-umbrella",
+      "caveat": {
+        "research": "A methodological framing of the dimension, not a measurement.",
+        "simple": "A point about how these studies work, not a new measurement."
+      }
+    },
+    {
+      "finding_id": "F-mag-1",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "An umbrella review of 45 pooled analyses (~9.9 million people) graded several associations as 'convincing' or 'highly suggestive': cardiovascular-disease mortality (RR 1.50, 95% CI 1.37-1.63), type-2 diabetes (dose-response RR 1.12, 1.11-1.13), common mental disorders (OR 1.53, 1.43-1.63), all-cause mortality (RR 1.21, 1.15-1.27), and obesity (OR 1.55, 1.36-1.77). The breadth and consistency of higher-tier associations is not trivially small.",
+        "simple": "Pooling studies of nearly 10 million people, the strongest-graded links are real and sizeable: about 50% higher heart-disease death, ~20% higher overall death, and ~55% higher obesity odds for the heaviest ultra-processed eaters. Across many diseases, the link is not tiny."
+      },
+      "effect_size": {
+        "research": "CVD-mortality RR 1.50; all-cause mortality RR 1.21; obesity OR 1.55",
+        "simple": "~20-55% higher risk across major outcomes"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Lane et al. 2024, Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses, BMJ 384:e077310.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-1",
+        "F-rel-1",
+        "F-sub-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "lane-umbrella",
+      "caveat": {
+        "research": "Observational inputs; graded evidence-tiers reflect statistical strength/consistency, not causation; residual confounding flagged by the authors as most pertinent.",
+        "simple": "These are links, not proof of cause — the pooled studies just compare eaters, they don't run experiments."
+      }
+    },
+    {
+      "finding_id": "F-mag-2",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "An independent scoping review for the Nordic Nutrition Recommendations 2023 (12 systematic reviews including 5 meta-analyses, plus 44 studies) concluded the evidence linking ultra-processed food to weight gain, cardiovascular disease, type-2 diabetes, and all-cause mortality is 'strong enough to support dietary recommendations to limit' its consumption — a second synthesis team reaching a concordant magnitude verdict.",
+        "simple": "A separate Nordic government review of dozens of studies also concluded the link to weight gain, heart disease, diabetes, and early death is strong enough to tell people to cut back. Two independent expert teams, same read on the size of the link."
+      },
+      "effect_size": {
+        "research": "qualitative; concordant across four major outcomes",
+        "simple": "strong enough to recommend limiting"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Juul & Bere 2024, Ultra-processed foods - a scoping review for Nordic Nutrition Recommendations 2023, Food & Nutrition Research 68.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "nordic-scoping",
+      "caveat": {
+        "research": "Synthesizes overlapping observational cohorts with the umbrella review (partial non-independence on the underlying primary studies); still correlational at base.",
+        "simple": "Draws on many of the same underlying studies as the other review, and those are still correlational."
+      }
+    },
+    {
+      "finding_id": "F-mag-3",
+      "node_id": "n_assoc_magnitude",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "In one of the most rigorously controlled cohorts (74,563 women + 39,501 men, 48,193 deaths over 30+ years), the highest-versus-lowest quartile of total ultra-processed intake carried only a 4% higher all-cause mortality (1536 vs 1472 deaths per 100,000 person-years), with no association for cardiovascular, cancer, or respiratory mortality. The pooled higher-tier relative risks and this modest, well-adjusted cohort estimate are both 'the magnitude' — which one to weigh is a judgement about design.",
+        "simple": "In one of the best-run studies, the heaviest ultra-processed eaters had just 4% higher overall death risk — and no higher risk of dying from heart disease, cancer, or lung disease. So 'how big is the link' depends on which study you trust: the big pooled numbers, or this smaller, more carefully adjusted one."
+      },
+      "effect_size": {
+        "research": "+4% all-cause mortality (top vs bottom quartile); null for CVD/cancer/respiratory",
+        "simple": "only ~4% higher overall death risk in a well-controlled study"
+      },
+      "source_type": "single-study",
+      "source_citation": "Fang et al. 2024, Association of ultra-processed food consumption with all cause and cause specific mortality, BMJ 385:e078476.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "bmj-cohort",
+      "caveat": {
+        "research": "Highly educated health-professional cohort (limits generalisability but also confounding); self-reported diet; a small relative risk over a large population can still be many deaths.",
+        "simple": "Nurses and health workers, so healthier than average; a small percentage across millions of people is still a lot of deaths."
+      }
+    },
+    {
+      "finding_id": "F-con-1",
+      "node_id": "n_assoc_confound",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The review of 37 prospective cohorts found 64 of 66 significant ultra-processed-food associations survived adjustment for diet quality, and 136 of 142 adjustments did not explain the association — including all-cause mortality (15/15 unchanged), CVD (29/31), cancer (8/8), and type-2 diabetes (7/7). On this evidence the association is not merely a proxy for poor nutrient quality; something about processing appears to contribute independently.",
+        "simple": "Across 37 long-term studies, the ultra-processed link almost always stayed after accounting for how healthy the diet was overall — for death, heart disease, cancer, and diabetes alike. That points to the processing itself mattering, not just the sugar and salt."
+      },
+      "effect_size": {
+        "research": "136/142 diet-quality adjustments left the association intact",
+        "simple": "adjusting for diet quality removed the link only 6 times out of 142"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Dicken & Batterham 2022, Nutrients 14(1):23.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-con-2"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "dietquality-review",
+      "caveat": {
+        "research": "Observational throughout; 'survives adjustment' cannot distinguish a true processing effect from unmeasured confounding correlated with UPF intake.",
+        "simple": "Still all correlational — the link surviving doesn't prove processing is the cause; something unmeasured could travel with it."
+      }
+    },
+    {
+      "finding_id": "F-con-2",
+      "node_id": "n_assoc_confound",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The large 2024 US cohort reached the opposite conclusion for mortality: the ultra-processed-food association 'was less pronounced after overall dietary quality was taken into account, suggesting that dietary quality has a stronger influence on long term health than ultra-processed food consumption.' Where this well-powered study adjusted carefully, nutrient quality — not processing per se — carried most of the signal.",
+        "simple": "The big 2024 US study found the opposite: once it accounted for overall diet quality, the ultra-processed link faded a lot. It concluded that how nutritious the diet is matters more than whether the food is processed."
+      },
+      "effect_size": {
+        "research": "association attenuates after diet-quality adjustment",
+        "simple": "the link shrank once diet quality was accounted for"
+      },
+      "source_type": "single-study",
+      "source_citation": "Fang et al. 2024, BMJ 385:e078476.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-bey-1",
+        "F-con-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "bmj-cohort",
+      "caveat": {
+        "research": "A single cohort; adjusting for diet quality could over-control if the nutrient profile is part of how processing acts. 'Less pronounced' is not 'zero'.",
+        "simple": "One study — and this kind of adjustment can also hide a real effect if the nutrients are how processing does its harm."
+      }
+    },
+    {
+      "finding_id": "F-con-3",
+      "node_id": "n_assoc_confound",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Both directions inherit an unfixable limitation: exposure, confounders, and diet-quality indices are all derived from the same self-reported dietary instruments, so neither 'survives adjustment' nor 'attenuates' can settle causation. The umbrella review's authors name residual confounding as 'perhaps most pertinent', and only controlled-feeding trials can break the deadlock — which is why this leaf's answer partly waits on the causal dimension.",
+        "simple": "Both sides share the same weakness: everything comes from people reporting their own diets, so no amount of statistical adjustment can prove cause. Only real experiments can settle it — which is a different question, handled elsewhere in this map."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Lane et al. 2024, BMJ 384:e077310 (residual-confounding limitation).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "lane-umbrella",
+      "caveat": {
+        "research": "A framing of the shared limitation, not a measurement.",
+        "simple": "A point about why surveys can't settle this, not a new study."
+      }
+    },
+    {
+      "finding_id": "F-sub-1",
+      "node_id": "n_assoc_subgroup",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "In the 2024 US cohort, the total-ultra-processed association was driven by specific subgroups rather than spread evenly: meat/poultry/seafood-based ready-to-eat products showed the strongest and most consistent association with mortality, followed by sugar- and artificially-sweetened beverages, dairy-based desserts, and ultra-processed breakfast foods, while several other subgroups (fats/condiments/sauces, packaged sweet and savory snacks, ready-to-eat dishes) showed no significant association. The category is not internally uniform.",
+        "simple": "In the big US study, the link to earlier death was strongest for particular foods — processed meats most of all, then sugary drinks, dairy desserts, and processed breakfast foods — while several other ultra-processed foods showed no clear link. Not all ultra-processed foods behaved the same."
+      },
+      "effect_size": {
+        "research": "processed meat strongest; several UPF subgroups null",
+        "simple": "processed meat most strongly linked; several others showed no link"
+      },
+      "source_type": "single-study",
+      "source_citation": "Fang et al. 2024, BMJ 385:e078476 (subgroup analyses).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-mag-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "bmj-cohort",
+      "caveat": {
+        "research": "'No significant association' for a subgroup is not evidence it is safe; subgroup analyses have less power and this concentration pattern comes from a single cohort.",
+        "simple": "'No clear link' isn't the same as 'proven harmless', and this split comes from just one study."
+      }
+    },
+    {
+      "finding_id": "F-sub-2",
+      "node_id": "n_assoc_subgroup",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The umbrella review's broad, higher-tier associations are stated for TOTAL ultra-processed exposure across many outcomes and cannot, on their own, distinguish a genuinely concentrated harm (a few bad subgroups) from a diffuse one. A total-UPF exposure measure that mixes harmful, neutral, and possibly protective subgroups will understate the worst categories and overstate the benign ones — so a single 'ultra-processed' policy target may be aiming at a heterogeneous mixture.",
+        "simple": "The big pooled numbers are for ALL ultra-processed food lumped together, so they can't tell you whether a few foods do the damage or all of them share it. Lumping harmful, neutral, and maybe-helpful foods into one number hides that — and a policy targeting 'ultra-processed food' as a whole hits the harmless ones too."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Lane et al. 2024, BMJ 384:e077310 (total-UPF exposure).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "lane-umbrella",
+      "caveat": {
+        "research": "Pooled total-exposure associations neither confirm nor refute concentration; an independent cohort with a full subgroup breakdown was not located under the protocol.",
+        "simple": "The pooled figures don't settle the subgroup question either way; we couldn't find a second study breaking it down."
+      }
+    },
+    {
+      "finding_id": "F-cause-1",
+      "node_id": "n_cause",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Controlled-feeding trials can hold nutrient composition roughly constant and vary only processing, isolating a processing effect that observational designs cannot — but they are few, small, and short, run in metabolic-ward or motivated-volunteer settings, and their mechanism is contested. A real intake effect does not by itself locate the causal lever on 'processing' as opposed to energy density, texture, or eating rate, which nutrient- or design-based policy could also target.",
+        "simple": "Experiments that feed people matched diets and change only the processing can show cause in a way surveys can't. But there are only a few, they're small and short, and even when they find an effect, researchers argue about WHY — the processing, or just that these foods are soft, calorie-dense, and quick to eat?"
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Hall et al. 2019, Cell Metabolism 30(1):67-77 (mechanism discussion).",
+      "triggers_split_to": [
+        "n_cause_intake"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "hall-rct",
+      "caveat": {
+        "research": "A framing of what feeding trials can and cannot isolate, not a standalone measurement.",
+        "simple": "A point about what these experiments can and can't tell us."
+      }
+    },
+    {
+      "finding_id": "F-cau-1",
+      "node_id": "n_cause_intake",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "In a randomized crossover inpatient trial (n = 20, two weeks per arm), diets matched for presented calories, energy density, macronutrients, sugar, sodium, and fibre still produced about 500 kcal/day more ad libitum intake on the ultra-processed diet, with a 0.9 kg weight gain versus an equivalent loss on the unprocessed diet. Because participants could not choose different foods and the nutrients were matched, this is the strongest evidence that processing itself drives overeating.",
+        "simple": "In a locked-in research-ward experiment, people were offered ultra-processed or unprocessed meals matched for calories, sugar, fat, salt, and fibre. On the ultra-processed diet they ate ~500 extra calories a day and gained about 2 lb; on the unprocessed diet they lost about the same. With the nutrients matched, the processing itself seems to drive overeating."
+      },
+      "effect_size": {
+        "research": "+~500 kcal/day; +0.9 kg on UP vs equivalent loss on unprocessed",
+        "simple": "~500 extra calories/day and ~2 lb gained on the processed diet"
+      },
+      "source_type": "single-study",
+      "source_citation": "Hall et al. 2019, Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient Randomized Controlled Trial of Ad Libitum Food Intake, Cell Metabolism 30(1):67-77.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-3",
+        "F-mag-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "experimental",
+      "source_cluster": "hall-rct",
+      "caveat": {
+        "research": "n = 20, two weeks, metabolic ward — generalisability limited; the authors note slight protein differences could explain up to half the intake gap, and faster eating rate is implicated, so 'processing' may act via energy density/texture rather than processing as such.",
+        "simple": "Only 20 people for two weeks in a research ward; the authors say a small protein difference and faster eating could explain much of it — so it may be about the food being soft and dense, not 'processing' itself."
+      }
+    },
+    {
+      "finding_id": "F-cau-2",
+      "node_id": "n_cause_intake",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The longest UPF feeding trial to date (randomized crossover, 55 adults, 8-week arms, both diets following UK healthy-eating guidance) found roughly twice the weight loss on the minimally-processed diet (-2.06%) versus the ultra-processed diet (-1.05%) — an independent second trial pointing the same way, and notably even when both diets were nutritionally 'healthy'.",
+        "simple": "The longest experiment so far — 55 adults, eight weeks each on ultra-processed versus minimally-processed versions of a HEALTHY diet — found about twice the weight loss on the minimally-processed one. A second, independent experiment pointing the same way, even with both diets designed to be nutritious."
+      },
+      "effect_size": {
+        "research": "-2.06% (MPF) vs -1.05% (UPF) body weight at 8 weeks",
+        "simple": "about twice the weight loss on the less-processed diet"
+      },
+      "source_type": "single-study",
+      "source_citation": "Dicken et al. 2025, Ultra-processed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial, Nature Medicine.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-3"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "experimental",
+      "source_cluster": "dicken-rct",
+      "caveat": {
+        "research": "Small (n=55); the between-diet gap is ~1 percentage point of body weight over 8 weeks; cardiometabolic markers did NOT differ between diets (both improved from baseline); Nature Medicine published formal critiques (Ludwig et al.; Robinson & Forde; Wang & Peng) and the authors' reply — carry the dispute.",
+        "simple": "Small study; the actual difference was about 1% of body weight; blood-pressure and cholesterol markers were the same on both diets; and other scientists formally challenged the conclusions."
+      }
+    },
+    {
+      "finding_id": "F-cau-3",
+      "node_id": "n_cause_intake",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A 2024 systematic review of ultra-processed-food RCTs found only four qualifying trials and no significant effect in 30 of 42 outcomes, concluding that 'the available evidence to date cannot establish a clear causal link between the degree of food processing and adverse health outcomes.' The controlled-trial base is too small and heterogeneous to certify a general causal claim beyond the specific intake finding.",
+        "simple": "A 2024 review of the actual experiments found only four, with no significant effect in 30 of 42 things they measured. It concluded the evidence 'cannot establish a clear causal link' between how processed food is and harm. The experiments are too few to prove a broad claim."
+      },
+      "effect_size": {
+        "research": "30/42 outcomes null across 4 RCTs; 'cannot establish a clear causal link'",
+        "simple": "no significant effect in 30 of 42 outcomes"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Dominguez-Rodriguez et al. 2024, Ultra-processed foods consumption and health-related outcomes: a systematic review of randomized controlled trials, Frontiers in Nutrition 11:1421728.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-cau-1",
+        "F-cau-2"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "rct-review",
+      "caveat": {
+        "research": "Many of the 42 outcomes are secondary clinical markers, not intake/weight; a null across underpowered trials is weak evidence of no effect, and this review includes the Hall ward study among its four.",
+        "simple": "Most of those 42 measures were secondary health markers, not calories or weight — and 'no effect found' in tiny studies isn't proof there's none."
+      }
+    },
+    {
+      "finding_id": "F-policy-1",
+      "node_id": "n_policy",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "Two different policy questions live here. One is a judgement about evidence sufficiency — should authorities issue ultra-processed-specific guidance — on which official bodies openly split. The other is whether a given instrument measurably changes behaviour. Crucially, the strongest instrument evidence concerns NUTRIENT-based front-of-pack labels, not processing-based ones, so it speaks directly to nutrient policy and only by assumption to ultra-processed-specific policy.",
+        "simple": "Two separate policy questions: do the official panels think the evidence is good enough to single out 'ultra-processed food' (they disagree), and do labels actually change what people buy (yes — but those labels flag sugar and salt, not 'ultra-processed', which is a different target)."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Taillie et al. 2020, PLOS Medicine 17(2):e1003015; 2025 US DGAC scientific report (policy contrast).",
+      "triggers_split_to": [
+        "n_policy_guidance",
+        "n_policy_labels"
+      ],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "chile-labels",
+      "caveat": {
+        "research": "A framing of the two policy questions, not a measurement.",
+        "simple": "A point about two different policy questions, not a new study."
+      }
+    },
+    {
+      "finding_id": "F-gui-1",
+      "node_id": "n_policy_guidance",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "The 2025 US Dietary Guidelines Advisory Committee conducted a systematic review of ultra-processed food and obesity/body composition and graded the evidence insufficient to draw a conclusion, making no ultra-processed-specific recommendation — citing inconsistent definitions and evidence gaps. The strongest US institutional synthesis declined to issue the guidance the claim asserts is warranted.",
+        "simple": "The main US expert panel for the 2025-2030 dietary guidelines reviewed the evidence and decided it wasn't strong enough to make any specific recommendation about ultra-processed food — partly because 'ultra-processed' isn't defined consistently. The top US body chose not to issue the guidance."
+      },
+      "effect_size": {
+        "research": "qualitative; evidence graded insufficient, no recommendation",
+        "simple": "the US panel found the evidence not strong enough"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "2025 Dietary Guidelines Advisory Committee, Scientific Report (Dietary Patterns with Ultra-Processed Foods and Growth, Body Composition, and Risk of Obesity systematic review, 2024).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-gui-2"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "dgac-2025",
+      "caveat": {
+        "research": "'Insufficient to conclude' reflects a deliberately high bar and the definitional problem; it is not a finding that UPF is harmless.",
+        "simple": "'Not enough evidence to say' isn't the same as 'proven safe' — the bar is set high."
+      }
+    },
+    {
+      "finding_id": "F-gui-2",
+      "node_id": "n_policy_guidance",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Reviewing much the same literature, the Nordic Nutrition Recommendations 2023 scoping review concluded the evidence IS strong enough to support dietary recommendations to limit ultra-processed food, and the 2025 Lancet UPF Series (43 authors) argues the evidence base justifies broad policy action including labelling and marketing restriction. Two authoritative bodies reached the opposite evidence-sufficiency verdict from the US committee.",
+        "simple": "Looking at largely the same studies, a Nordic government review said the evidence IS good enough to tell people to cut ultra-processed food, and a 2025 Lancet series pushed for sweeping policy. Same evidence, opposite verdict from the US panel."
+      },
+      "effect_size": {
+        "research": "qualitative; 'strong enough to recommend limiting'",
+        "simple": "Nordic review and Lancet series say the evidence suffices"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Juul & Bere 2024, Food & Nutrition Research 68 (NNR 2023 scoping review); Monteiro et al. 2025, Lancet UPF Series.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-gui-1",
+        "F-rel-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "nordic-scoping",
+      "caveat": {
+        "research": "The Lancet Series is led by the NOVA concept's originators/advocates — labelled position evidence under the protocol, not sole support; the Nordic review carries the independent institutional weight here.",
+        "simple": "The Lancet series is written by the idea's leading champions, so it's a stated position — the Nordic review is the more neutral support."
+      }
+    },
+    {
+      "finding_id": "F-gui-3",
+      "node_id": "n_policy_guidance",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The bodies are reading similar data to opposite verdicts, so the disagreement is not only empirical: it turns partly on how high to set the evidentiary bar and on the unresolved definition of 'ultra-processed'. A guidance target that cannot be classified consistently (see the reliability leaf) is hard to legislate regardless of the association's strength — the guidance question inherits the concept question.",
+        "simple": "Because the experts split on the same evidence, the fight is partly about how much proof you demand — and about the fact that 'ultra-processed' isn't defined consistently. It's hard to write a rule around a category experts can't reliably apply, no matter how real the harm is."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Braesco et al. 2022, European Journal of Clinical Nutrition 76:1245-1253 (definitional dependence).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "theoretical",
+      "source_cluster": "nova-reliability",
+      "caveat": {
+        "research": "An interpretation of why the bodies disagree, linking to the reliability leaf; not a new measurement.",
+        "simple": "A point about why the experts disagree, connected to the definition problem."
+      }
+    },
+    {
+      "finding_id": "F-lab-1",
+      "node_id": "n_policy_labels",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Chile's 2016 Law of Food Labeling — mandatory front-of-pack 'high in' warning labels — was followed by a 23.7% fall in purchases of high-in sugar-sweetened beverages versus the pre-regulation-trend counterfactual, tracked across 2,383 households and ~70,000 household-months. This is strong policy-natural-experiment evidence that front-of-pack warning labels change what people buy.",
+        "simple": "After Chile put mandatory warning labels on the front of unhealthy products in 2016, purchases of labelled sugary drinks fell by about 24% compared with the trend beforehand, measured across ~2,400 households. Strong real-world evidence that front-of-pack warnings change buying."
+      },
+      "effect_size": {
+        "research": "-23.7% high-in sugar-sweetened-beverage purchases vs counterfactual",
+        "simple": "about 24% fewer sugary-drink purchases"
+      },
+      "source_type": "single-study",
+      "source_citation": "Taillie et al. 2020, An evaluation of Chile's Law of Food Labeling and Advertising on sugar-sweetened beverage purchases from 2015 to 2017, PLOS Medicine 17(2):e1003015.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-rel-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "quasi-experimental",
+      "source_cluster": "chile-labels",
+      "caveat": {
+        "research": "The labels flagged NUTRIENTS (added sugar/sodium/saturated-fat thresholds), NOT the ultra-processed category, and came bundled with marketing and school-sales restrictions; outcome is purchases, not consumption or health.",
+        "simple": "Those labels warned about sugar and salt, not 'ultra-processed' — and came with ad and school rules too. It measured what people bought, not what they ate or their health."
+      }
+    },
+    {
+      "finding_id": "F-lab-2",
+      "node_id": "n_policy_labels",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The label evidence's transportability to ultra-processed-specific policy is an assumption, not a finding. Chile targeted nutrients that are straightforward to measure and threshold; the ultra-processed category is defined by processing and, per the reliability leaf, cannot be applied consistently — so a warning label reading 'ultra-processed' would face a classification problem that a 'high in sugar' label does not. Evidence that nutrient labels work is not evidence that a processing label would.",
+        "simple": "That labels work for sugar and salt doesn't prove an 'ultra-processed' label would. Sugar is easy to measure and put a number on; 'ultra-processed' is a fuzzy category experts can't apply consistently — so a label based on it faces a problem the sugar label never did."
+      },
+      "effect_size": {
+        "research": "qualitative",
+        "simple": "qualitative"
+      },
+      "source_type": "single-study",
+      "source_citation": "Taillie et al. 2020, PLOS Medicine 17(2):e1003015 (nutrient-threshold basis); Braesco et al. 2022 (classification reliability).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "thin",
+      "evidence_type": "theoretical",
+      "source_cluster": "chile-labels",
+      "caveat": {
+        "research": "An interpretation of the target mismatch; no study has yet evaluated a processing-based front-of-pack label, so the AGAINST direction here is genuinely thin.",
+        "simple": "Nobody has yet tested an 'ultra-processed' label, so this is reasoning about the gap, not a study."
+      }
+    }
+  ]
+}

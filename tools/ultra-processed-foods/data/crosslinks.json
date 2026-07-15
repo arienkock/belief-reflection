@@ -1,0 +1,114 @@
+{
+  "topic": "Ultra-Processed Foods and Health",
+  "generated": "2026-07-15",
+  "tensions": [
+    {
+      "a": "F-con-1",
+      "b": "F-con-2",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "A review of 37 cohorts finds UPF associations survive diet-quality adjustment almost every time; a large single cohort finds the mortality association substantially attenuates after the same adjustment. A genuine live dispute about whether processing acts independently of nutrients.",
+        "simple": "One review says the link almost always holds after accounting for diet quality; one big study says it fades. They genuinely disagree about whether it's the processing or the nutrients."
+      }
+    },
+    {
+      "a": "F-bey-1",
+      "b": "F-con-2",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "'Does the category add value beyond nutrients' and 'is this association confounded by nutrients' are the same statistic viewed from two sides — survival of adjustment supports added value; attenuation implies redundancy. Which reading you take is an assumption about what adjustment means.",
+        "simple": "Whether the 'ultra-processed' label adds anything, and whether the link is really just nutrients, are the same test seen two ways. The same adjustment result can be read as 'the label adds something' or 'it was nutrients all along.'"
+      }
+    },
+    {
+      "a": "F-bey-1",
+      "b": "F-bey-2",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "Observational cohorts (adjustment survives) suggest the processing dimension adds value; the trial review calls the added value 'unresolved'. The verdict depends on which evidence type you privilege — adjusted cohorts or the sparse RCTs.",
+        "simple": "The long-term studies suggest the label adds something; the experiments say it's unresolved. Your answer depends on whether you trust the surveys or the (few) experiments more."
+      }
+    },
+    {
+      "a": "F-sub-1",
+      "b": "F-mag-1",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "The umbrella review's broad total-UPF associations vs the single-cohort finding that harm concentrates in a few subgroups (processed meat, sugary drinks) while others are null — a total-exposure average and a subgroup breakdown answer different questions; the aggregate can hide the structure.",
+        "simple": "The big pooled numbers treat all ultra-processed food as one thing; the subgroup study shows a few foods drive the harm and others don't. Lumping them together hides which is which."
+      }
+    },
+    {
+      "a": "F-gui-1",
+      "b": "F-gui-2",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "The US advisory committee graded the evidence insufficient and made no UPF-specific recommendation; Nordic and Lancet bodies reading similar data judged it strong enough to act. Same literature, opposite evidence-sufficiency verdicts.",
+        "simple": "The US panel said the evidence wasn't good enough; Nordic and Lancet experts said it was. Same studies, opposite calls."
+      }
+    },
+    {
+      "a": "F-lab-1",
+      "b": "F-rel-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "Chile's success is evidence that NUTRIENT-threshold labels change purchasing; the reliability leaf shows the ultra-processed category cannot be classified consistently. A processing-based label would face a classification problem a 'high in sugar' label does not, so the effect does not transport by assumption.",
+        "simple": "Chile's labels worked — but they flagged sugar, which is easy to measure. An 'ultra-processed' label targets a fuzzy category experts can't agree on, so you can't assume it would work the same way."
+      }
+    },
+    {
+      "a": "F-mag-1",
+      "b": "F-cau-1",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "A modest-to-moderate observational relative risk for total UPF and a ~500 kcal/day controlled-feeding intake effect are different estimands: the cohort measures long-run associations across free-living diets, the trial measures short-run intake under matched nutrients. Which one 'the effect of ultra-processing' means is an assumption.",
+        "simple": "A survey link across years and a 500-calorie jump in a two-week experiment measure different things. Both can be true; which one counts as 'the effect' is a choice."
+      }
+    },
+    {
+      "a": "F-cau-1",
+      "b": "F-cau-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "The landmark inpatient trial finds a clear processing effect on intake; the systematic review of four RCTs finds no significant effect in most outcomes and 'cannot establish a clear causal link'. The single strongest trial and the pooled trial base point different ways.",
+        "simple": "The best single experiment found a clear effect; the round-up of all four experiments found mostly nothing. The standout study and the whole set disagree."
+      }
+    },
+    {
+      "a": "F-cau-2",
+      "b": "F-cau-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "The 2025 outpatient crossover finds twice the weight loss on the minimally-processed diet; the RCT systematic review concludes the trial base cannot establish a clear causal link. A dispute about whether the small, short trials collectively demonstrate causation.",
+        "simple": "The 2025 experiment found more weight loss off ultra-processed food; the review of all the experiments says they don't add up to proof. They disagree on whether the experiments settle it."
+      }
+    },
+    {
+      "a": "F-rel-1",
+      "b": "F-mag-1",
+      "kind": "assumption-sensitivity",
+      "note": {
+        "research": "If trained raters agree on the ultra-processed category only at Fleiss' kappa ≈ 0.3, then the exposure in every pooled association is measured with substantial classification error — which makes what a pooled relative risk 'means' depend on an assumption that the category was applied consistently.",
+        "simple": "If experts barely agree on what's ultra-processed, then studies counting 'ultra-processed' intake are measuring a blurry thing — so the pooled risk numbers rest on assuming the category was applied consistently."
+      }
+    },
+    {
+      "a": "F-rel-1",
+      "b": "F-gui-2",
+      "kind": "cross-dimension",
+      "note": {
+        "research": "The reliability failure (a classification leaf) directly bears on the policy leaf: bodies calling for UPF-specific guidance are proposing to legislate a category that trained specialists cannot apply consistently. The concept problem and the policy proposal pull against each other across dimensions.",
+        "simple": "One finding says experts can't agree what 'ultra-processed' means; another says we should make rules about it. You can't easily legislate a category people can't reliably identify."
+      }
+    },
+    {
+      "a": "F-bey-1",
+      "b": "F-bey-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "Within the added-value leaf: the cohort review finds UPF associations survive diet-quality adjustment (added value), while the large single cohort finds its association attenuates after the same adjustment (redundant with nutrients). The same statistical operation, opposite verdicts.",
+        "simple": "One review says the ultra-processed link holds after accounting for nutrients (so the label adds something); one big study says it fades (so it was the nutrients). Same test, opposite answers."
+      }
+    }
+  ]
+}

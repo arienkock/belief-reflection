@@ -191,3 +191,33 @@ authoring date and add a standing re-search instruction to the audit
 ("re-run the Australia-ban search before any republish"). Recency flags
 exist for old sources; fast-moving topics need the mirror-image flag for
 new ones.
+
+---
+
+## Adoption log
+
+_A dated record of which improvements each subsequent session actually
+adopted, so the list above stays honest about what has been tried._
+
+**2026-07-15 — Ultra-Processed Foods and Health (third tool).** Adopted
+**I1** (read the primary source or its abstract/results for every
+load-bearing finding — Braesco κ, Lane umbrella grades, Fang cohort
+attenuation, Hall/Dicken magnitudes, Chile −23.7%), **I2** (independent
+review pass in a fresh agent context given only the protocol + data files,
+filed as `tools/ultra-processed-foods/build-notes/review-2026-07-15.md`;
+five findings applied, including two direction re-typings a single-pass
+author had missed), **I3** (`build-notes/source-extraction.md` table
+authored before findings), **I4** (compose pipeline promoted to
+`scripts/compose-tool.py`, parameterized by slug, with per-tool editorial
+input in `build-notes/compose-config.json`), **I6** (search trail logged in
+the source scan), **I7** (register-fidelity was the review's most useful
+catch — an "association"→"harm" drift in the subgroup leaf's simple
+register), and **I8** (fast-moving policy sources pinned with a re-search
+instruction for the FDA/USDA 2026 UPF definition). **I5** was addressed in
+writing (`build-notes/engine-decision-I5.md`): duplication re-affirmed but
+made script-generated from the canonical reference component, with a stated
+trigger (a fifth tool, or the next engine-logic change) to extract a shared
+module. New wrinkle worth carrying forward: making the definitional dispute
+its own scored leaf let a topic the prior session had deferred as "too
+definitional" become tractable — consider that move for other deferred
+definitional topics.
