@@ -360,7 +360,7 @@
         "simple": "the plastic reading may be contamination"
       },
       "source_type": "correspondence",
-      "source_citation": "Correspondence on Marfella et al., New England Journal of Medicine 390:1770–1772 (9 May 2024, NEJMc2404154), and authors' reply.",
+      "source_citation": "Correspondence on Marfella et al., New England Journal of Medicine, 9 May 2024 (letters incl. NEJMc2404154), and authors' reply.",
       "triggers_split_to": [],
       "tension_with": [],
       "source_strength": "moderate",
@@ -622,7 +622,7 @@
         "simple": "up to ~86% fewer microbeads in treated wastewater"
       },
       "source_type": "single-study",
-      "source_citation": "Dean et al. 2023, Reductions of Plastic Microbeads from Personal Care Products in Wastewater Effluents and Lake Waters Following Regulatory Actions, ACS ES&T Water (acsestwater.3c00526).",
+      "source_citation": "Akhbarizadeh et al. 2024, Reductions of Plastic Microbeads from Personal Care Products in Wastewater Effluents and Lake Waters Following Regulatory Actions, ACS ES&T Water 4(2):492–499.",
       "triggers_split_to": [],
       "tension_with": [
         "F-ban-2"

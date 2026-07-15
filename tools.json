@@ -19,5 +19,12 @@
     "path": "tools/ultra-processed-foods/",
     "status": "published",
     "summary": "Evidence on ultra-processed foods and health across five separately-measured questions: whether the 'ultra-processed' category can even be applied consistently, how large the observational disease association is, whether it reflects processing or the nutrients it carries, whether controlled trials show processing itself causes overeating, and what ultra-processed-food policy measurably changes. You report your own confidence per claim — the tool does not compute or update it for you."
+  },
+  {
+    "id": "microplastics",
+    "title": "Microplastics — Origin & Effects",
+    "path": "tools/microplastics/",
+    "status": "published",
+    "summary": "Evidence on microplastics across separately-measured questions — can concentrations even be measured reproducibly, are the particles reliably found inside the body or is it contamination, where do they come from, is human burden associated with disease, does controlled evidence show harm at realistic doses, are wild organisms harmed at realistic concentrations, and do source bans work — keeping the well-evidenced fact of their PRESENCE apart from the far weaker evidence of HARM. You report your own confidence per claim — the tool does not compute or update it for you."
   }
 ]
