@@ -103,9 +103,9 @@
       "source_citation": "Braesco et al. 2022, Ultra-processed foods: how functional is the NOVA system?, European Journal of Clinical Nutrition 76:1245-1253.",
       "triggers_split_to": [],
       "tension_with": [
+        "F-gui-2",
         "F-lab-1",
-        "F-mag-1",
-        "F-gui-2"
+        "F-mag-1"
       ],
       "source_strength": "moderate",
       "evidence_type": "observational",
@@ -155,8 +155,8 @@
       "source_citation": "Dicken & Batterham 2022, The Role of Diet Quality in Mediating the Association between Ultra-Processed Food Intake, Obesity and Health-Related Outcomes: A Review of Prospective Cohort Studies, Nutrients 14(1):23.",
       "triggers_split_to": [],
       "tension_with": [
-        "F-con-2",
-        "F-bey-2"
+        "F-bey-2",
+        "F-con-2"
       ],
       "source_strength": "moderate",
       "evidence_type": "review",
@@ -299,7 +299,7 @@
     {
       "finding_id": "F-mag-3",
       "node_id": "n_assoc_magnitude",
-      "direction": "COMPLICATES",
+      "direction": "CHALLENGES",
       "claim_paragraph": {
         "research": "In one of the most rigorously controlled cohorts (74,563 women + 39,501 men, 48,193 deaths over 30+ years), the highest-versus-lowest quartile of total ultra-processed intake carried only a 4% higher all-cause mortality (1536 vs 1472 deaths per 100,000 person-years), with no association for cardiovascular, cancer, or respiratory mortality. The pooled higher-tier relative risks and this modest, well-adjusted cohort estimate are both 'the magnitude' — which one to weigh is a judgement about design.",
         "simple": "In one of the best-run studies, the heaviest ultra-processed eaters had just 4% higher overall death risk — and no higher risk of dying from heart disease, cancer, or lung disease. So 'how big is the link' depends on which study you trust: the big pooled numbers, or this smaller, more carefully adjusted one."
@@ -362,8 +362,8 @@
       "source_citation": "Fang et al. 2024, BMJ 385:e078476.",
       "triggers_split_to": [],
       "tension_with": [
-        "F-con-1",
-        "F-bey-1"
+        "F-bey-1",
+        "F-con-1"
       ],
       "source_strength": "moderate",
       "evidence_type": "observational",
@@ -542,7 +542,8 @@
       "source_citation": "Dominguez-Rodriguez et al. 2024, Ultra-processed foods consumption and health-related outcomes: a systematic review of randomized controlled trials, Frontiers in Nutrition 11:1421728.",
       "triggers_split_to": [],
       "tension_with": [
-        "F-cau-1"
+        "F-cau-1",
+        "F-cau-2"
       ],
       "source_strength": "moderate",
       "evidence_type": "review",
@@ -621,7 +622,8 @@
       "source_citation": "Juul & Bere 2024, Food & Nutrition Research 68 (NNR 2023 scoping review); Monteiro et al. 2025, Lancet UPF Series.",
       "triggers_split_to": [],
       "tension_with": [
-        "F-gui-1"
+        "F-gui-1",
+        "F-rel-1"
       ],
       "source_strength": "moderate",
       "evidence_type": "review",
