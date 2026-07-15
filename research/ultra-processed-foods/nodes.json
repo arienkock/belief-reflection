@@ -69,8 +69,8 @@
         "simple": "'Ultra-processed' is defined clearly enough that different experts sort foods into it the same way."
       },
       "depends_on": {
-        "research": "Reliability is measured, not asserted: inter-rater agreement statistics (e.g. Fleiss' kappa) on classifying the same food lists. It also depends on information available — reliability is worse when only a product name is given than with a full ingredient list. Low reliability undercuts what any pooled UPF–outcome association can mean, because the exposure is being measured inconsistently.",
-        "simple": "This is testable: give many experts the same foods and see how often they agree. Agreement is worse when they only see a product name than a full ingredient list. If they can't agree what's 'ultra-processed', it's hard to trust studies that lump it all together."
+        "research": "Reliability is measured, not asserted: inter-rater agreement statistics (e.g. Fleiss' kappa) on classifying the same food lists. Notably, agreement in the main reliability study stayed low even when full ingredient information was available — so it is not simply a fixable data-access problem. Low reliability undercuts what any pooled UPF–outcome association can mean, because the exposure is being measured inconsistently.",
+        "simple": "This is testable: give many experts the same foods and see how often they agree. In the main test, agreement stayed poor even when they could see the full ingredient list — so it's not just a matter of giving them more information. If experts can't agree what's 'ultra-processed', it's hard to trust studies that lump it all together."
       },
       "scored": true,
       "evidence_caveats": []
@@ -177,7 +177,7 @@
       },
       "claim_evaluated": {
         "research": "The health harms of ultra-processed food are concentrated in specific subgroups (notably processed meats and sugar-sweetened beverages) rather than spread uniformly across all ultra-processed foods.",
-        "simple": "The harm comes mainly from particular ultra-processed foods — processed meats, sugary drinks — while others (like whole-grain breads or yogurt) look neutral."
+        "simple": "The harm comes mainly from particular ultra-processed foods — processed meats, sugary drinks — while many others show no clear link to earlier death."
       },
       "depends_on": {
         "research": "If true, a total-UPF exposure average mixes harmful, neutral, and possibly protective subgroups, so the aggregate understates the worst categories and overstates the benign ones — which changes what a single 'ultra-processed' policy target would capture. Depends on the subgroup breakdown within cohorts; independent corroboration across cohorts is the test of whether the pattern is robust.",
