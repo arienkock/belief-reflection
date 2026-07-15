@@ -76,7 +76,8 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "rests on a single dedicated reliability study (Braesco 2022)"
+        "rests on a single dedicated reliability study (Braesco 2022)",
+        "no qualifying FOR located — one-sided"
       ]
     },
     {
@@ -187,15 +188,15 @@
       "role": "leaf",
       "question": {
         "research": "Are harms concentrated in specific ultra-processed subgroups rather than uniform across all ultra-processed food?",
-        "simple": "Is it certain ultra-processed foods (like processed meat and fizzy drinks) doing the damage — not all of them equally?"
+        "simple": "Is it certain ultra-processed foods (like processed meat and fizzy drinks) most linked to disease — not all of them equally?"
       },
       "claim_evaluated": {
         "research": "The health harms of ultra-processed food are concentrated in specific subgroups (notably processed meats and sugar-sweetened beverages) rather than spread uniformly across all ultra-processed foods.",
-        "simple": "The harm comes mainly from particular ultra-processed foods — processed meats, sugary drinks — while many others show no clear link to earlier death."
+        "simple": "The link to disease is concentrated in particular ultra-processed foods — processed meats, sugary drinks — while many others show no clear link."
       },
       "depends_on": {
         "research": "If true, a total-UPF exposure average mixes harmful, neutral, and possibly protective subgroups, so the aggregate understates the worst categories and overstates the benign ones — which changes what a single 'ultra-processed' policy target would capture. Depends on the subgroup breakdown within cohorts; independent corroboration across cohorts is the test of whether the pattern is robust.",
-        "simple": "If some ultra-processed foods are harmful and others aren't, then lumping them together as one number is misleading — and a policy that treats all ultra-processed food the same hits the harmless ones too. The test is whether different studies find the same bad-and-neutral split."
+        "simple": "If some ultra-processed foods are linked to harm and others aren't, then lumping them together as one number is misleading — and a policy that treats all ultra-processed food the same hits the unlinked ones too. The test is whether different studies find the same bad-and-neutral split."
       },
       "scored": true,
       "evidence_caveats": [

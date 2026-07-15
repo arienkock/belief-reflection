@@ -118,14 +118,14 @@
     {
       "finding_id": "F-rel-2",
       "node_id": "n_concept_reliable",
-      "direction": "SUPPORTS",
+      "direction": "COMPLICATES",
       "claim_paragraph": {
-        "research": "Defenders of the concept argue that NOVA has validity and utility for science and policy and that the ultra-processed category tracks something real that nutrient profiling misses. However, these defences are made largely on grounds of utility and construct validity; the scan located no source rebutting the measured inter-rater reliability figures with a competing reliability estimate.",
-        "simple": "Supporters argue the 'ultra-processed' idea is useful and captures something real that a nutrient label misses. But their defence is mostly about usefulness — none of it shows that experts actually DO agree on what counts, which is the specific problem here."
+        "research": "Defenders of the concept argue that NOVA has validity and utility for science and policy and that the ultra-processed category tracks something real that nutrient profiling misses. But these defences are made on grounds of utility and construct validity, not measured reliability: no located source rebuts the inter-rater figures with a competing reliability estimate. So they complicate the picture (the category may be useful despite poor agreement) without providing evidence that classifiers actually agree — the FOR direction of this leaf carries no independent evidence.",
+        "simple": "Supporters argue the 'ultra-processed' idea is useful and captures something real a nutrient label misses. That may be true — but it's an argument about usefulness, not about whether experts agree on what counts. Nobody has shown they DO agree, so there's really no evidence on the 'yes, it's consistent' side."
       },
       "effect_size": {
         "research": "qualitative; utility argued, measured reliability not rebutted",
-        "simple": "argues the idea is useful, not that experts agree"
+        "simple": "argues usefulness, not that experts agree"
       },
       "source_type": "single-study",
       "source_citation": "e.g. Monteiro et al., The validity and utility of Nova and the concept of ultra-processed foods for science and policy, Nature Food (2026); AJCN 2023 debate 'YES' position.",
@@ -135,7 +135,7 @@
       "evidence_type": "theoretical",
       "source_cluster": "nova-defence",
       "caveat": {
-        "research": "Position/utility argument from the concept's proponents; not a measured reliability rebuttal — the FOR side of this leaf is genuinely thin.",
+        "research": "Position/utility argument from the concept's proponents; not a measured reliability rebuttal — the FOR side of this leaf carries no independent evidence, so the leaf is effectively one-sided.",
         "simple": "An argument from the idea's supporters, not evidence that classification is consistent."
       }
     },
@@ -156,6 +156,7 @@
       "triggers_split_to": [],
       "tension_with": [
         "F-bey-2",
+        "F-bey-3",
         "F-con-2"
       ],
       "source_strength": "moderate",
@@ -195,7 +196,7 @@
     {
       "finding_id": "F-bey-3",
       "node_id": "n_concept_beyond",
-      "direction": "COMPLICATES",
+      "direction": "CHALLENGES",
       "claim_paragraph": {
         "research": "The large 2024 US cohort found its ultra-processed-food–mortality association became 'less pronounced after overall dietary quality was taken into account, suggesting that dietary quality has a stronger influence on long term health than ultra-processed food consumption' — evidence that, in at least this dataset, much of the signal tracks nutrients the category is supposed to add value beyond. The added-value question and the confounding question are the same statistic read from two sides.",
         "simple": "The biggest recent US study found the ultra-processed link got weaker once overall diet quality was accounted for — hinting that a lot of the harm is really about the nutrients, which is exactly what the label is supposed to add value beyond. Whether the label adds anything and whether the link is confounded are the same question."
@@ -207,7 +208,9 @@
       "source_type": "single-study",
       "source_citation": "Fang et al. 2024, Association of ultra-processed food consumption with all cause and cause specific mortality, BMJ 385:e078476.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-bey-1"
+      ],
       "source_strength": "moderate",
       "evidence_type": "observational",
       "source_cluster": "bmj-cohort",
@@ -403,11 +406,11 @@
       "direction": "SUPPORTS",
       "claim_paragraph": {
         "research": "In the 2024 US cohort, the total-ultra-processed association was driven by specific subgroups rather than spread evenly: meat/poultry/seafood-based ready-to-eat products showed the strongest and most consistent association with mortality, followed by sugar- and artificially-sweetened beverages, dairy-based desserts, and ultra-processed breakfast foods, while several other subgroups (fats/condiments/sauces, packaged sweet and savory snacks, ready-to-eat dishes) showed no significant association. The category is not internally uniform.",
-        "simple": "In the big US study, the harm came mostly from particular foods — processed meats most of all, then sugary drinks, dairy desserts, and processed breakfast foods — while several other ultra-processed foods showed no clear link to earlier death. Not all ultra-processed foods behaved the same."
+        "simple": "In the big US study, the link to earlier death was strongest for particular foods — processed meats most of all, then sugary drinks, dairy desserts, and processed breakfast foods — while several other ultra-processed foods showed no clear link. Not all ultra-processed foods behaved the same."
       },
       "effect_size": {
         "research": "processed meat strongest; several UPF subgroups null",
-        "simple": "processed meat worst; several others showed no link"
+        "simple": "processed meat most strongly linked; several others showed no link"
       },
       "source_type": "single-study",
       "source_citation": "Fang et al. 2024, BMJ 385:e078476 (subgroup analyses).",
@@ -586,7 +589,7 @@
       "direction": "CHALLENGES",
       "claim_paragraph": {
         "research": "The 2025 US Dietary Guidelines Advisory Committee conducted a systematic review of ultra-processed food and obesity/body composition and graded the evidence insufficient to draw a conclusion, making no ultra-processed-specific recommendation — citing inconsistent definitions and evidence gaps. The strongest US institutional synthesis declined to issue the guidance the claim asserts is warranted.",
-        "simple": "The main US expert panel reviewed the evidence in 2024 and decided it wasn't strong enough to make any specific recommendation about ultra-processed food — partly because 'ultra-processed' isn't defined consistently. The top US body chose not to issue the guidance."
+        "simple": "The main US expert panel for the 2025-2030 dietary guidelines reviewed the evidence and decided it wasn't strong enough to make any specific recommendation about ultra-processed food — partly because 'ultra-processed' isn't defined consistently. The top US body chose not to issue the guidance."
       },
       "effect_size": {
         "research": "qualitative; evidence graded insufficient, no recommendation",
@@ -662,7 +665,7 @@
       "node_id": "n_policy_labels",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Chile's 2016 Law of Food Labeling — mandatory front-of-pack 'high in' warning labels — was followed by a 23.7% fall (95% CI -23.8 to -23.7) in purchases of high-in sugar-sweetened beverages versus the pre-regulation-trend counterfactual, tracked across 2,383 households and ~70,000 household-months. This is strong policy-natural-experiment evidence that front-of-pack warning labels change what people buy.",
+        "research": "Chile's 2016 Law of Food Labeling — mandatory front-of-pack 'high in' warning labels — was followed by a 23.7% fall in purchases of high-in sugar-sweetened beverages versus the pre-regulation-trend counterfactual, tracked across 2,383 households and ~70,000 household-months. This is strong policy-natural-experiment evidence that front-of-pack warning labels change what people buy.",
         "simple": "After Chile put mandatory warning labels on the front of unhealthy products in 2016, purchases of labelled sugary drinks fell by about 24% compared with the trend beforehand, measured across ~2,400 households. Strong real-world evidence that front-of-pack warnings change buying."
       },
       "effect_size": {

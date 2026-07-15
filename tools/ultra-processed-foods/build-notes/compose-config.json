@@ -12,7 +12,7 @@
   "leaf_quality_override": {
     "n_concept_reliable": {
       "value": "thin",
-      "reason": "Mechanically two-sided (one cluster each way), but the FOR cluster (nova-defence) argues utility, not measured reliability, so the leaf effectively rests on a single reliability study (Braesco). Flag thin, not well-evidenced."
+      "reason": "One-sided: the only FOR-adjacent finding (nova-defence) argues utility, not measured reliability, so it is typed COMPLICATES and the leaf carries no independent FOR evidence. The AGAINST side (Braesco reliability study) is the well-evidenced one. Flag thin."
     }
   },
   "manual_caveats": {
@@ -30,7 +30,7 @@
     "n_policy_labels": ["strongest evidence targets NUTRIENTS (sugar/salt/fat), not processing — transportability to a UPF-specific label is an assumption"]
   },
   "audit_notes": {
-    "n_concept_reliable": "Marked thin by override: mechanically two-sided, but the FOR cluster (nova-defence) argues utility rather than measured reliability, so the leaf effectively rests on one reliability study (Braesco 2022, Fleiss' kappa 0.32/0.34). The AGAINST side is the well-evidenced one here.",
+    "n_concept_reliable": "One-sided (no independent FOR): the reliability question is answered by one solid study (Braesco 2022, Fleiss' kappa 0.32/0.34) finding poor agreement; the pro-concept defences argue utility, not measured reliability, so they are carried as COMPLICATES rather than counted as FOR evidence. Marked thin, not padded with a fake FOR.",
     "n_assoc_confound": "The pivotal leaf: dietquality-review (64/66 associations survive diet-quality adjustment) and bmj-cohort (association attenuates after the same adjustment) genuinely contradict each other and are typed as an empirical-contradiction crosslink. Retained on both sides rather than resolved.",
     "n_assoc_subgroup": "Both directions would come from the single bmj-cohort study, so the SUPPORTS side is single-cluster and no independent AGAINST was located; the umbrella review is carried as COMPLICATES (total-UPF exposure can't confirm or refute concentration). Flagged thin rather than padded.",
     "n_policy_labels": "The single FOR cluster (chile-labels) is strong but targets NUTRIENT labels, not the processing category; no study of a processing-specific label exists, so the AGAINST slot is deliberately empty. Scoped to purchases, not consumption or health.",

@@ -100,6 +100,15 @@
         "research": "The reliability failure (a classification leaf) directly bears on the policy leaf: bodies calling for UPF-specific guidance are proposing to legislate a category that trained specialists cannot apply consistently. The concept problem and the policy proposal pull against each other across dimensions.",
         "simple": "One finding says experts can't agree what 'ultra-processed' means; another says we should make rules about it. You can't easily legislate a category people can't reliably identify."
       }
+    },
+    {
+      "a": "F-bey-1",
+      "b": "F-bey-3",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "Within the added-value leaf: the cohort review finds UPF associations survive diet-quality adjustment (added value), while the large single cohort finds its association attenuates after the same adjustment (redundant with nutrients). The same statistical operation, opposite verdicts.",
+        "simple": "One review says the ultra-processed link holds after accounting for nutrients (so the label adds something); one big study says it fades (so it was the nutrients). Same test, opposite answers."
+      }
     }
   ]
 }
