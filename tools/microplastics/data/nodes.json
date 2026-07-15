@@ -10,7 +10,7 @@
     {
       "id": "n_root",
       "parent_id": null,
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "What does the evidence show about microplastics — where they come from, whether we can measure them, and what they do to health and the environment?",
       "children": [
         "n_measure",
@@ -30,12 +30,14 @@
       },
       "coverage_note": "Authored dimensions: measurement/detection reliability, environmental origin, human-health association, controlled human-harm evidence, ecological harm, and source policy. DELIBERATELY NOT COVERED (invisible to this tool): the plastic-additive chemicals that leach from particles (bisphenols, phthalates, flame retardants) as a separate toxicology, scored only where a health finding bundles them; nanoplastics as a distinct class except where a cited study reports micro- AND nano-plastics together; airborne/indoor exposure and ingestion-vs-inhalation route apportionment beyond what a finding carries; the climate/carbon footprint of plastics; macroplastic entanglement and ingestion (turtles, seabirds) as distinct from micro-scale effects; economic-cost estimates; and whether plastic production or use SHOULD be restricted all things considered — a values question this tool records no verdict on. Absence is a scope choice, not evidence of no effect. Three definitional boundaries: 'present' is not 'harmful' (detecting a particle in a tissue is not evidence it damages it); 'harm at high laboratory dose' is not 'harm at environmental concentration'; and 'microplastic' (<5 mm) is not 'nanoplastic' (<1 µm) — findings must not silently swap them.",
       "scored": false,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "presence is far better evidenced than harm — confidence on 'microplastics are everywhere' does not transfer to 'microplastics are harming us'"
+      ]
     },
     {
       "id": "n_measure",
       "parent_id": "n_root",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "thin",
       "label": "Can we even measure microplastics and our exposure to them reliably?",
       "children": [
         "n_measure_reliable",
@@ -52,12 +54,14 @@
       },
       "coverage_note": "Covers cross-laboratory reproducibility of quantification and the contamination-vs-real-signal question for human-tissue detection. Does not adjudicate any single analytical technique (Pyr-GC/MS vs FTIR vs Raman vs Nile Red) as a whole, nor the separate question of what size classes current methods can even see.",
       "scored": false,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "measurement validity is itself contested — read every exposure and harm number in that light"
+      ]
     },
     {
       "id": "n_measure_reliable",
       "parent_id": "n_measure",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "thin",
       "label": "Can microplastic concentrations be measured consistently across different laboratories and methods?",
       "children": [],
       "role": "leaf",
@@ -74,12 +78,16 @@
         "simple": "This is testable: give many labs the same material and see how close their answers land. In the big shared test they were far apart — the number you get depends heavily on the method used. If labs can't agree on the amount, it's hard to trust exposure figures built on those measurements."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "rests on interlaboratory comparison exercises; the VAMAS 2025 ring trial (84 labs) is the load-bearing evidence",
+        "no qualifying FOR located — one-sided",
+        "fast-moving: Re-check whether achieved cross-laboratory reproducibility (ISO/VAMAS standardisation) has been demonstrated before any republish — the FOR side is standardisation-in-progress at authoring time."
+      ]
     },
     {
       "id": "n_measure_body",
       "parent_id": "n_measure",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Are microplastics reliably detected inside the human body, rather than being sampling/laboratory contamination?",
       "children": [],
       "role": "leaf",
@@ -96,12 +104,14 @@
         "simple": "The catch is that plastic is everywhere in a lab — in the air, on clothes, in the equipment — so a 'positive' result only counts if the study ran clean 'blank' controls to prove the plastic didn't come from the lab, and confirmed it was really plastic (fat and protein in tissue can fool the test). Early studies often skipped this; careful ones tend to find less. So the question is whether the finding survives those checks."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "all human-tissue detections inherit a contamination risk; concentrations from studies without rigorous procedural blanks may be overestimates"
+      ]
     },
     {
       "id": "n_origin",
       "parent_id": "n_root",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Where do microplastics come from?",
       "children": [
         "n_origin_sources"
@@ -117,12 +127,14 @@
       },
       "coverage_note": "Covers whether dominant sources are identified and quantified well enough to prioritise. Does not separately score airborne vs waterborne pathways, marine vs freshwater vs terrestrial partitioning, or the fate/transport of particles once released — only where a finding carries them.",
       "scored": false,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "source apportionment covers primary microplastics (15–31% of the total); the dominant secondary fraction is poorly quantified"
+      ]
     },
     {
       "id": "n_origin_sources",
       "parent_id": "n_origin",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Are the major sources of microplastic pollution identified and quantified well enough to target the biggest contributors?",
       "children": [],
       "role": "leaf",
@@ -140,12 +152,14 @@
         "simple": "It depends on whether the studies that add up sources agree on a few big ones you could actually act on — and on the fact that the biggest environmental share is old plastic breaking into fragments, which is hard to trace. We can rank the deliberately-made small plastics (tyres, fibres, beads) better than we can pin down the fragments."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "FOR evidence is a modelled global apportionment with wide uncertainty; regional source shares differ, and it addresses only the primary fraction"
+      ]
     },
     {
       "id": "n_health",
       "parent_id": "n_root",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "thin",
       "label": "Do microplastics harm human health?",
       "children": [
         "n_health_assoc",
@@ -162,12 +176,14 @@
       },
       "coverage_note": "Covers the observational human association and controlled-model causal evidence for microplastic PARTICLES. The toxicology of additive chemicals that leach from plastics (bisphenols, phthalates) is out of scope except where a finding bundles them. Long-term human disease endpoints cannot be tested experimentally in people, so the causal leaf relies on animal/in-vitro models with the attendant extrapolation caveat.",
       "scored": false,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "the human-harm evidence is early and thin; neither presence in the body nor high-dose laboratory harm establishes harm at real exposure"
+      ]
     },
     {
       "id": "n_health_assoc",
       "parent_id": "n_health",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "thin",
       "label": "Is higher microplastic exposure or internal burden associated with worse human health outcomes?",
       "children": [],
       "role": "leaf",
@@ -184,12 +200,15 @@
         "simple": "This rides on essentially one study: people whose artery plaque contained microplastics had about 4.5 times the rate of heart attacks, strokes, or death over three years. But it's a single study, other scientists formally challenged whether the plastic measurement was contamination, and even its authors say it doesn't prove the plastic caused the harm. Nothing has replicated it yet."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "rests essentially on one contested observational study (Marfella 2024); no independent replication located",
+        "fast-moving: Re-search for independent replications of Marfella 2024 before any republish — this leaf rests on a single 2024 study and would move if it is replicated or refuted."
+      ]
     },
     {
       "id": "n_health_cause",
       "parent_id": "n_health",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Does controlled evidence show microplastics cause biological harm at doses relevant to real human exposure?",
       "children": [],
       "role": "leaf",
@@ -206,12 +225,15 @@
         "simple": "Split it in two: do experiments ever show harm (yes, often), and do they show it at real-life amounts (mostly no). Most studies use far more plastic than anyone actually encounters — one review found only about 17% of the amounts tested even occur in nature. Expert reviews say harm at today's real exposure levels hasn't been shown. Harm at a huge dose doesn't prove harm at a tiny one."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "controlled harm is largely demonstrated at doses far above real human exposure — 'harm at a realistic dose' is the contested part",
+        "many studies use uniform polystyrene microspheres, unlike environmental particles"
+      ]
     },
     {
       "id": "n_environ",
       "parent_id": "n_root",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Do microplastics harm the environment?",
       "children": [
         "n_environ_wildlife"
@@ -227,12 +249,14 @@
       },
       "coverage_note": "Covers harm to aquatic (marine and freshwater) organisms at realistic concentrations, the best-studied ecological compartment. Terrestrial/soil ecosystems, whole-ecosystem and food-web effects, and macroplastic entanglement/ingestion are out of scope except where a finding carries them.",
       "scored": false,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "the ecological evidence base is larger than the human one but shares the concentration-realism problem"
+      ]
     },
     {
       "id": "n_environ_wildlife",
       "parent_id": "n_environ",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Do microplastics cause measurable harm to aquatic organisms at environmentally realistic concentrations?",
       "children": [],
       "role": "leaf",
@@ -249,12 +273,14 @@
         "simple": "You have to weigh two things: studies pooling many experiments do find real harm (less eating, slower growth, fewer offspring, more death), but most of that harm showed up only at high test doses — and risk models suggest the danger level is passed only in a minority of places sampled. The harm is real; whether it happens at everyday environmental levels, and where, is what's disputed."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "demonstrated effects are common but mostly at concentrations above ambient; harm at environmentally realistic concentrations is the contested part"
+      ]
     },
     {
       "id": "n_policy",
       "parent_id": "n_root",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "What would microplastic policy measurably change?",
       "children": [
         "n_policy_bans"
@@ -270,12 +296,14 @@
       },
       "coverage_note": "Covers whether source-targeting bans measurably reduce pollution, using cosmetic-microbead bans as the worked case. Broader instruments (extended producer responsibility, tyre/textile regulation, wastewater capture, the global plastics treaty) are visible only where a cited finding carries them, and whether any such policy is JUSTIFIED on cost/benefit grounds is a values question outside this map.",
       "scored": false,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "a source ban's effect on TOTAL pollution depends on the target's share of the total — a small target caps the achievable reduction"
+      ]
     },
     {
       "id": "n_policy_bans",
       "parent_id": "n_policy",
-      "evidence_quality": "pending-phase2",
+      "evidence_quality": "well-evidenced",
       "label": "Do source-targeting policies such as microbead bans measurably reduce microplastic pollution?",
       "children": [],
       "role": "leaf",
@@ -293,7 +321,10 @@
         "simple": "It depends what you measure and how big the target was. A microbead ban can remove microbeads — but microbeads were only about 2% of the deliberately-made microplastics, and those are a small part of the total, most of which comes from larger plastic breaking down and from tyres and clothes. So the ban can work on paper yet barely dent the overall problem. And hard before-and-after measurements of a ban actually lowering pollution were thin."
       },
       "scored": true,
-      "evidence_caveats": []
+      "evidence_caveats": [
+        "the measured reduction is of the TARGETED source (cosmetic microbeads ≈ 2% of primary microplastics), not of total microplastic pollution",
+        "fast-moving: Re-run the EU intentionally-added-microplastic restriction (2023) and UN global plastics treaty search before any republish — the policy landscape was moving at authoring time."
+      ]
     }
   ]
 }

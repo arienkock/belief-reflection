@@ -250,8 +250,9 @@ def write_audit(slug, nodes, findings, config):
     lines.append("## Source-tier & recency sweep")
     lines.append("- Tertiary/aggregator/advocacy-press sources used as evidential basis: **0** (target: 0). "
                  "Press coverage was used only to LOCATE primary sources during the scan.")
-    lines.append("- Advocacy-adjacent sources carried as labelled position evidence only: the 2025 Lancet UPF "
-                 "Series (nova-defence / lancet-series) — never a scored node's sole support.")
+    advocacy_note = config.get("advocacy_note",
+                               "none located — no advocacy/industry source is any scored node's evidential basis.")
+    lines.append("- Advocacy-adjacent sources carried as labelled position evidence only: %s" % advocacy_note)
     recency_line = ", ".join(sorted({c for n in nodes["nodes"] for c in [cav for cav in n.get("evidence_caveats", []) if cav.startswith("recency")]}))
     lines.append("- Sources ≥~%dy old, flagged for refresh review: %s." % (recency, recency_line or "none"))
     lines.append("- Evidence-type mix: %s." % ", ".join("%s %d" % (k, v) for k, v in sorted(et.items(), key=lambda kv: -kv[1])))

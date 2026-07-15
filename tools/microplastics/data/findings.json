@@ -103,7 +103,10 @@
       "source_type": "single-study",
       "source_citation": "Ciornii et al. 2025, Interlaboratory Comparison Reveals State of the Art in Microplastic Detection and Quantification Methods, Analytical Chemistry 97:8719.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-assoc-1",
+        "F-body-1"
+      ],
       "source_strength": "moderate",
       "evidence_type": "experimental",
       "source_cluster": "interlab-vamas",
@@ -151,7 +154,10 @@
       "source_type": "single-study",
       "source_citation": "Leslie et al. 2022, Discovery and quantification of plastic particle pollution in human blood, Environment International 163:107199.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-cause-1",
+        "F-rel-1"
+      ],
       "source_strength": "moderate",
       "evidence_type": "observational",
       "source_cluster": "blood-leslie",
@@ -199,7 +205,9 @@
       "source_type": "systematic-review",
       "source_citation": "Systematic review of microplastics and nanoplastics in human tissues: evidence, analytical protocols, and methodological challenges, 2026 (ScienceDirect S2666831926000081); analytical-challenges reviews.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-assoc-1"
+      ],
       "source_strength": "moderate",
       "evidence_type": "review",
       "source_cluster": "contamination-review",
@@ -249,7 +257,9 @@
       "source_type": "report",
       "source_citation": "Boucher & Friot 2017, Primary Microplastics in the Oceans: A Global Evaluation of Sources, IUCN, Gland.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-ban-2"
+      ],
       "source_strength": "moderate",
       "evidence_type": "review",
       "source_cluster": "boucher-friot",
@@ -324,7 +334,11 @@
       "source_type": "single-study",
       "source_citation": "Marfella et al. 2024, Microplastics and Nanoplastics in Atheromas and Cardiovascular Events, New England Journal of Medicine 390:900–910.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-body-3",
+        "F-cause-1",
+        "F-rel-1"
+      ],
       "source_strength": "moderate",
       "evidence_type": "observational",
       "source_cluster": "marfella-nejm",
@@ -396,7 +410,12 @@
       "source_type": "systematic-review",
       "source_citation": "Exploring toxicological pathways of microplastics and nanoplastics: insights from animal and cellular models, Journal of Hazardous Materials 2025 (S0304389425007095).",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-assoc-1",
+        "F-body-1",
+        "F-cause-2",
+        "F-cause-3"
+      ],
       "source_strength": "moderate",
       "evidence_type": "review",
       "source_cluster": "tox-review",
@@ -420,7 +439,10 @@
       "source_type": "systematic-review",
       "source_citation": "Micro/nanoplastics effects on organisms: a review focusing on 'dose', Journal of Hazardous Materials 2021 (S0304389421010487); Bucci et al. 2020, Ecological Applications 30(2):e02044 (17% figure).",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-cause-1",
+        "F-wild-2"
+      ],
       "source_strength": "moderate",
       "evidence_type": "review",
       "source_cluster": "dose-critique",
@@ -444,7 +466,9 @@
       "source_type": "report",
       "source_citation": "SAPEA 2019, A Scientific Perspective on Microplastics in Nature and Society; WHO 2019, Microplastics in drinking-water.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-cause-1"
+      ],
       "source_strength": "strong",
       "evidence_type": "review",
       "source_cluster": "sapea",
@@ -494,7 +518,10 @@
       "source_type": "meta-analysis",
       "source_citation": "Foley et al. 2018, A meta-analysis of the effects of exposure to microplastics on fish and aquatic invertebrates, Science of the Total Environment 631–632:550–559.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-wild-2",
+        "F-wild-3"
+      ],
       "source_strength": "strong",
       "evidence_type": "review",
       "source_cluster": "foley-meta",
@@ -518,7 +545,10 @@
       "source_type": "meta-analysis",
       "source_citation": "Bucci, Tulio & Rochman 2020, What is known and unknown about the effects of plastic pollution: A meta-analysis and systematic review, Ecological Applications 30(2):e02044.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-cause-2",
+        "F-wild-1"
+      ],
       "source_strength": "strong",
       "evidence_type": "review",
       "source_cluster": "bucci-rochman",
@@ -542,7 +572,9 @@
       "source_type": "systematic-review",
       "source_citation": "Koelmans et al. 2022, Risk-based management framework for microplastics in aquatic ecosystems, Microplastics and Nanoplastics 2:12.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-wild-1"
+      ],
       "source_strength": "strong",
       "evidence_type": "review",
       "source_cluster": "koelmans-ssd",
@@ -592,7 +624,9 @@
       "source_type": "single-study",
       "source_citation": "Dean et al. 2023, Reductions of Plastic Microbeads from Personal Care Products in Wastewater Effluents and Lake Waters Following Regulatory Actions, ACS ES&T Water (acsestwater.3c00526).",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-ban-2"
+      ],
       "source_strength": "moderate",
       "evidence_type": "quasi-experimental",
       "source_cluster": "microbead-ban",
@@ -616,7 +650,10 @@
       "source_type": "report",
       "source_citation": "Boucher & Friot 2017, Primary Microplastics in the Oceans, IUCN (cosmetics ~2%; 'will not solve the wider problem').",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-ban-1",
+        "F-src-1"
+      ],
       "source_strength": "moderate",
       "evidence_type": "review",
       "source_cluster": "boucher-friot",

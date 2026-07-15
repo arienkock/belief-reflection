@@ -2,6 +2,7 @@
   "_comment": "Per-tool editorial input to scripts/compose-tool.py. The script computes structural audit flags mechanically; this file supplies the topic-specific substantive caveats, the non-leaf evidence_quality judgements, leaf-quality overrides (with reason), and fast-moving re-search instructions (improvement I8). Keeping these here rather than in the script keeps the script generic across tools.",
   "map_version": "v1",
   "recency_years": 10,
+  "advocacy_note": "none — every scored leaf rests on peer-reviewed studies or national/international expert syntheses (SAPEA, WHO, IUCN, Koelmans risk framework); no advocacy or industry source is any leaf's evidential basis.",
   "nonleaf_quality": {
     "n_root": "well-evidenced",
     "n_measure": "thin",
