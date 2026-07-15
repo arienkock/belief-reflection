@@ -1,0 +1,299 @@
+{
+  "topic": "Ultra-Processed Foods and Health",
+  "generated": "2026-07-15",
+  "registers": [
+    "research",
+    "simple"
+  ],
+  "default_register": "research",
+  "nodes": [
+    {
+      "id": "n_root",
+      "parent_id": null,
+      "evidence_quality": "pending-phase2",
+      "label": "What does the evidence show about ultra-processed foods and health — and is it the processing, or the nutrients the processing carries?",
+      "children": [
+        "n_concept",
+        "n_assoc",
+        "n_cause",
+        "n_policy"
+      ],
+      "role": "topic",
+      "question": {
+        "research": "What does the evidence show about ultra-processed foods and health — and is it the processing, or the nutrients the processing carries?",
+        "simple": "Are ultra-processed foods bad for you?"
+      },
+      "depends_on": {
+        "research": "'Bad for you' is not one measurable quantity. The literature separately measures whether the ultra-processed (NOVA) category is even reliably definable, the size of the observational disease association, whether that association is about processing or about the nutrients and lifestyle it travels with, whether controlled trials show processing itself causes harm, and what ultra-processed-food policy measurably changes — with sharply different degrees of consensus. Public and political debate routinely lets confidence on one of these stand in for all of them; this tree exists to keep them apart.",
+        "simple": "There's no single 'is it bad' score. Whether 'ultra-processed' even means one clear thing, whether heavy eaters get sicker, whether it's the processing or just the sugar and salt, whether careful experiments show processing itself causes overeating, and whether food policies work are different questions with different-quality evidence. Pick one."
+      },
+      "coverage_note": "Authored dimensions: the validity of the category, the observational association, whether processing or nutrients drive it, controlled-trial causal evidence, and restriction/labelling policy. DELIBERATELY NOT COVERED (invisible to this tool): 'food addiction' as a clinical construct; individual additives and their toxicology (emulsifiers, nitrites, non-sugar sweeteners) as separate claims; environmental/food-system sustainability; children and adolescents as a separate population (this map is adult-focused, where the RCT and cohort evidence sits); eating-disorder outcomes; industry political economy and marketing-to-children beyond what a policy finding carries; and whether restricting ultra-processed food is JUSTIFIED all things considered — a values question this tool records no verdict on. Absence is a scope choice, not evidence of no effect. Two definitional boundaries: 'processed' is not 'ultra-processed' (NOVA group 3 vs group 4), and nutrient-targeted policy (e.g. sugar labels) is not processing-targeted policy — findings must not silently swap them.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_concept",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "Is 'ultra-processed' a valid, usable category — or a label that can't be applied consistently and adds little beyond known nutrients?",
+      "children": [
+        "n_concept_reliable",
+        "n_concept_beyond"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "Is 'ultra-processed' a valid, usable category — or a label that can't be applied consistently and adds little beyond known nutrients?",
+        "simple": "Does 'ultra-processed' even mean one clear thing — and does it tell us anything sugar, salt and fat don't already?"
+      },
+      "depends_on": {
+        "research": "Two separable questions: whether trained raters even assign the same foods to the NOVA 'ultra-processed' group (reliability), and whether the category predicts harm beyond what conventional nutrient profiling already captures (added value). A category can be unreliable yet still track something real, or reliable yet redundant with nutrients — the two failures are different and are scored separately.",
+        "simple": "First: if you give the same food to different experts, do they agree it's 'ultra-processed'? Second: even if they agree, does the label warn you of anything that checking sugar, salt and fat wouldn't? Those are two different ways the category could be weak."
+      },
+      "coverage_note": "Covers the classification's reliability and its added value over nutrient profiling. Does not adjudicate the NOVA system's four-group structure as a whole, nor rival processing-classification schemes (SIGA, IARC/IFIC) except where a finding carries them.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_concept_reliable",
+      "parent_id": "n_concept",
+      "evidence_quality": "pending-phase2",
+      "label": "Can the NOVA 'ultra-processed' category be applied consistently by different classifiers?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Can the NOVA 'ultra-processed' category be applied consistently by different classifiers?",
+        "simple": "Do different experts agree on what counts as 'ultra-processed'?"
+      },
+      "claim_evaluated": {
+        "research": "The NOVA 'ultra-processed' category can be applied consistently — different trained classifiers reliably assign the same foods to the same group.",
+        "simple": "'Ultra-processed' is defined clearly enough that different experts sort foods into it the same way."
+      },
+      "depends_on": {
+        "research": "Reliability is measured, not asserted: inter-rater agreement statistics (e.g. Fleiss' kappa) on classifying the same food lists. It also depends on information available — reliability is worse when only a product name is given than with a full ingredient list. Low reliability undercuts what any pooled UPF–outcome association can mean, because the exposure is being measured inconsistently.",
+        "simple": "This is testable: give many experts the same foods and see how often they agree. Agreement is worse when they only see a product name than a full ingredient list. If they can't agree what's 'ultra-processed', it's hard to trust studies that lump it all together."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_concept_beyond",
+      "parent_id": "n_concept",
+      "evidence_quality": "pending-phase2",
+      "label": "Does ultra-processed status predict harm beyond what conventional nutrient profiling already captures?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does ultra-processed status predict harm beyond what conventional nutrient profiling already captures?",
+        "simple": "Does the 'ultra-processed' label warn of anything that checking sugar, salt and fat doesn't?"
+      },
+      "claim_evaluated": {
+        "research": "Ultra-processed status carries information about health risk over and above conventional nutrient profiling (sugar, salt, saturated fat, energy density) — the processing dimension adds predictive value.",
+        "simple": "Knowing a food is 'ultra-processed' tells you something about health risk beyond what its sugar, salt and fat already tell you."
+      },
+      "depends_on": {
+        "research": "Depends on whether UPF–outcome associations persist once nutrient composition or diet-quality indices are adjusted for. Persistence supports added value; full attenuation implies the label is a proxy for nutrients already measurable. This is the added-value framing; the closely related n_assoc_confound leaf asks the same statistical question from the association's side — they are scored separately because 'the concept is redundant' and 'this particular association is confounded' are different claims.",
+        "simple": "If the 'ultra-processed' link to disease survives after you account for sugar, salt and fat, the label is adding something. If it vanishes, the label was just standing in for nutrients you could already measure."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "How is ultra-processed food consumption related to disease — how large, and is it the processing?",
+      "children": [
+        "n_assoc_magnitude",
+        "n_assoc_confound",
+        "n_assoc_subgroup"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "How is ultra-processed food consumption related to disease — how large, and is it the processing?",
+        "simple": "Do people who eat more ultra-processed food get sicker — and is the food itself the reason?"
+      },
+      "depends_on": {
+        "research": "Depends on WHICH question (does an association exist and how large, vs. does it survive adjustment for nutrients and confounders, vs. is it uniform across UPF types), and on measurement (almost all evidence is self-reported diet via food-frequency questionnaires, with residual confounding and healthy-user bias live throughout).",
+        "simple": "Depends what you're asking (is there a link, how big, does it hold up when you account for a bad diet generally, and is every ultra-processed food equally to blame) — and on the fact that nearly all of it rests on people reporting their own eating, which is error-prone."
+      },
+      "coverage_note": "Captures the magnitude of the observational association, whether it reflects processing after adjustment, and whether it is concentrated in UPF subgroups. Cause-in-the-controlled-trial sense lives under n_cause; the classification's validity lives under n_concept.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_magnitude",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Is higher ultra-processed food consumption associated with worse health outcomes at a meaningful magnitude?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Is higher ultra-processed food consumption associated with worse health outcomes at a meaningful magnitude?",
+        "simple": "Do people who eat the most ultra-processed food have clearly worse health?"
+      },
+      "claim_evaluated": {
+        "research": "Higher ultra-processed food consumption is associated with worse health outcomes (all-cause mortality, cardiovascular disease, type-2 diabetes, obesity) at a magnitude that is practically meaningful, not trivially small.",
+        "simple": "People who eat the most ultra-processed food have noticeably worse health — the link is big enough to matter."
+      },
+      "depends_on": {
+        "research": "The existence of a broad association is not seriously disputed; the live questions are magnitude and interpretation. Umbrella-level syntheses report associations across dozens of outcomes, but individual well-controlled cohorts report modest hazard ratios (e.g. ~+4% all-cause mortality, top vs bottom quartile). Findings must report the number, not the adjective.",
+        "simple": "Almost everyone agrees there's SOME link across many diseases. The fight is how big — some careful studies find only a few percent higher risk. Look at the actual number, not the headline."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_confound",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Does the association reflect processing itself, rather than being explained by nutrients and confounding?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Does the association reflect processing itself, rather than being explained by nutrients and confounding?",
+        "simple": "Is it the processing that's harmful — or just that ultra-processed diets are high in sugar, salt and fat and go with unhealthy lifestyles?"
+      },
+      "claim_evaluated": {
+        "research": "The observed ultra-processed-food–disease association reflects a processing effect that survives adjustment for nutrient quality and confounders — it is not fully explained by the sugar/salt/fat/energy-density of these foods or by healthy-user bias.",
+        "simple": "The harm from ultra-processed food is really about the processing — it doesn't disappear once you account for the fact that these diets are also high in sugar, salt and fat and common among people with less healthy lifestyles."
+      },
+      "depends_on": {
+        "research": "The pivotal and most genuinely two-sided empirical leaf. Reviews disagree: some report associations 'remain significant and unchanged in magnitude' after diet-quality adjustment; others (including a large 2024 cohort) find the association substantially attenuates once overall dietary quality is controlled. Because the exposure and confounders are both derived from self-reported diet, residual confounding cannot be excluded. Adjustment can also over-control if nutrients are on the causal pathway.",
+        "simple": "This is the crux, and it's genuinely disputed. Some reviews say the link barely changes when you account for a poor diet; a big 2024 study says it fades a lot. And because everything comes from people reporting their own eating, you can never fully rule out that something else about heavy eaters explains it."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_assoc_subgroup",
+      "parent_id": "n_assoc",
+      "evidence_quality": "pending-phase2",
+      "label": "Are harms concentrated in specific ultra-processed subgroups rather than uniform across all ultra-processed food?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Are harms concentrated in specific ultra-processed subgroups rather than uniform across all ultra-processed food?",
+        "simple": "Is it certain ultra-processed foods (like processed meat and fizzy drinks) doing the damage — not all of them equally?"
+      },
+      "claim_evaluated": {
+        "research": "The health harms of ultra-processed food are concentrated in specific subgroups (notably processed meats and sugar-sweetened beverages) rather than spread uniformly across all ultra-processed foods.",
+        "simple": "The harm comes mainly from particular ultra-processed foods — processed meats, sugary drinks — while others (like whole-grain breads or yogurt) look neutral."
+      },
+      "depends_on": {
+        "research": "If true, a total-UPF exposure average mixes harmful, neutral, and possibly protective subgroups, so the aggregate understates the worst categories and overstates the benign ones — which changes what a single 'ultra-processed' policy target would capture. Depends on the subgroup breakdown within cohorts; independent corroboration across cohorts is the test of whether the pattern is robust.",
+        "simple": "If some ultra-processed foods are harmful and others aren't, then lumping them together as one number is misleading — and a policy that treats all ultra-processed food the same hits the harmless ones too. The test is whether different studies find the same bad-and-neutral split."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_cause",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "Do controlled trials show ultra-processing itself causes harm, independent of nutrients?",
+      "children": [
+        "n_cause_intake"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "Do controlled trials show ultra-processing itself causes harm, independent of nutrients?",
+        "simple": "When you actually run the experiment, does ultra-processing itself cause harm?"
+      },
+      "depends_on": {
+        "research": "Controlled-feeding trials can hold nutrient composition roughly constant and vary processing, isolating a processing effect that observational designs cannot. But such trials are few, small, and short, use highly controlled or metabolic-ward settings, and their mechanism (energy density, hyper-palatability, eating rate) is debated — a real intake effect does not by itself pin the causal lever on 'processing' as opposed to texture and energy density that nutrient policy could also target.",
+        "simple": "Experiments that feed people matched diets and change only the processing can show cause in a way surveys can't. But there are only a few, they're small and short, and even when they find an effect, researchers argue about WHY — is it the processing, or that these foods are soft, calorie-dense and easy to eat fast?"
+      },
+      "coverage_note": "Only the energy-intake / weight causal claim is scored — it is where controlled trials exist. Longer-term disease endpoints (CVD, cancer) cannot be tested in feeding trials and are covered observationally under n_assoc. Additive-specific mechanisms are out of scope (see root coverage note).",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_cause_intake",
+      "parent_id": "n_cause",
+      "evidence_quality": "pending-phase2",
+      "label": "Do ultra-processed diets cause excess energy intake or weight gain independent of nutrient composition?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do ultra-processed diets cause excess energy intake or weight gain independent of nutrient composition?",
+        "simple": "In controlled experiments, do people eat more and gain weight on an ultra-processed diet even when the nutrients are matched?"
+      },
+      "claim_evaluated": {
+        "research": "Ultra-processed diets cause excess energy intake and weight gain relative to less-processed diets, independent of nutrient composition (calories presented, macronutrients, sugar, sodium, fibre matched).",
+        "simple": "When diets are matched for nutrients and only the processing differs, people eat more and gain weight on the ultra-processed one."
+      },
+      "depends_on": {
+        "research": "Depends on the trial: the landmark inpatient RCT matched presented calories, energy density, macronutrients, sugar, sodium and fibre and still found ~+500 kcal/day; a 2025 outpatient crossover found more weight loss on minimally-processed diets following healthy-eating guidance. Both are small; the second drew formal published critiques. Whether the effect generalises beyond metabolic-ward or motivated-volunteer settings, and whether the operative lever is 'processing' or energy density and eating rate, are open.",
+        "simple": "The strongest study locked people in a research ward, matched the nutrients, and still saw ~500 extra calories a day on the ultra-processed diet. A 2025 study found more weight loss on the less-processed diet — but it's small and was formally criticised. Whether this holds in normal life, and whether it's really 'processing' versus just calorie-dense, easy-to-eat food, is unsettled."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy",
+      "parent_id": "n_root",
+      "evidence_quality": "pending-phase2",
+      "label": "What would ultra-processed-food policy — dietary guidance, warning labels — measurably change?",
+      "children": [
+        "n_policy_guidance",
+        "n_policy_labels"
+      ],
+      "role": "dimension",
+      "question": {
+        "research": "What would ultra-processed-food policy — dietary guidance, warning labels — measurably change?",
+        "simple": "Would ultra-processed-food rules and labels actually do anything?"
+      },
+      "depends_on": {
+        "research": "Depends on the question: whether official bodies judge the evidence strong enough to issue UPF-specific guidance (an evidence-sufficiency judgement authorities currently split on), versus whether a given instrument (front-of-pack warning labels) measurably changes behaviour. Crucially, the strongest label evidence targets NUTRIENTS, not the processing category — so it speaks to nutrient-based policy and only by assumption to UPF-specific policy.",
+        "simple": "Two different things: do the official expert panels think the evidence is good enough to tell people to cut ultra-processed food (they disagree), and do warning labels actually change what people buy (there's real evidence they do — but those labels flag sugar and salt, not 'ultra-processed', which isn't the same target)."
+      },
+      "coverage_note": "Covers evidence-sufficiency for UPF-specific guidance and the measured effect of warning labels. Whether such policies are JUSTIFIED (autonomy, cost, equity, industry effects) is a values question outside this map. Taxes, marketing bans, and reformulation mandates are visible only where a cited label study bundles them.",
+      "scored": false,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy_guidance",
+      "parent_id": "n_policy",
+      "evidence_quality": "pending-phase2",
+      "label": "Is the evidence strong enough to justify ultra-processed-specific dietary guidance?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Is the evidence strong enough to justify ultra-processed-specific dietary guidance?",
+        "simple": "Is the evidence good enough for official guidelines to tell people to cut ultra-processed food specifically?"
+      },
+      "claim_evaluated": {
+        "research": "The evidence is strong enough to justify ultra-processed-specific dietary guidance (beyond existing nutrient-based advice).",
+        "simple": "The evidence is solid enough for official dietary guidelines to single out 'ultra-processed food' and tell people to limit it."
+      },
+      "depends_on": {
+        "research": "This is an evidence-sufficiency judgement authorities directly split on: the 2025 US Dietary Guidelines Advisory Committee graded the evidence insufficient and made no UPF-specific recommendation, citing inconsistent definitions and gaps; the Nordic Nutrition Recommendations 2023 scoping review judged it strong enough to recommend limiting UPF; the 2025 Lancet Series argues for broad policy action. Same underlying literature, opposite verdicts — so the disagreement is partly about evidentiary standards and the definitional problem, not only about the data.",
+        "simple": "The experts genuinely disagree using the SAME evidence: a US advisory panel said it wasn't good enough and made no recommendation; a Nordic review said it was; a Lancet series pushed for sweeping action. When experts split on the same data, the fight is partly about how high to set the bar — and about whether 'ultra-processed' is even defined well enough to legislate."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    },
+    {
+      "id": "n_policy_labels",
+      "parent_id": "n_policy",
+      "evidence_quality": "pending-phase2",
+      "label": "Do front-of-pack warning labels reduce purchases of the targeted products?",
+      "children": [],
+      "role": "leaf",
+      "question": {
+        "research": "Do front-of-pack warning labels reduce purchases of the targeted products?",
+        "simple": "Do warning labels on the front of packages actually cut how much of those products people buy?"
+      },
+      "claim_evaluated": {
+        "research": "Front-of-pack warning labels reduce purchases of the targeted products.",
+        "simple": "Putting warning labels on the front of unhealthy products makes people buy less of them."
+      },
+      "depends_on": {
+        "research": "Depends on the outcome (purchases, measured here, vs. consumption or health, not) and — critically — on the target: the strongest evidence (Chile's 2016 law) concerns NUTRIENT warning labels (high-in sugar/salt/saturated-fat/calories), not NOVA processing labels, and bundles labelling with marketing and school-sales restrictions. It is strong evidence that nutrient-targeted front-of-pack labels change purchasing; its transportability to a processing-specific label is an assumption, not a finding.",
+        "simple": "The clear evidence (Chile) is that labels warning about SUGAR and SALT cut purchases — and they came packaged with ad and school rules. That's not the same as a label saying 'ultra-processed'. It shows warning labels can work; whether an 'ultra-processed' label specifically would is a leap."
+      },
+      "scored": true,
+      "evidence_caveats": []
+    }
+  ]
+}
