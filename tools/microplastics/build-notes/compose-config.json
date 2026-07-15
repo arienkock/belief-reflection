@@ -1,0 +1,52 @@
+{
+  "_comment": "Per-tool editorial input to scripts/compose-tool.py. The script computes structural audit flags mechanically; this file supplies the topic-specific substantive caveats, the non-leaf evidence_quality judgements, leaf-quality overrides (with reason), and fast-moving re-search instructions (improvement I8). Keeping these here rather than in the script keeps the script generic across tools.",
+  "map_version": "v1",
+  "recency_years": 10,
+  "advocacy_note": "none — every scored leaf rests on peer-reviewed studies or national/international expert syntheses (SAPEA, WHO, IUCN, Koelmans risk framework); no advocacy or industry source is any leaf's evidential basis.",
+  "nonleaf_quality": {
+    "n_root": "well-evidenced",
+    "n_measure": "thin",
+    "n_origin": "well-evidenced",
+    "n_health": "thin",
+    "n_environ": "well-evidenced",
+    "n_policy": "well-evidenced"
+  },
+  "leaf_quality_override": {
+    "n_measure_reliable": {
+      "value": "thin",
+      "reason": "One-sided: the only FOR-adjacent evidence (standardisation) argues the machinery to achieve reproducibility is being built, not that cross-lab consistency is attained, so it is typed COMPLICATES and the leaf carries no independent FOR. The AGAINST side (VAMAS interlaboratory comparison) is the well-evidenced one. Flag thin."
+    },
+    "n_health_assoc": {
+      "value": "thin",
+      "reason": "Mechanically two-sided (S1/C1) but the FOR rests on a single contested observational study (Marfella 2024) with no independent replication, and the AGAINST is a contamination critique of that same study plus weight-of-evidence reviews. The honest state is thin, not well-evidenced."
+    }
+  },
+  "manual_caveats": {
+    "n_root": ["presence is far better evidenced than harm — confidence on 'microplastics are everywhere' does not transfer to 'microplastics are harming us'"],
+    "n_measure": ["measurement validity is itself contested — read every exposure and harm number in that light"],
+    "n_measure_reliable": ["rests on interlaboratory comparison exercises; the VAMAS 2025 ring trial (84 labs) is the load-bearing evidence"],
+    "n_measure_body": ["all human-tissue detections inherit a contamination risk; concentrations from studies without rigorous procedural blanks may be overestimates"],
+    "n_origin": ["source apportionment covers primary microplastics (15–31% of the total); the dominant secondary fraction is poorly quantified"],
+    "n_origin_sources": ["FOR evidence is a modelled global apportionment with wide uncertainty; regional source shares differ, and it addresses only the primary fraction"],
+    "n_health": ["the human-harm evidence is early and thin; neither presence in the body nor high-dose laboratory harm establishes harm at real exposure"],
+    "n_health_assoc": ["rests essentially on one contested observational study (Marfella 2024); no independent replication located"],
+    "n_health_cause": ["controlled harm is largely demonstrated at doses far above real human exposure — 'harm at a realistic dose' is the contested part", "many studies use uniform polystyrene microspheres, unlike environmental particles"],
+    "n_environ": ["the ecological evidence base is larger than the human one but shares the concentration-realism problem"],
+    "n_environ_wildlife": ["demonstrated effects are common but mostly at concentrations above ambient; harm at environmentally realistic concentrations is the contested part"],
+    "n_policy": ["a source ban's effect on TOTAL pollution depends on the target's share of the total — a small target caps the achievable reduction"],
+    "n_policy_bans": ["the measured reduction is of the TARGETED source (cosmetic microbeads ≈ 2% of primary microplastics), not of total microplastic pollution"]
+  },
+  "audit_notes": {
+    "n_measure_reliable": "One-sided (no independent FOR): reproducibility is answered by a large interlaboratory comparison (VAMAS 2025) finding poor between-lab agreement; the pro-reliability side is standardisation-in-progress, not a demonstration of achieved consistency, so it is carried as COMPLICATES rather than counted as FOR. Marked thin, not padded with a fake FOR.",
+    "n_health_assoc": "Single-study leaf: the FOR direction is one observational study (Marfella 2024, marfella-nejm); the AGAINST is a formal contamination critique of that same study (marfella-critique) plus weight-of-evidence reviews (who) noting no demonstrated population-level effect. Mechanically two-sided but genuinely thin — overridden to thin, not presented as well-evidenced.",
+    "n_health_cause": "Counter-signal preserved: the toxicology-harm cluster (tox-review) is retained FOR, but both the dose-realism critique (dose-critique) and the weight-of-evidence reviews (sapea) are carried AGAINST; the FOR evidence is high-dose and is caveated as showing harm is possible, not harm at realistic dose.",
+    "n_environ_wildlife": "Genuinely two-sided across three independent clusters: the effects meta-analysis (foley-meta) FOR; concentration-realism (bucci-rochman) and species-sensitivity risk modelling (koelmans-ssd) AGAINST. Retained on both sides rather than resolved.",
+    "n_origin_sources": "Two-sided from one authoritative source plus the secondary-dominance point: Boucher & Friot ranks primary sources (FOR) while the secondary fraction that dominates the total is unattributed (CHALLENGES). The claim is scoped to 'the biggest contributors', which is contested at the level of the total.",
+    "n_policy_bans": "The FOR (microbead-ban) is a measured reduction of the TARGETED source; the AGAINST (boucher-friot) is that the target is ≈2% of primary microplastics — a scope tension, not a dispute about whether the ban worked. Both directions are measured."
+  },
+  "fast_moving_research": {
+    "n_policy_bans": "Re-run the EU intentionally-added-microplastic restriction (2023) and UN global plastics treaty search before any republish — the policy landscape was moving at authoring time.",
+    "n_health_assoc": "Re-search for independent replications of Marfella 2024 before any republish — this leaf rests on a single 2024 study and would move if it is replicated or refuted.",
+    "n_measure_reliable": "Re-check whether achieved cross-laboratory reproducibility (ISO/VAMAS standardisation) has been demonstrated before any republish — the FOR side is standardisation-in-progress at authoring time."
+  }
+}

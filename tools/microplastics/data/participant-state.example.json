@@ -1,0 +1,17 @@
+{
+  "current_node_id": "n_root",
+  "path": [
+    "n_root"
+  ],
+  "self_reported_confidence": {
+    "n_measure_reliable": null,
+    "n_measure_body": null,
+    "n_origin_sources": null,
+    "n_health_assoc": null,
+    "n_health_cause": null,
+    "n_environ_wildlife": null,
+    "n_policy_bans": null
+  },
+  "seen_evidence": [],
+  "note": "Confidence is SELF-REPORTED by the participant for each scored leaf node's claim_evaluated (0 = certainly false, 1 = certainly true). The system records, it does not compute or update these. Dimension and topic nodes are not scored."
+}

@@ -2,6 +2,7 @@
   "_comment": "Per-tool editorial input to scripts/compose-tool.py. The script computes structural audit flags mechanically; this file supplies the topic-specific substantive caveats, the non-leaf evidence_quality judgements, and any leaf-quality overrides (with reason), plus fast-moving re-search instructions (improvement I8). Keeping these here rather than in the script keeps the script generic across tools.",
   "map_version": "v1",
   "recency_years": 10,
+  "advocacy_note": "the 2025 Lancet UPF Series (nova-defence / lancet-series) — never a scored node's sole support.",
   "nonleaf_quality": {
     "n_root": "well-evidenced",
     "n_concept": "thin",
