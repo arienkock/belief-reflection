@@ -221,3 +221,39 @@ module. New wrinkle worth carrying forward: making the definitional dispute
 its own scored leaf let a topic the prior session had deferred as "too
 definitional" become tractable — consider that move for other deferred
 definitional topics.
+
+**2026-07-15 — Microplastics: Origin and Effects (fourth tool).** Adopted
+**I1** (read the primary source or its abstract/results for every
+load-bearing finding — Marfella NEJM HR 4.53, Leslie blood 17/22, Ragusa
+placenta 4/6, VAMAS 84-lab reproducibility, Boucher–Friot 15–31%/35%/28%/2%,
+Foley 2018, Bucci–Rochman 17%, Koelmans HC5/exceedance, the measured
+microbead reduction), **I2** (independent review pass filed as
+`build-notes/review-2026-07-15.md` — it caught two no-fabrication failures a
+single-pass author had let through: a wrong author/year on the microbead-ban
+citation and fabricated page numbers on the NEJM correspondence; both fixed
+and recomposed), **I3** (`build-notes/source-extraction.md` table authored
+before findings), **I4** (reused `scripts/compose-tool.py` unchanged except a
+genuine generalisation — see below), **I6** (search trail logged in the
+source scan), **I7** (register-fidelity framed as the topic's central
+discipline: the "presence is not harm" rule, enforced so detection findings
+never read as harm findings in either register), and **I8** (fast-moving
+sources pinned: the EU/UN plastics-treaty policy, the single-study Marfella
+association, and measurement standardisation each carry a re-search
+instruction). **I5** was untouched (no engine-logic change; duplication
+remains script-generated from the reference component, per the UPF decision).
+
+Two things worth carrying forward. (a) **The presence/harm split as the tree
+spine.** This topic's signature conflation is not two sub-questions of equal
+strength (as in prior tools) but a *strong* side (the particles are real,
+measurable, human-made, and in our bodies) vouching for a *weak* side (they
+harm us). Building the tree so the well-evidenced presence leaves and the
+thin harm leaves sit together, with the root `depends_on` and a manual caveat
+stating the asymmetry outright, is a reusable move for any "X is everywhere,
+therefore X is dangerous" topic. (b) **A leaked hardcoded string in the
+"generic" compose script.** The advocacy-note line in `write_audit` still
+carried UPF-specific text (the Lancet UPF Series), which printed — falsely —
+into the microplastics audit. Fixed by moving it to an `advocacy_note` config
+key (UPF audit output byte-identical afterward). Lesson for the next session:
+when reusing the compose script, grep its output for the *previous* tool's
+proper nouns before trusting the audit — I4's "promote the script" is not
+done until the script is verified free of per-topic constants.
