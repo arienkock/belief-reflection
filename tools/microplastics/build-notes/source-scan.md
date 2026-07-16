@@ -263,14 +263,18 @@ exceeded only in hotspots):**
   is thin.
 - Whether a second, independent ecological meta-analysis exists distinct from
   Foley 2018 (`fish-meta` independence).
-- **Geographic scope (required by protocol amendment 2026-07-16):** run at
-  minimum the following queries before Phase 2 findings are authored:
+- **Geographic scope (protocol v1.1, §Geographic scope):** run and record the
+  following queries in the search trail before Phase 2 findings are authored.
+  Record outcomes (found / null) for each:
   - `microplastics human health association cohort Asia Africa Latin America`
   - `microplastics freshwater aquatic organisms developing countries meta-analysis`
   - `nanoplastics human exposure LMIC low-income country monitoring`
   - `plastic pollution ecological effects Africa Southeast Asia river`
-  Check IHME GBD, WHO-SEARO/WPRO/AFRO technical reports, and *Lancet Global Health*
-  / *BMJ Global Health* for qualifying syntheses. If no qualifying source is
-  found after targeted search, state **"evidence base is marine/high-income-country-heavy;
-  generalisability to other settings uncertain"** in the `caveat` of every
-  affected leaf.
+  Check WHO-SEARO/WPRO/AFRO technical reports and *Lancet Global Health* /
+  *BMJ Global Health* for qualifying syntheses. When checking IHME GBD outputs,
+  tag any GBD-derived sources to cluster `ihme-gbd` — many Lancet Global Health
+  analyses reprocess GBD data and do not count as independent corroboration.
+  Where no qualifying source is found after documented search, record the null
+  result here and apply the standard caveat to every affected leaf:
+  **"Evidence base is [marine/high-income-country]-heavy; external validity to
+  other settings is uncertain."**
