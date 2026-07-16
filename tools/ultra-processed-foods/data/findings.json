@@ -264,6 +264,7 @@
       "triggers_split_to": [],
       "tension_with": [
         "F-cau-1",
+        "F-geo-2",
         "F-rel-1",
         "F-sub-1"
       ],
@@ -599,6 +600,7 @@
       "source_citation": "2025 Dietary Guidelines Advisory Committee, Scientific Report (Dietary Patterns with Ultra-Processed Foods and Growth, Body Composition, and Risk of Obesity systematic review, 2024).",
       "triggers_split_to": [],
       "tension_with": [
+        "F-geo-4",
         "F-gui-2"
       ],
       "source_strength": "strong",
@@ -708,6 +710,133 @@
       "caveat": {
         "research": "An interpretation of the target mismatch; no study has yet evaluated a processing-based front-of-pack label, so the AGAINST direction here is genuinely thin.",
         "simple": "Nobody has yet tested an 'ultra-processed' label, so this is reasoning about the gap, not a study."
+      }
+    },
+    {
+      "finding_id": "F-geo-1",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "An updated dose-response meta-analysis of 18 prospective cohort studies (>1.1 million participants, 173,107 deaths) found a 15% higher all-cause mortality risk for the highest versus lowest UPF intake, with a linear dose-response of ~10% higher risk per 10 percentage-point increment of UPF as share of total diet. This extends the umbrella-review signal with newer cohort data in a single-exposure meta-analytic framework.",
+        "simple": "A 2025 analysis pooling 18 long-term studies of more than a million people found 15% higher overall death risk for the heaviest ultra-processed eaters, with risk rising steadily at ~10% per extra 10% of the diet that is ultra-processed. A consistent dose-response across independent study teams."
+      },
+      "effect_size": {
+        "research": "+15% all-cause mortality highest vs lowest UPF quartile; +10% per 10% UPF increment (dose-response)",
+        "simple": "15% higher death risk for the heaviest eaters; rises ~10% for every 10% more of the diet that is ultra-processed"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Nguyen et al. 2025, Ultra-processed food consumption and all-cause mortality: a systematic review and dose-response meta-analysis of prospective cohort studies, Systematic Reviews (Springer) PMC11874696.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-geo-2"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "upf-mortality-meta-2025",
+      "caveat": {
+        "research": "18 cohorts are predominantly US, European, and Brazilian; the included Korean cohort (KoGES-HEXA) showed a null result — heterogeneity is present. Self-reported diet throughout; dose-response does not establish causation.",
+        "simple": "Most studies are from wealthy countries; a Korean cohort included in the pool found no link, so results vary. And a dose-response still can't prove cause."
+      }
+    },
+    {
+      "finding_id": "F-geo-2",
+      "node_id": "n_assoc_magnitude",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A large South Korean prospective cohort (KoGES-HEXA; 113,576 adults; median follow-up 10.6 years; 3,456 deaths) found no statistically significant association between ultra-processed food intake and all-cause, cancer, or cardiovascular-disease mortality. This is the largest single East Asian cohort study on the question and constitutes genuine evidence against the universality of the magnitude finding — not a null caused by low power.",
+        "simple": "A well-powered 10-year Korean study of over 113,000 adults found no link between eating more ultra-processed food and dying sooner from any cause, cancer, or heart disease. This is the largest East Asian study on the question, and it found nothing — not for lack of participants."
+      },
+      "effect_size": {
+        "research": "null — no statistically significant association for all-cause, cancer, or CVD mortality",
+        "simple": "no significant link found across all major causes of death"
+      },
+      "source_type": "single-study",
+      "source_citation": "Kim et al. 2023, Ultra-processed food consumption and mortality in the Korean Genome and Epidemiology Study Health Examinee (KoGES-HEXA) cohort, PLOS ONE 18(5):e0284285.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-geo-1",
+        "F-mag-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "observational",
+      "source_cluster": "koges-hexa",
+      "caveat": {
+        "research": "Korean dietary culture has lower consumption of the highest-harm UPF subgroups (processed meat, SSBs) than Western cohorts — the null may reflect an exposure-distribution difference rather than a true absence of dose-response. Subtype-stratified analysis not available to test this.",
+        "simple": "Koreans eat less of the ultra-processed foods most linked to harm (processed meats, sugary drinks), so the null might reflect what they're eating, not that ultra-processed food is safe in general."
+      }
+    },
+    {
+      "finding_id": "F-geo-3",
+      "node_id": "n_assoc_magnitude",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "An attributable-mortality modelling study across eight countries (Australia, Brazil, Canada, Chile, Colombia, Mexico, UK, USA) estimated that 4–14% of premature deaths (age <70) are attributable to ultra-processed food consumption, using a dose-response risk function derived from a meta-analysis of prospective cohorts. The four Latin American countries in the sample (Brazil, Chile, Colombia, Mexico) showed estimates in the 4–10% range, extending the mortality signal beyond the usual high-income Western pool.",
+        "simple": "A 2025 study modelled how many early deaths could be attributed to ultra-processed food across eight countries including Brazil, Chile, Colombia, and Mexico — and estimated that ultra-processed food accounts for 4 to 14% of premature deaths. The Latin American countries show 4–10% attributable mortality."
+      },
+      "effect_size": {
+        "research": "4–14% of premature deaths attributable to UPF across 8 countries; dose-response RR ~1.03 per 10% UPF increment",
+        "simple": "4–14% of premature deaths linked to ultra-processed food across eight countries"
+      },
+      "source_type": "single-study",
+      "source_citation": "Passos et al. 2025, Premature Mortality Attributable to Ultra-Processed Food Consumption in 8 Countries, American Journal of Preventive Medicine.",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "moderate",
+      "evidence_type": "quasi-experimental",
+      "source_cluster": "attributable-mortality-global",
+      "caveat": {
+        "research": "Modelling study: attributable fractions depend on the assumed dose-response RR (drawn from meta-analyses dominated by US/European cohorts) and on dietary-survey inputs; assumes generalisability of the risk function to each country's food environment and population, which is not established. Not a direct cohort observation.",
+        "simple": "This is a modelling estimate, not a direct measurement — the risk function was borrowed from Western studies and may not apply equally everywhere."
+      }
+    },
+    {
+      "finding_id": "F-geo-4",
+      "node_id": "n_policy_guidance",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "Brazil's Dietary Guidelines for the Brazilian Population (2014, updated), developed by FIOCRUZ and the Ministry of Health, were the first national food-based dietary guidelines in the world to make degree of food processing the primary organising principle for dietary advice — explicitly recommending avoiding ultra-processed foods. The guidelines were subsequently endorsed by the FAO as a model for other countries. This constitutes a tier-2-equivalent institutional SUPPORTS source from a large middle-income country.",
+        "simple": "Brazil's official 2014 dietary guidelines, developed by FIOCRUZ (one of the world's largest public-health research institutions), were the first national guidelines anywhere to tell people to avoid ultra-processed food specifically — and the FAO later held them up as a model. Strong institutional backing from a country in the Global South."
+      },
+      "effect_size": {
+        "research": "qualitative — national guidelines formally adopt UPF-avoidance as primary advice",
+        "simple": "qualitative — national official guidance explicitly recommends avoiding ultra-processed food"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Ministry of Health of Brazil / FIOCRUZ, Dietary Guidelines for the Brazilian Population, 2nd edition, 2014 (FAO-endorsed).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-gui-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "brazil-dietary-guidelines",
+      "caveat": {
+        "research": "Brazil is the country where the NOVA classification originated (Monteiro group, FIOCRUZ/USP); the institutional body that issued the guidelines overlaps with the classification's proponents — carry as a labelled institutional position alongside the Nordic review as the more arms-length institutional source.",
+        "simple": "The NOVA idea was invented by Brazilian researchers at FIOCRUZ/USP, so Brazil's guidelines are partly the concept's originators endorsing their own system — treat the Nordic review as the more independent institutional voice."
+      }
+    },
+    {
+      "finding_id": "F-geo-5",
+      "node_id": "n_assoc_subgroup",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "An IHME Burden of Proof analysis (Nature Medicine, 2025), pooling GBD-anchored prospective data, found processed-meat consumption associated with a ≥11% T2D risk increase and ≥7% colorectal cancer risk increase per serving increment, and sugar-sweetened beverages associated with ≥8% T2D and ≥2% ischaemic heart disease risk increases — each receiving a two-star certainty rating (weak-to-moderate evidence). This is the first large-scale GBD-anchored synthesis to quantify subgroup-specific risk magnitudes within the UPF category.",
+        "simple": "A 2025 global health analysis (anchored in GBD data from the IHME) quantified the harm from specific ultra-processed food types: processed meats linked to at least 11% higher diabetes risk and 7% higher colorectal cancer risk per serving; sugary drinks linked to at least 8% higher diabetes risk. These are not vague 'ultra-processed in general' figures — they're for specific food types."
+      },
+      "effect_size": {
+        "research": "processed meat: ≥11% T2D risk increase, ≥7% colorectal cancer risk per serving; SSBs: ≥8% T2D, ≥2% IHD risk increase (two-star certainty)",
+        "simple": "processed meats: at least 11% higher diabetes risk, 7% higher bowel cancer risk per serving; sugary drinks: at least 8% higher diabetes risk"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "IHME Burden of Proof Study (GBD Collaborators), Burden of proof risk function for processed meat/SSBs and NCDs, Nature Medicine (2025).",
+      "triggers_split_to": [],
+      "tension_with": [],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "ihme-gbd",
+      "caveat": {
+        "research": "All sources from this study must be tagged cluster ihme-gbd — GBD data underpin many co-cited Lancet and NCD-RisC analyses, which cannot be treated as independent corroboration. Two-star certainty reflects weak-to-moderate evidence, not certainty; estimates are lower bounds at the 5th percentile of the risk distribution.",
+        "simple": "GBD data powers many related studies — they're not independent of each other. And 'two-star' means the evidence is weak-to-moderate; these are minimum estimates, not averages."
       }
     }
   ]

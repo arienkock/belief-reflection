@@ -109,6 +109,33 @@
         "research": "Within the added-value leaf: the cohort review finds UPF associations survive diet-quality adjustment (added value), while the large single cohort finds its association attenuates after the same adjustment (redundant with nutrients). The same statistical operation, opposite verdicts.",
         "simple": "One review says the ultra-processed link holds after accounting for nutrients (so the label adds something); one big study says it fades (so it was the nutrients). Same test, opposite answers."
       }
+    },
+    {
+      "a": "F-geo-1",
+      "b": "F-geo-2",
+      "kind": "context-transportability",
+      "note": {
+        "research": "A 2025 dose-response meta-analysis (18 cohorts, >1.1M participants) finds a 15% higher all-cause mortality for the highest UPF intake; the KoGES-HEXA Korean cohort (113,576 participants) in the same pool shows a null result. Same meta-analytic frame, different outcome in the East Asian setting — likely reflecting lower consumption of the highest-harm UPF subgroups (processed meat, SSBs) in Korean dietary culture, but the context-dependency of the mortality signal is established.",
+        "simple": "The big pooled study shows higher UPF intake linked to earlier death — but the large Korean study in that same pool found no link. Korean diets may just contain less of the worst ultra-processed foods. The signal may not travel equally across food cultures."
+      }
+    },
+    {
+      "a": "F-geo-2",
+      "b": "F-mag-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "The umbrella review's 'convincing' and 'highly suggestive' associations (Lane et al.) are drawn almost entirely from Western and Brazilian cohorts. The Korean null result challenges the universality of those grades across food cultures — the evidence tiers reflect statistical strength within the cohorts included, not across settings.",
+        "simple": "The 'convincing' link in the big review comes from Western and Brazilian studies; the Korean null shows it doesn't necessarily hold everywhere. The rating tells you about those populations, not all populations."
+      }
+    },
+    {
+      "a": "F-geo-4",
+      "b": "F-gui-1",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "Brazil's national dietary guidelines (FIOCRUZ/MoH, 2014) made UPF-avoidance the primary organising principle — a tier-2 institutional source judging the evidence sufficient — while the 2025 US Dietary Guidelines Advisory Committee reviewed similar evidence and graded it insufficient for a UPF-specific recommendation. The institutional split spans multiple countries, not only the Nordic vs US axis already documented.",
+        "simple": "Brazil adopted ultra-processed food as the central target of its official dietary guidelines a decade ago; the US expert panel in 2025 said the evidence still isn't good enough for such a recommendation. Same type of body, same category of evidence, opposite calls."
+      }
     }
   ]
 }
