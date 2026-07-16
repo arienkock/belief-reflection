@@ -103,6 +103,7 @@
       "source_citation": "Shannon et al. 2022, Problematic Social Media Use in Adolescents and Young Adults: Systematic Review and Meta-analysis, JMIR Mental Health 9(4):e33450.",
       "triggers_split_to": [],
       "tension_with": [
+        "F-geo-1",
         "F-mag-4"
       ],
       "source_strength": "strong",
@@ -178,8 +179,8 @@
       "triggers_split_to": [],
       "tension_with": [
         "F-cau-1",
-        "F-mag-1",
-        "F-het-1"
+        "F-het-1",
+        "F-mag-1"
       ],
       "source_strength": "moderate",
       "evidence_type": "observational",
@@ -229,9 +230,9 @@
       "source_citation": "Braghieri, Levy & Makarin 2022, Social Media and Mental Health, American Economic Review 112(11):3660-3693.",
       "triggers_split_to": [],
       "tension_with": [
-        "F-mag-4",
         "F-att-1",
-        "F-ben-1"
+        "F-ben-1",
+        "F-mag-4"
       ],
       "source_strength": "moderate",
       "evidence_type": "quasi-experimental",
@@ -525,9 +526,11 @@
         "simple": "a real rise for girls, not a survey quirk"
       },
       "source_type": "single-study",
-      "source_citation": "Time trends in adolescent depressive symptoms from 2010 to 2019 in Norway: real increase or artifacts of measurements?, Psychological Medicine (2024; PMC11578914).",
+      "source_citation": "Psychological Medicine 2024. Time trends in adolescent depressive symptoms from 2010 to 2019 in Norway: real increase or artifacts of measurements? (PMC11578914).",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-geo-3"
+      ],
       "source_strength": "moderate",
       "evidence_type": "observational",
       "source_cluster": "nordic-trend",
@@ -576,8 +579,9 @@
       "source_citation": "Twenge, Joiner, Rogers & Martin 2018, Clinical Psychological Science; Twenge 2020, Psychiatric Research and Clinical Practice (mechanisms review).",
       "triggers_split_to": [],
       "tension_with": [
+        "F-att-3",
         "F-cau-1",
-        "F-att-3"
+        "F-geo-2"
       ],
       "source_strength": "moderate",
       "evidence_type": "observational",
@@ -907,8 +911,8 @@
       "source_citation": "Allcott, Gentzkow et al. 2025, The Effect of Deactivating Facebook and Instagram on Users' Emotional State, NBER Working Paper 33697.",
       "triggers_split_to": [],
       "tension_with": [
-        "F-dea-3",
-        "F-ban-2"
+        "F-ban-2",
+        "F-dea-3"
       ],
       "source_strength": "moderate",
       "evidence_type": "experimental",
@@ -1044,6 +1048,84 @@
       "caveat": {
         "research": "The FOR slot of this leaf is deliberately empty rather than padded — per protocol, absence of qualifying evidence is stated, not papered over.",
         "simple": "We left the 'bans work' side blank on purpose — there was no solid study to put there yet."
+      }
+    },
+    {
+      "finding_id": "F-geo-1",
+      "node_id": "n_assoc_magnitude",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A scoping review and meta-analysis of the adolescent depression / social-media literature (34 articles, 2018-2020) found an overall pooled association of r=.14 (95% CI .09-.20) but showed it is geographically contingent: the link 'was positive and significant in the Global North but null and nonsignificant in the Global South'. The evidence base is heavily non-representative — over 70% of studies sampled Global North populations (26% North America, 26% Europe, 15% Oceania, 21% Asia incl. Japan, 9% Middle East, 3% Latin America, 0% Africa). It challenges the claim that a practically-meaningful association is a general adolescent phenomenon rather than a Global-North one.",
+        "simple": "A review pulling together 34 studies found a small overall link (about r=.14) between social media and teen depression — but only in wealthy Western countries. In the Global South the link was basically zero. And the research itself is lopsided: over 70% of studies were from rich countries, and none at all from Africa. So the 'link' may not be universal."
+      },
+      "effect_size": {
+        "research": "pooled r=.14 (95% CI .09-.20) overall; positive/significant in the Global North, null in the Global South; >70% of studies Global North (0% Africa)",
+        "simple": "small link (~r=.14) in wealthy countries; no link in the Global South"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Ghai S, Fassi L, Awadh F, Orben A. Lack of sample diversity in research on adolescent depression and social media use: a scoping review and meta-analysis. Clinical Psychological Science 2023;11(5):759-772. doi:10.1177/21677026221114859.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-mag-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "ghai-diversity",
+      "caveat": {
+        "research": "The Global South null rests on relatively few Global South studies (3% Latin America, 0% Africa), so it is an absence-of-evidence as much as evidence-of-absence there. Author overlap: this cluster shares an author (Orben) with the orben-przybylski cluster already carried AGAINST on this leaf, so the two AGAINST clusters are NOT fully independent — flagged in the audit, not treated as clean corroboration.",
+        "simple": "There were very few Global South studies to begin with, so 'no link there' partly reflects little data. Also, one of its authors also wrote another study already counted on the against side, so they don't fully count as two separate confirmations."
+      }
+    },
+    {
+      "finding_id": "F-geo-2",
+      "node_id": "n_trend_attrib",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A Global Burden of Disease 2021 analysis of adolescent depression across 204 countries and regions (1990-2021) found global age-standardised prevalence, incidence and DALY rates remained broadly stable over the period, with rising trends concentrated in high-income regions — High-income North America grew fastest (EAPC 1.04 prevalence, 1.30 incidence, 1.19 DALYs) — while several middle- and low-income regions (East Asia most markedly, plus South Asia and the Caribbean) showed DECREASING rates. Because smartphone and social-media adoption diffused globally over the same window, a globally-diffused exposure paired with a non-global (indeed high-income-concentrated) outcome undercuts the claim that social media is the principal population-level driver.",
+        "simple": "A 204-country study found that worldwide, teen depression rates stayed roughly flat from 1990 to 2021. The increases were concentrated in rich countries — fastest in North America — while parts of Asia and the Caribbean actually went DOWN. But social media spread almost everywhere. If the supposed cause went global and the effect didn't, social media being the main driver is hard to sustain."
+      },
+      "effect_size": {
+        "research": "global rates stable 1990-2021; High-income North America fastest (EAPC 1.04 prevalence); East/South Asia and Caribbean decreasing",
+        "simple": "global teen-depression rates flat; rises only in rich regions; some Asian regions fell"
+      },
+      "source_type": "modelling-study",
+      "source_citation": "Scientific Reports 2025 (s41598-024-84843-w; Europe PMC PMC11830012). The Burden of adolescent depression and the impact of COVID-19 across 204 countries and regions from 1990 to 2021: results from the 2021 Global Burden of Disease study.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-att-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "modelling",
+      "source_cluster": "ihme-gbd",
+      "caveat": {
+        "research": "GBD estimates are modelled and, in low-surveillance settings, rest on sparse primary data with wide uncertainty; regional rate DIVERGENCE is more robust than any single region's absolute level. A non-global outcome trend weakens social-media attribution but does not by itself establish an alternative cause. GBD-derived (cluster ihme-gbd); do not treat as independent of other GBD-based analyses.",
+        "simple": "These are modelled estimates, shakier where health data is thin, so trust the pattern (rich-vs-poor differences) more than exact numbers. It weakens the 'social media did it' story without proving what else did."
+      }
+    },
+    {
+      "finding_id": "F-geo-3",
+      "node_id": "n_trend_real",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "The same GBD 2021 analysis (204 countries, 1990-2021) reframes the deterioration question geographically: the rise in adolescent depression is concentrated in high-income regions and fastest in High-income North America (EAPC 1.04 prevalence), while global age-standardised rates were broadly stable and several middle-/low-income regions declined. This is consistent with the leaf being scoped to high-income countries, but it establishes that a 'genuine deterioration since ~2010' is a high-income-regional phenomenon in the modelled burden data, not a worldwide one — neither confirming nor refuting the reporting-artifact hypothesis, but bounding the trend's external validity.",
+        "simple": "The same 204-country study shows the worsening is a rich-country story — fastest in North America — while the world overall stayed flat and some regions improved. That fits this question being about wealthy countries, but it means 'teen mental health got worse' is true mainly for rich countries, not everywhere. It doesn't settle whether the rich-country rise is real or a reporting change."
+      },
+      "effect_size": {
+        "research": "rise concentrated in high-income regions (High-income North America fastest, EAPC 1.04); global rates broadly stable 1990-2021",
+        "simple": "worsening concentrated in rich countries; global picture flat"
+      },
+      "source_type": "modelling-study",
+      "source_citation": "Scientific Reports 2025 (s41598-024-84843-w; Europe PMC PMC11830012). The Burden of adolescent depression and the impact of COVID-19 across 204 countries and regions from 1990 to 2021: results from the 2021 Global Burden of Disease study.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-real-2"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "modelling",
+      "source_cluster": "ihme-gbd",
+      "caveat": {
+        "research": "Modelled GBD prevalence partly incorporates the same survey instruments whose validity the artifact hypothesis questions, so it cannot independently adjudicate 'genuine vs reporting change'; it speaks to geographic distribution, not to the artifact question. GBD-derived (cluster ihme-gbd).",
+        "simple": "These estimates lean partly on the same surveys the 'it's just more reporting' worry is about, so they can't settle that worry — they only show WHERE the rise is, not whether it's real."
       }
     }
   ]

@@ -257,3 +257,46 @@ key (UPF audit output byte-identical afterward). Lesson for the next session:
 when reusing the compose script, grep its output for the *previous* tool's
 proper nouns before trusting the audit — I4's "promote the script" is not
 done until the script is verified free of per-topic constants.
+
+**2026-07-16 — Geographic-scope pass across all remaining tools (no new
+topic).** After UPF was re-run under the protocol v1.1 §Geographic-scope hard
+rule, this session applied the same pass to the other three tools:
+microplastics, social-media, and immigration. Per tool: ran ≥3 mandatory
+non-Western/LMIC search passes, recorded found/null in the search trail,
+verified every load-bearing source at abstract/results level (**I1**), authored
+`F-geo-*` findings with the standard caveat phrase and typed crosslink tensions,
+put the geographic caveats in `compose-config.json` (canonical, so
+`compose-tool.py` regeneration preserves them), recomposed, grepped the output
+free of other tools' proper nouns (**the microplastics lesson above**), and
+built. Findings added: microplastics 3 (GBD dietary-MP, Moyo aquatic
+meta-analysis, Nyaga Africa meta-analysis), social-media 3 (Ghai Global-North/
+South null; GBD 204-country trend ×2), immigration 3 (all from the OECD/ILO
+2018 ten-LMIC synthesis, verified from the primary PDF).
+
+Three things worth carrying forward. (a) **Two tools were still on the
+pre-pipeline generator.** Social-media (2026-07-14) and immigration (2026-06-30)
+predated `scripts/compose-tool.py` (I4), so their derived artifacts were made by
+a since-removed script. Both were **onboarded** by reconstructing a faithful
+`compose-config.json` and recomposing — closing I4 for the whole repo. Onboarding
+normalises computed-flag wording to the canonical script (the old generator
+flagged dimension nodes and used a looser single-source-heavy threshold) and
+unifies the audit label to v1; verify the pre-geo normalization diff separately
+before layering the geo content on top, so the two concerns stay legible.
+(b) **The recency heuristic is fooled by citations that lead with a data-range
+year.** `compose-tool.py` takes the first 4-digit year in `source_citation` as
+the publication year; citations like "…from 2010 to 2019…" or "Uslaner 2012; …
+2020" produced false "≥10y old" flags. Fixed locally by reordering the affected
+citations to lead with the publication year — but a future session could harden
+the heuristic to prefer the latest plausible year, or read an explicit
+`pub_year` field. (c) **A reusable headless smoke test was promoted** to
+`scripts/smoke-test.mjs` (render + navigation + no failing resource loads, the
+favicon.ico 404 excluded), run against all four tools' production build. Like
+I4's compose script, keeping it in the repo makes stage-8 verification
+reproducible; it needs `npm install --no-save playwright-core` (browsers are
+pre-provisioned). New wrinkle: **institutional non-independence beyond the
+source_cluster.** Two geographic sources shared authorship/provenance with
+clusters already in their tool (Ghai↔orben-przybylski via Amy Orben;
+OECD-ILO↔OECD-migration via the OECD). Neither was silently counted as
+independent corroboration — each is a distinct cluster but carries an explicit
+overlap note in its finding caveat and the audit. Consider a first-class
+"related-cluster" field if this recurs.

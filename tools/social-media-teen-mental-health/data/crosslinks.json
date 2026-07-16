@@ -100,6 +100,33 @@
         "research": "Individual deactivation gains do not predict population age-ban effects: a ban changes the whole peer network's equilibrium (or fails via circumvention), which no individual-level RCT can estimate.",
         "simple": "One person quitting for six weeks tells you little about banning a whole age group — a real ban changes what ALL the kids' friends are doing, or gets dodged entirely."
       }
+    },
+    {
+      "a": "F-geo-1",
+      "b": "F-mag-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "The stronger pooled associations on this leaf (e.g. the problematic-use and recent-SNS meta-analyses around r~.2) draw predominantly on Global-North samples. Ghai et al. 2023 shows the social-media-depression association is positive and significant in the Global North but null in the Global South, on an evidence base that is >70% Global North (0% Africa). The magnitude that counts as 'practically meaningful' is estimated within non-representative populations; it does not transport to the majority world on current data.",
+        "simple": "The bigger 'link' numbers come mostly from wealthy Western countries. A review found the link vanishes in the Global South — and almost no studies come from there. So the headline size describes rich-country teens, not teens everywhere."
+      }
+    },
+    {
+      "a": "F-geo-2",
+      "b": "F-att-1",
+      "kind": "empirical-contradiction",
+      "note": {
+        "research": "Twenge-style attribution reads the timing coincidence — social-media adoption and rising adolescent distress in the US/high-income world after ~2010 — as evidence that social media drove the decline. The GBD 2021 204-country data cut against a GLOBAL version of that inference: the exposure diffused worldwide while the outcome rose only in high-income regions (fastest in North America) and fell in parts of Asia and the Caribbean, with global rates stable. Same exposure, divergent outcomes by region — the timing argument does not generalise into population-level attribution.",
+        "simple": "One side says: social media arrived, teen distress rose, so social media did it. But worldwide, social media spread everywhere while the distress only climbed in rich countries and even fell in some places. The 'it lined up in time' argument falls apart once you look outside the West."
+      }
+    },
+    {
+      "a": "F-geo-3",
+      "b": "F-real-2",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "The pro-deterioration evidence (Nordic and US trend series) documents a real post-2010 rise within specific high-income countries. GBD 2021 places those series in a global frame: the rise is high-income-concentrated (fastest in High-income North America) while global age-standardised rates are broadly stable and several LMIC regions decline. Both can hold — a genuine high-income deterioration inside a flat global aggregate — but the leaf's claim generalises only to the high-income scope it is (rightly) restricted to.",
+        "simple": "The studies showing teen mental health got worse are from rich countries, and they're probably right about those countries. But zoom out to the whole world and the picture is flat — some places even improved. Both are true; the 'it got worse' claim only covers wealthy countries."
+      }
     }
   ]
 }

@@ -11,7 +11,7 @@
       "id": "n_root",
       "parent_id": null,
       "evidence_quality": "well-evidenced",
-      "label": "What does the evidence say about immigration's effects on the host country \u2014 and on which dimension?",
+      "label": "What does the evidence say about immigration's effects on the host country — and on which dimension?",
       "children": [
         "n_econ",
         "n_fiscal",
@@ -20,7 +20,7 @@
       ],
       "role": "topic",
       "question": {
-        "research": "What does the evidence say about immigration's effects on the host country \u2014 and on which dimension?",
+        "research": "What does the evidence say about immigration's effects on the host country — and on which dimension?",
         "simple": "Is immigration good or bad for the country it moves to?"
       },
       "depends_on": {
@@ -30,7 +30,8 @@
       "coverage_note": "Authored dimensions: labour market, public finances, innovation, social outcomes. DELIBERATELY NOT COVERED (invisible to this tool): housing & rents, congestion of public services, gains to employers/capital owners (the counterpart to any wage effect), effects on origin countries (brain drain / remittances), and political/electoral effects. Absence is a scope choice, not evidence of no effect.",
       "scored": false,
       "evidence_caveats": [
-        "single-source-heavy: OECD-migration supplies 1/2 findings here"
+        "recency: OECD-migration (2016) ≥10y old — refresh review",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -55,8 +56,8 @@
       "coverage_note": "Captures effects on workers and output. The split of gains between labour and capital is only partly visible (low-skill wage findings); gains to employers are not separately scored.",
       "scored": false,
       "evidence_caveats": [
-        "single-source-heavy: NAS-2016 supplies 2/3 findings here",
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "US-centric evidence — external validity to other destinations not established",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -80,8 +81,8 @@
       },
       "scored": false,
       "evidence_caveats": [
-        "single-source-heavy: NAS-2016 supplies 1/2 findings here",
-        "mostly correlational \u2014 causal interpretation is not licensed"
+        "mostly correlational — causal interpretation is not licensed",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -126,7 +127,8 @@
       },
       "scored": false,
       "evidence_caveats": [
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "US-centric evidence — external validity to other destinations not established",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -147,8 +149,10 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: NAS-2016 supplies 2/3 findings here",
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "US-centric evidence — external validity to other destinations not established",
+        "Geographic: OECD-ILO adds ten LMIC destinations (F-geo-1) where the native labour-market impact is negligible. Evidence base is US/OECD-heavy; external validity to other settings is partially addressed but remains uncertain.",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review",
+        "recency: Borjas-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -169,8 +173,11 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
+        "US-centric evidence — external validity to other destinations not established",
+        "No LMIC low-skill-specific wage study located beyond the OECD-ILO aggregate. Evidence base is US-heavy; external validity to other settings is uncertain.",
         "single-source-heavy: NAS-2016 supplies 3/4 findings here",
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "recency: NAS-2016 (2016) ≥10y old — refresh review",
+        "recency: CIS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -191,7 +198,8 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: OECD-migration supplies 3/3 findings here"
+        "Geographic: OECD-ILO (F-geo-2) extends the GDP-per-capita result to ten LMIC destinations ('immigration is unlikely to depress GDP per capita'). Evidence base is OECD-heavy; external validity to other settings is partially addressed but uncertain.",
+        "single-source-heavy: OECD-migration supplies 3/4 findings here"
       ]
     },
     {
@@ -212,8 +220,9 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: DallasFed-2017 supplies 2/2 findings here",
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "US-centric evidence — external validity to other destinations not established",
+        "No LMIC high-skill fiscal study located. Evidence base is US-heavy; external validity to other settings is uncertain.",
+        "no independent AGAINST located — one-sided"
       ]
     },
     {
@@ -234,7 +243,9 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "US-centric evidence — external validity to other destinations not established",
+        "Geographic: OECD-ILO (F-geo-3) finds small/mixed fiscal impact across ten LMIC destinations (net positive in most; small deficit in Kyrgyzstan/Nepal), not a clear drain. Evidence base is US-heavy; external validity to other settings is partially addressed but uncertain.",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -255,8 +266,11 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
+        "US-centric evidence — external validity to other destinations not established",
+        "No LMIC dynamic-scoring (descendants/long-run) study located. Evidence base is US-heavy; external validity to other settings is uncertain.",
         "single-source-heavy: NAS-2016 supplies 2/3 findings here",
-        "US-centric evidence \u2014 external validity to other destinations not established"
+        "recency: NAS-2016 (2016) ≥10y old — refresh review",
+        "recency: Borjas-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -277,8 +291,10 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "US-centric evidence \u2014 external validity to other destinations not established",
-        "mostly correlational \u2014 causal interpretation is not licensed"
+        "US-centric evidence — external validity to other destinations not established",
+        "mostly correlational — causal interpretation is not licensed",
+        "No LMIC immigrant-innovation study located. External validity to other settings is uncertain.",
+        "no independent AGAINST located — one-sided"
       ]
     },
     {
@@ -299,8 +315,11 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "US-centric evidence \u2014 external validity to other destinations not established",
-        "mostly correlational \u2014 causal interpretation is not licensed"
+        "US-centric evidence — external validity to other destinations not established",
+        "mostly correlational — causal interpretation is not licensed",
+        "No LMIC study located. External validity to other settings is uncertain.",
+        "recency: Hunt-2010 (2010) ≥10y old — refresh review",
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -321,7 +340,8 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
-        "mostly correlational \u2014 causal interpretation is not licensed"
+        "mostly correlational — causal interpretation is not licensed",
+        "Evidence base is US/European-heavy; Global-South immigration-crime evidence is largely qualitative or forced-displacement-focused. External validity to other settings is uncertain."
       ]
     },
     {
@@ -341,12 +361,13 @@
       },
       "depends_on": {
         "research": "LEAF: research runs thin here. Effect sizes small, method- and context-dependent, confounded by segregation. Belief from here rests on values (weight on local neighbour-trust vs national generalised trust).",
-        "simple": "The research runs thin here. Effects are small, differ by place, and get tangled with segregation. From here it rests on your values \u2014 how much you weight local trust versus trust across the whole country."
+        "simple": "The research runs thin here. Effects are small, differ by place, and get tangled with segregation. From here it rests on your values — how much you weight local trust versus trust across the whole country."
       },
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: Dinesen-2020 supplies 3/5 findings here",
-        "mostly correlational \u2014 causal interpretation is not licensed"
+        "mostly correlational — causal interpretation is not licensed",
+        "Evidence base is European/US-heavy; social trust in Global-South settings is largely unexamined. External validity to other settings is uncertain.",
+        "recency: Putnam-2007 (2007) ≥10y old — refresh review"
       ]
     },
     {
@@ -367,9 +388,10 @@
       "depends_on": null,
       "scored": true,
       "evidence_caveats": [
+        "US-centric evidence — external validity to other destinations not established",
+        "mostly correlational — causal interpretation is not licensed",
         "single-source-heavy: NAS-2016 supplies 2/3 findings here",
-        "US-centric evidence \u2014 external validity to other destinations not established",
-        "mostly correlational \u2014 causal interpretation is not licensed"
+        "recency: NAS-2016 (2016) ≥10y old — refresh review"
       ]
     }
   ]

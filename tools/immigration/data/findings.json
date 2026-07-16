@@ -12,8 +12,8 @@
       "node_id": "n_root",
       "direction": "COMPLICATES",
       "claim_paragraph": {
-        "research": "The literature never measures 'immigration good or bad?' directly. It measures distinct dimensions \u2014 labour market, public finances, innovation, social outcomes \u2014 each with its own data, methods and degree of consensus. The honest first move is to pick a dimension; the overall verdict is a weighted sum whose weights are a value choice, not a finding.",
-        "simple": "No study measures 'is immigration good or bad' all at once. Researchers look at separate areas \u2014 jobs, government money, new ideas, and how people get along \u2014 and each has its own evidence. Pick an area first. Adding it all into one answer means deciding how much each area matters to you, which is a personal choice, not a fact."
+        "research": "The literature never measures 'immigration good or bad?' directly. It measures distinct dimensions — labour market, public finances, innovation, social outcomes — each with its own data, methods and degree of consensus. The honest first move is to pick a dimension; the overall verdict is a weighted sum whose weights are a value choice, not a finding.",
+        "simple": "No study measures 'is immigration good or bad' all at once. Researchers look at separate areas — jobs, government money, new ideas, and how people get along — and each has its own evidence. Pick an area first. Adding it all into one answer means deciding how much each area matters to you, which is a personal choice, not a fact."
       },
       "effect_size": {
         "research": "qualitative",
@@ -49,7 +49,7 @@
         "simple": "qualitative"
       },
       "source_type": "systematic-review",
-      "source_citation": "NAS 2016 (summary); Dinesen, Schaeffer & S\u00f8nderskov 2020, Annual Review of Political Science.",
+      "source_citation": "NAS 2016 (summary); Dinesen, Schaeffer & Sønderskov 2020, Annual Review of Political Science.",
       "triggers_split_to": [
         "n_econ",
         "n_fiscal",
@@ -74,7 +74,7 @@
         "simple": "For workers already in the country as a whole, immigration's effect on pay is small. A major US expert review found that, over ten years or more, the effect on locals' wages is very small, and jobs overall aren't much affected."
       },
       "effect_size": {
-        "research": "\u22480 on overall native wages over a 10-yr horizon",
+        "research": "≈0 on overall native wages over a 10-yr horizon",
         "simple": "almost no change to most locals' pay over 10+ years"
       },
       "source_type": "systematic-review",
@@ -128,7 +128,7 @@
         "simple": "In standard economic models where immigrants arrive as working-age adults, immigration slightly raises how much the economy produces per person, and helps the government's budget a little."
       },
       "effect_size": {
-        "research": "+0.25\u20130.31% GDP/capita per +1/1000 migration shock",
+        "research": "+0.25–0.31% GDP/capita per +1/1000 migration shock",
         "simple": "a small rise in output per person"
       },
       "source_type": "single-study",
@@ -150,11 +150,11 @@
       "node_id": "n_econ_wages_overall",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "The 'closest substitutes' logic predicts new immigrants compete most with similar prior immigrants, not with most natives. NAS 2016 finds the clearest negative wage/employment effects fall on prior immigrants \u2014 consistent with immigrants and natives being complements across most of the skill distribution.",
-        "simple": "New immigrants compete most with earlier immigrants who have similar skills \u2014 not with most locals. The US review found the clearest downward pay pressure lands on earlier immigrants, suggesting immigrants and locals mostly fill different roles."
+        "research": "The 'closest substitutes' logic predicts new immigrants compete most with similar prior immigrants, not with most natives. NAS 2016 finds the clearest negative wage/employment effects fall on prior immigrants — consistent with immigrants and natives being complements across most of the skill distribution.",
+        "simple": "New immigrants compete most with earlier immigrants who have similar skills — not with most locals. The US review found the clearest downward pay pressure lands on earlier immigrants, suggesting immigrants and locals mostly fill different roles."
       },
       "effect_size": {
-        "research": "\u22480 for most natives; concentrated on prior immigrants",
+        "research": "≈0 for most natives; concentrated on prior immigrants",
         "simple": "little effect on most locals; earlier immigrants feel it most"
       },
       "source_type": "systematic-review",
@@ -224,8 +224,8 @@
       "node_id": "n_econ_wages_lowskill",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "For the most exposed group the effect is not zero. NAS 2016 states that, to the extent negative wage impacts occur, they fall on prior immigrants and native-born workers without a high-school diploma \u2014 the closest substitutes for low-skilled immigrant labour.",
-        "simple": "For the workers most exposed, the effect isn't zero. The US review found that any pay drops land mainly on earlier immigrants and locals who didn't finish high school \u2014 the people whose jobs are most similar."
+        "research": "For the most exposed group the effect is not zero. NAS 2016 states that, to the extent negative wage impacts occur, they fall on prior immigrants and native-born workers without a high-school diploma — the closest substitutes for low-skilled immigrant labour.",
+        "simple": "For the workers most exposed, the effect isn't zero. The US review found that any pay drops land mainly on earlier immigrants and locals who didn't finish high school — the people whose jobs are most similar."
       },
       "effect_size": {
         "research": "negative, concentrated on dropouts & prior immigrants",
@@ -235,6 +235,7 @@
       "source_citation": "NAS 2016.",
       "triggers_split_to": [],
       "tension_with": [
+        "F-geo-1",
         "F-wo-1"
       ],
       "source_strength": "strong",
@@ -250,8 +251,8 @@
       "node_id": "n_econ_wages_lowskill",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "An economic-theory reading of the same report (Center for Immigration Studies) computes that the aggregate 'immigration surplus' to natives is generated precisely by lowering wages of native workers \u2014 a redistribution from low-wage labour to employers, on the order of several percent for the most affected.",
-        "simple": "One think-tank (which favours less immigration) argues that the economy's gain from immigration actually comes from paying some local workers less \u2014 money shifting from lower-paid workers to employers, by a few percent for those hit hardest."
+        "research": "An economic-theory reading of the same report (Center for Immigration Studies) computes that the aggregate 'immigration surplus' to natives is generated precisely by lowering wages of native workers — a redistribution from low-wage labour to employers, on the order of several percent for the most affected.",
+        "simple": "One think-tank (which favours less immigration) argues that the economy's gain from immigration actually comes from paying some local workers less — money shifting from lower-paid workers to employers, by a few percent for those hit hardest."
       },
       "effect_size": {
         "research": "~5% native wage cut in CIS's theoretical scenario",
@@ -268,7 +269,7 @@
       "source_cluster": "CIS-2016",
       "caveat": {
         "research": "An argument or interpretation, not a direct measurement. Source is an advocacy/think-tank organisation with a known prior; weigh the framing accordingly.",
-        "simple": "This is an argument, not a direct measurement. The source is a campaign group with a known view \u2014 read the spin with care."
+        "simple": "This is an argument, not a direct measurement. The source is a campaign group with a known view — read the spin with care."
       }
     },
     {
@@ -280,19 +281,19 @@
         "simple": "Studies of sudden large arrivals of lower-skilled workers still disagree: depending on how you crunch the numbers, the effect on local pay ranges from none to slightly negative. That disagreement is itself the honest answer."
       },
       "effect_size": {
-        "research": "range: \u22480 to modestly negative",
+        "research": "range: ≈0 to modestly negative",
         "simple": "somewhere between no effect and slightly negative"
       },
       "source_type": "single-study",
-      "source_citation": "NAS 2016 summary of the Card\u2013Borjas Mariel debate.",
+      "source_citation": "NAS 2016 summary of the Card–Borjas Mariel debate.",
       "triggers_split_to": [],
       "tension_with": [],
       "source_strength": "thin",
       "evidence_type": "quasi-experimental",
       "source_cluster": "NAS-2016",
       "caveat": {
-        "research": "Uses a natural-experiment / identification strategy \u2014 stronger on causation but narrow in setting.",
-        "simple": "Uses a real-world 'natural experiment,' so it's better at showing cause \u2014 but only for that setting."
+        "research": "Uses a natural-experiment / identification strategy — stronger on causation but narrow in setting.",
+        "simple": "Uses a real-world 'natural experiment,' so it's better at showing cause — but only for that setting."
       }
     },
     {
@@ -316,7 +317,7 @@
       "source_cluster": "NAS-2016",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -324,8 +325,8 @@
       "node_id": "n_econ_gdp_pc",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Immigration unambiguously raises aggregate GDP (more workers, more output). The harder per-capita claim is supported in OECD work: the joint ILO\u2013OECD review concludes immigration is unlikely to depress GDP per capita across studied destinations.",
-        "simple": "Immigration clearly makes the economy bigger. The harder question \u2014 better off per person \u2014 leans positive too: a major international review found immigration is unlikely to lower how well-off people are on average."
+        "research": "Immigration unambiguously raises aggregate GDP (more workers, more output). The harder per-capita claim is supported in OECD work: the joint ILO–OECD review concludes immigration is unlikely to depress GDP per capita across studied destinations.",
+        "simple": "Immigration clearly makes the economy bigger. The harder question — better off per person — leans positive too: a major international review found immigration is unlikely to lower how well-off people are on average."
       },
       "effect_size": {
         "research": "per-capita: non-negative on average",
@@ -334,7 +335,9 @@
       "source_type": "systematic-review",
       "source_citation": "OECD/ILO 2018, How Immigrants Contribute.",
       "triggers_split_to": [],
-      "tension_with": [],
+      "tension_with": [
+        "F-geo-2"
+      ],
       "source_strength": "moderate",
       "evidence_type": "review",
       "source_cluster": "OECD-migration",
@@ -373,7 +376,7 @@
       "direction": "COMPLICATES",
       "claim_paragraph": {
         "research": "The per-capita effect depends on immigrant composition (working-age vs dependents, skill level) and on productivity channels OECD finds 'less clear.' Demography drives the modelled gains; change the age/skill mix and the per-capita result moves.",
-        "simple": "Whether people end up better off per person depends on who arrives (working-age or dependents, higher- or lower-skilled) and how they affect productivity \u2014 which is less clear. Change the mix of arrivals and the answer changes."
+        "simple": "Whether people end up better off per person depends on who arrives (working-age or dependents, higher- or lower-skilled) and how they affect productivity — which is less clear. Change the mix of arrivals and the answer changes."
       },
       "effect_size": {
         "research": "qualitative",
@@ -396,8 +399,8 @@
       "node_id": "n_fiscal",
       "direction": "COMPLICATES",
       "claim_paragraph": {
-        "research": "There is no single fiscal number. NAS 2016 produced eight scenarios whose sign depends on (a) whether immigrants are charged the average or marginal cost of pure public goods like defence, (b) immigrant education, and (c) the time horizon \u2014 yielding anything from a ~$43B to ~$299B annual burden, or a long-run surplus.",
-        "simple": "There's no single answer on cost to government. The US review ran eight versions and the result flips depending on how you count shared costs like defence, immigrants' education levels, and how far into the future you look \u2014 anywhere from a yearly cost to a long-term gain."
+        "research": "There is no single fiscal number. NAS 2016 produced eight scenarios whose sign depends on (a) whether immigrants are charged the average or marginal cost of pure public goods like defence, (b) immigrant education, and (c) the time horizon — yielding anything from a ~$43B to ~$299B annual burden, or a long-run surplus.",
+        "simple": "There's no single answer on cost to government. The US review ran eight versions and the result flips depending on how you count shared costs like defence, immigrants' education levels, and how far into the future you look — anywhere from a yearly cost to a long-term gain."
       },
       "effect_size": {
         "research": "range: ~$43B to ~$299B/yr, or long-run surplus",
@@ -425,7 +428,7 @@
       "direction": "SUPPORTS",
       "claim_paragraph": {
         "research": "In OECD cross-country accounting, immigrants are generally not heavier users of benefits than the native-born, and whether they are net contributors hinges mostly on labour-market integration (employment and wages) rather than on immigration itself.",
-        "simple": "Across rich countries, immigrants generally don't use more benefits than locals. Whether they pay in more than they take out depends mostly on whether they have jobs and decent pay \u2014 not on immigration by itself."
+        "simple": "Across rich countries, immigrants generally don't use more benefits than locals. Whether they pay in more than they take out depends mostly on whether they have jobs and decent pay — not on immigration by itself."
       },
       "effect_size": {
         "research": "qualitative",
@@ -442,7 +445,7 @@
       "source_cluster": "OECD-migration",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -451,7 +454,7 @@
       "direction": "SUPPORTS",
       "claim_paragraph": {
         "research": "Highly-educated immigrants are clear net fiscal contributors: the Dallas Fed's reading of NAS 2016 finds they contribute far more in taxes than they consume in benefits, and OECD finds per-capita net fiscal contribution rises with education level.",
-        "simple": "Higher-educated immigrants clearly pay in more than they take out \u2014 a lot more in taxes than they use in services \u2014 and the better-educated the immigrant, the bigger the surplus."
+        "simple": "Higher-educated immigrants clearly pay in more than they take out — a lot more in taxes than they use in services — and the better-educated the immigrant, the bigger the surplus."
       },
       "effect_size": {
         "research": "large positive; revenue/benefit ratio well above 1",
@@ -499,7 +502,7 @@
       "direction": "SUPPORTS",
       "claim_paragraph": {
         "research": "Under the average-cost public-goods assumption, NAS 2016 scenarios show immigrants (legal and illegal) as a present-day net drain, as large as ~$299B/yr, driven heavily by less-educated immigrants and the cost of educating their (native-born) children.",
-        "simple": "Count shared costs one common way, and immigrants (including through their kids' schooling) look like a net cost to government \u2014 driven mainly by lower-educated arrivals."
+        "simple": "Count shared costs one common way, and immigrants (including through their kids' schooling) look like a net cost to government — driven mainly by lower-educated arrivals."
       },
       "effect_size": {
         "research": "up to ~$299B/yr aggregate drain (avg-cost)",
@@ -510,7 +513,8 @@
       "triggers_split_to": [],
       "tension_with": [
         "F-fis-2",
-        "F-fl-2"
+        "F-fl-2",
+        "F-geo-3"
       ],
       "source_strength": "moderate",
       "evidence_type": "model-based",
@@ -525,8 +529,8 @@
       "node_id": "n_fiscal_lowskill",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "Under the marginal-cost assumption (immigrants don't add to the cost of pure public goods), the Dallas Fed finds the long-run fiscal impact turns positive and the short-run negative effect is very small \u2014 less negative than that of comparable natives.",
-        "simple": "Count shared costs another reasonable way (immigrants don't add to fixed costs like defence), and the long-term effect turns positive \u2014 and even the short-term cost is smaller than for similar locals."
+        "research": "Under the marginal-cost assumption (immigrants don't add to the cost of pure public goods), the Dallas Fed finds the long-run fiscal impact turns positive and the short-run negative effect is very small — less negative than that of comparable natives.",
+        "simple": "Count shared costs another reasonable way (immigrants don't add to fixed costs like defence), and the long-term effect turns positive — and even the short-term cost is smaller than for similar locals."
       },
       "effect_size": {
         "research": "long-run positive; short-run small-negative",
@@ -576,7 +580,7 @@
       "direction": "SUPPORTS",
       "claim_paragraph": {
         "research": "Lengthening the horizon to include descendants improves the picture: NAS finds the children of immigrants (second generation) are among the strongest net fiscal contributors, often out-earning and out-paying comparable third-plus-generation natives.",
-        "simple": "Look further ahead and it improves: the US review found immigrants' children are among the biggest net contributors \u2014 often earning and paying in more than long-settled locals."
+        "simple": "Look further ahead and it improves: the US review found immigrants' children are among the biggest net contributors — often earning and paying in more than long-settled locals."
       },
       "effect_size": {
         "research": "second generation: strongly net positive",
@@ -593,7 +597,7 @@
       "source_cluster": "NAS-2016",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -670,7 +674,7 @@
       "source_cluster": "Krol-2021",
       "caveat": {
         "research": "Synthesis across many studies of varying design and quality. Source is an advocacy/think-tank organisation with a known prior; weigh the framing accordingly.",
-        "simple": "A round-up of many studies of mixed quality. The source is a campaign group with a known view \u2014 read the spin with care."
+        "simple": "A round-up of many studies of mixed quality. The source is a campaign group with a known view — read the spin with care."
       }
     },
     {
@@ -678,11 +682,11 @@
       "node_id": "n_innov_share",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Immigrants are over-represented in measured innovation. Tracking ~880,000 US inventors (1990\u20132016), Bernstein, Diamond et al. find immigrants were 16% of inventors but produced 23% of patents; weighting by patent quality/value pushes the share higher.",
-        "simple": "Immigrants invent more than their numbers suggest. Tracking about 880,000 US inventors, researchers found immigrants were 16% of inventors but produced 23% of patents \u2014 more once you weight by how valuable the patents are."
+        "research": "Immigrants are over-represented in measured innovation. Tracking ~880,000 US inventors (1990–2016), Bernstein, Diamond et al. find immigrants were 16% of inventors but produced 23% of patents; weighting by patent quality/value pushes the share higher.",
+        "simple": "Immigrants invent more than their numbers suggest. Tracking about 880,000 US inventors, researchers found immigrants were 16% of inventors but produced 23% of patents — more once you weight by how valuable the patents are."
       },
       "effect_size": {
-        "research": "16% of inventors \u2192 23% of patents",
+        "research": "16% of inventors → 23% of patents",
         "simple": "16% of inventors, but 23% of patents"
       },
       "source_type": "single-study",
@@ -696,7 +700,7 @@
       "source_cluster": "Diamond-2022",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -704,7 +708,7 @@
       "node_id": "n_innov_share",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "On entrepreneurship, the immigrant share of US founders rose to ~29% by 2020 (vs ~14\u201315% of population), exceeding 40% among VC-backed and leading AI firms; immigrant-owned firms generate more patents per worker.",
+        "research": "On entrepreneurship, the immigrant share of US founders rose to ~29% by 2020 (vs ~14–15% of population), exceeding 40% among VC-backed and leading AI firms; immigrant-owned firms generate more patents per worker.",
         "simple": "Immigrants start a lot of companies: about 29% of US founders by 2020 (versus roughly 15% of the population), and over 40% at top tech and AI firms. Immigrant-run firms also produce more patents per worker."
       },
       "effect_size": {
@@ -720,7 +724,7 @@
       "source_cluster": "Kerr-NBER-2024",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -728,8 +732,8 @@
       "node_id": "n_innov_share",
       "direction": "COMPLICATES",
       "claim_paragraph": {
-        "research": "Most of the gap is composition, not magic: immigrants are concentrated in STEM and arrive selected for skills. NBER finds education and field-of-study explain part but not all of the higher innovation rate \u2014 so 'immigrants are more innovative' and 'policy selects innovative people' are hard to separate.",
-        "simple": "Much of the gap is who immigrates, not something magical: immigrants cluster in science and tech and are picked for skills. Research finds their field and education explain part \u2014 but not all \u2014 of the higher rate. So it's hard to separate 'immigrants invent more' from 'we admit inventive people.'"
+        "research": "Most of the gap is composition, not magic: immigrants are concentrated in STEM and arrive selected for skills. NBER finds education and field-of-study explain part but not all of the higher innovation rate — so 'immigrants are more innovative' and 'policy selects innovative people' are hard to separate.",
+        "simple": "Much of the gap is who immigrates, not something magical: immigrants cluster in science and tech and are picked for skills. Research finds their field and education explain part — but not all — of the higher rate. So it's hard to separate 'immigrants invent more' from 'we admit inventive people.'"
       },
       "effect_size": {
         "research": "qualitative",
@@ -744,7 +748,7 @@
       "source_cluster": "Krol-2021",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out. Source is an advocacy/think-tank organisation with a known prior; weigh the framing accordingly.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it. The source is a campaign group with a known view \u2014 read the spin with care."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it. The source is a campaign group with a known view — read the spin with care."
       }
     },
     {
@@ -752,12 +756,12 @@
       "node_id": "n_innov_complement",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Immigrant inventors appear to complement natives: Hunt & Gauthier-Loiselle estimate a 1-percentage-point rise in immigrant college graduates' population share raises patents per capita by 9\u201318% \u2014 more than the immigrants' own patents alone, implying positive spillovers onto native inventors.",
-        "simple": "Immigrant inventors seem to help local ones. One study found that raising immigrant college graduates by 1% of the population lifted patents per person by 9\u201318% \u2014 more than the immigrants' own patents, so locals invent more too."
+        "research": "Immigrant inventors appear to complement natives: Hunt & Gauthier-Loiselle estimate a 1-percentage-point rise in immigrant college graduates' population share raises patents per capita by 9–18% — more than the immigrants' own patents alone, implying positive spillovers onto native inventors.",
+        "simple": "Immigrant inventors seem to help local ones. One study found that raising immigrant college graduates by 1% of the population lifted patents per person by 9–18% — more than the immigrants' own patents, so locals invent more too."
       },
       "effect_size": {
-        "research": "+9\u201318% patents/capita per +1pp immigrant grads",
-        "simple": "patents per person rise 9\u201318%"
+        "research": "+9–18% patents/capita per +1pp immigrant grads",
+        "simple": "patents per person rise 9–18%"
       },
       "source_type": "single-study",
       "source_citation": "Hunt & Gauthier-Loiselle 2010, AEJ: Macroeconomics.",
@@ -768,7 +772,7 @@
       "source_cluster": "Hunt-2010",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -792,7 +796,7 @@
       "source_cluster": "McQuade-2026",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -800,7 +804,7 @@
       "node_id": "n_innov_complement",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "Crowd-out is plausible at the margin in fixed-slot systems (university places, H-1B caps, lab budgets): some studies find native students/workers diverted out of fields with large foreign inflows \u2014 though evidence of NET displacement of native innovators is weaker than the complementarity evidence.",
+        "research": "Crowd-out is plausible at the margin in fixed-slot systems (university places, H-1B caps, lab budgets): some studies find native students/workers diverted out of fields with large foreign inflows — though evidence of NET displacement of native innovators is weaker than the complementarity evidence.",
         "simple": "Crowding-out is possible where slots are fixed (university places, visas, lab budgets): some studies find locals shifting away from fields flooded with newcomers. But the evidence that locals are actually pushed out overall is weaker than the evidence that immigrants help."
       },
       "effect_size": {
@@ -818,7 +822,7 @@
       "source_cluster": "NAS-2016",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -854,11 +858,11 @@
       "node_id": "n_social_crime",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "In the US the immigration\u2013crime association is weak and not positive. A meta-analysis of 51 studies (1994\u20132014) finds the cross-sectional association is essentially zero AND the longitudinal association (from the stronger designs) is small and negative, mean r \u2248 \u22120.15. Both are reported: the honest summary is 'no positive link', not a strong protective effect (r \u2248 \u22120.15 explains ~2% of variance).",
-        "simple": "In the US, more immigration doesn't mean more crime. A review of 51 studies found basically no link, and the stronger studies found a small drop in crime where immigration rose. 'Small drop' \u2014 not a big protective effect."
+        "research": "In the US the immigration–crime association is weak and not positive. A meta-analysis of 51 studies (1994–2014) finds the cross-sectional association is essentially zero AND the longitudinal association (from the stronger designs) is small and negative, mean r ≈ −0.15. Both are reported: the honest summary is 'no positive link', not a strong protective effect (r ≈ −0.15 explains ~2% of variance).",
+        "simple": "In the US, more immigration doesn't mean more crime. A review of 51 studies found basically no link, and the stronger studies found a small drop in crime where immigration rose. 'Small drop' — not a big protective effect."
       },
       "effect_size": {
-        "research": "cross-sectional r\u22480; longitudinal r\u2248\u22120.15 (weak, ~2% variance)",
+        "research": "cross-sectional r≈0; longitudinal r≈−0.15 (weak, ~2% variance)",
         "simple": "no link, or a small drop in crime"
       },
       "source_type": "meta-analysis",
@@ -870,7 +874,7 @@
       "source_cluster": "OuseyKubrin-2018",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -896,7 +900,7 @@
       "source_cluster": "Abramitzky-NBER",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out. Single study, but population-level administrative data across many decades, hence high strength.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it. Just one study, but it uses full government records over many years, so it counts as strong."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it. Just one study, but it uses full government records over many years, so it counts as strong."
       }
     },
     {
@@ -904,11 +908,11 @@
       "node_id": "n_social_crime",
       "direction": "COMPLICATES",
       "claim_paragraph": {
-        "research": "The result is geographically bounded. Comparative reviews find the US/Canada/Australia pattern (null-or-negative) does not cleanly transfer to Europe, where findings are 'more mixed' \u2014 so 'immigrants commit less crime' is a claim about specific contexts, not a universal law.",
+        "research": "The result is geographically bounded. Comparative reviews find the US/Canada/Australia pattern (null-or-negative) does not cleanly transfer to Europe, where findings are 'more mixed' — so 'immigrants commit less crime' is a claim about specific contexts, not a universal law.",
         "simple": "It depends on where. The 'less crime' pattern in the US, Canada and Australia doesn't clearly hold in Europe, where results are more mixed. So it's not a universal rule."
       },
       "effect_size": {
-        "research": "qualitative; US\u2248neg, Europe mixed",
+        "research": "qualitative; US≈neg, Europe mixed",
         "simple": "US lower; Europe mixed"
       },
       "source_type": "systematic-review",
@@ -928,8 +932,8 @@
       "node_id": "n_social_trust",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Putnam's 'constrict' finding: in the short-to-medium run, more ethnically diverse US neighbourhoods show lower social trust \u2014 including trust of one's own group \u2014 plus less altruism and fewer friendships ('hunkering down'). The strongest single source for diversity harming cohesion.",
-        "simple": "Putnam's famous finding: in the short term, more mixed US neighbourhoods showed less trust \u2014 even of one's own group \u2014 plus less helping and fewer friendships ('hunkering down'). It's the strongest single case that diversity can hurt community."
+        "research": "Putnam's 'constrict' finding: in the short-to-medium run, more ethnically diverse US neighbourhoods show lower social trust — including trust of one's own group — plus less altruism and fewer friendships ('hunkering down'). The strongest single source for diversity harming cohesion.",
+        "simple": "Putnam's famous finding: in the short term, more mixed US neighbourhoods showed less trust — even of one's own group — plus less helping and fewer friendships ('hunkering down'). It's the strongest single case that diversity can hurt community."
       },
       "effect_size": {
         "research": "short-run: lower neighbourhood trust",
@@ -946,7 +950,7 @@
       "source_cluster": "Putnam-2007",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -954,15 +958,15 @@
       "node_id": "n_social_trust",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "The pattern partly survives meta-analysis: Dinesen, Schaeffer & S\u00f8nderskov (1,001 estimates, 87 studies) find a statistically significant negative diversity\u2013trust relationship overall \u2014 but small, and concentrated in trust in neighbours and at local geographic scales.",
-        "simple": "A big review (1,001 results from 87 studies) found a real but small link between diversity and lower trust \u2014 mostly about trusting your immediate neighbours, and mostly at the local level."
+        "research": "The pattern partly survives meta-analysis: Dinesen, Schaeffer & Sønderskov (1,001 estimates, 87 studies) find a statistically significant negative diversity–trust relationship overall — but small, and concentrated in trust in neighbours and at local geographic scales.",
+        "simple": "A big review (1,001 results from 87 studies) found a real but small link between diversity and lower trust — mostly about trusting your immediate neighbours, and mostly at the local level."
       },
       "effect_size": {
         "research": "significant but small; strongest for neighbour trust",
         "simple": "real but small; mainly local, neighbour trust"
       },
       "source_type": "meta-analysis",
-      "source_citation": "Dinesen, Schaeffer & S\u00f8nderskov 2020, Annual Review of Political Science.",
+      "source_citation": "Dinesen, Schaeffer & Sønderskov 2020, Annual Review of Political Science.",
       "triggers_split_to": [],
       "tension_with": [
         "F-econ-1"
@@ -972,7 +976,7 @@
       "source_cluster": "Dinesen-2020",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -980,15 +984,15 @@
       "node_id": "n_social_trust",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "The effect largely evaporates for generalised trust and at national scale, and may track segregation rather than diversity itself: in integrated (vs segregated) neighbourhoods the negative association weakens \u2014 pointing to policy (housing, contact) rather than diversity per se as the lever.",
-        "simple": "The link mostly disappears for general trust and across whole countries, and may be about neighbourhoods being split up rather than diverse: where people actually mix, the effect fades. That points to housing and contact \u2014 not diversity itself \u2014 as the lever."
+        "research": "The effect largely evaporates for generalised trust and at national scale, and may track segregation rather than diversity itself: in integrated (vs segregated) neighbourhoods the negative association weakens — pointing to policy (housing, contact) rather than diversity per se as the lever.",
+        "simple": "The link mostly disappears for general trust and across whole countries, and may be about neighbourhoods being split up rather than diverse: where people actually mix, the effect fades. That points to housing and contact — not diversity itself — as the lever."
       },
       "effect_size": {
-        "research": "\u22480 for generalised/national trust",
+        "research": "≈0 for generalised/national trust",
         "simple": "little to no effect on general, countrywide trust"
       },
       "source_type": "single-study",
-      "source_citation": "Uslaner 2012; moderators in Dinesen et al. 2020.",
+      "source_citation": "Dinesen et al. 2020, Annual Review of Political Science (moderators of the Uslaner 2012 diversity-distrust argument).",
       "triggers_split_to": [],
       "tension_with": [
         "F-tr-1"
@@ -998,7 +1002,7 @@
       "source_cluster": "Dinesen-2020",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -1030,8 +1034,8 @@
       "node_id": "n_social_trust",
       "direction": "COMPLICATES",
       "claim_paragraph": {
-        "research": "This is where the research runs out. Effect sizes are small, method- and context-dependent, confounded by segregation and deprivation, and concentrated on the hardest-to-define outcome ('cohesion'). Beyond here, belief rests on how much weight you place on local neighbour-trust vs national generalised trust \u2014 a values question.",
-        "simple": "This is where solid evidence runs out. The effects are small, differ by place and method, get tangled up with segregation and poverty, and hang on the fuzziest thing to measure ('community'). From here, it comes down to how much you weight local neighbour-trust versus trust across the whole country \u2014 a values call."
+        "research": "This is where the research runs out. Effect sizes are small, method- and context-dependent, confounded by segregation and deprivation, and concentrated on the hardest-to-define outcome ('cohesion'). Beyond here, belief rests on how much weight you place on local neighbour-trust vs national generalised trust — a values question.",
+        "simple": "This is where solid evidence runs out. The effects are small, differ by place and method, get tangled up with segregation and poverty, and hang on the fuzziest thing to measure ('community'). From here, it comes down to how much you weight local neighbour-trust versus trust across the whole country — a values call."
       },
       "effect_size": {
         "research": "qualitative (leaf / honest stop)",
@@ -1054,8 +1058,8 @@
       "node_id": "n_social_integration",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Economic and civic integration is largely generational and upward: NAS finds second-generation immigrants reach higher education, earnings and tax-paying than comparable third-plus-generation natives \u2014 assimilation works, over decades not years.",
-        "simple": "Immigrants and their kids tend to catch up and move up: the US review found second-generation immigrants reach more education, higher pay, and pay more tax than long-settled locals \u2014 over decades, not years."
+        "research": "Economic and civic integration is largely generational and upward: NAS finds second-generation immigrants reach higher education, earnings and tax-paying than comparable third-plus-generation natives — assimilation works, over decades not years.",
+        "simple": "Immigrants and their kids tend to catch up and move up: the US review found second-generation immigrants reach more education, higher pay, and pay more tax than long-settled locals — over decades, not years."
       },
       "effect_size": {
         "research": "2nd gen exceeds comparable natives",
@@ -1070,7 +1074,7 @@
       "source_cluster": "NAS-2016",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -1102,8 +1106,8 @@
       "node_id": "n_social_integration",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "Where integration stalls \u2014 segregated low-opportunity neighbourhoods, weak labour-market access \u2014 second-generation outcomes can lag, and that stall is also what drives the local trust and (in Europe) crime associations. Integration is the mechanism the other social findings run through.",
-        "simple": "Where fitting in stalls \u2014 cut-off neighbourhoods, few job routes \u2014 the second generation can fall behind, and that's also what drives the local trust and (in Europe) crime patterns. Settling in is the thread the other social effects run through."
+        "research": "Where integration stalls — segregated low-opportunity neighbourhoods, weak labour-market access — second-generation outcomes can lag, and that stall is also what drives the local trust and (in Europe) crime associations. Integration is the mechanism the other social findings run through.",
+        "simple": "Where fitting in stalls — cut-off neighbourhoods, few job routes — the second generation can fall behind, and that's also what drives the local trust and (in Europe) crime patterns. Settling in is the thread the other social effects run through."
       },
       "effect_size": {
         "research": "qualitative; stalls localise harm",
@@ -1118,7 +1122,7 @@
       "source_cluster": "Dinesen-2020",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -1126,16 +1130,16 @@
       "node_id": "n_social_crime",
       "direction": "SUPPORTS",
       "claim_paragraph": {
-        "research": "Across 38 European countries (Eurostat 2017\u20132020), immigration is significantly and POSITIVELY associated with some specific offences once socioeconomic factors are included \u2014 notably sexual-violence rates (r \u2248 0.20) and theft. The association is country-level, cross-sectional and correlational, and is offence-specific rather than a uniform crime increase.",
-        "simple": "Across 38 European countries, more immigration lined up with more of certain crimes \u2014 especially sexual violence and theft \u2014 even after accounting for income and other factors. This is a country-level pattern, not proof immigration caused it, and it varies by crime type."
+        "research": "Across 38 European countries (Eurostat 2017–2020), immigration is significantly and POSITIVELY associated with some specific offences once socioeconomic factors are included — notably sexual-violence rates (r ≈ 0.20) and theft. The association is country-level, cross-sectional and correlational, and is offence-specific rather than a uniform crime increase.",
+        "simple": "Across 38 European countries, more immigration lined up with more of certain crimes — especially sexual violence and theft — even after accounting for income and other factors. This is a country-level pattern, not proof immigration caused it, and it varies by crime type."
       },
       "effect_size": {
-        "research": "r\u22480.20 sexual violence; positive for theft (country-level, cross-sectional)",
+        "research": "r≈0.20 sexual violence; positive for theft (country-level, cross-sectional)",
         "simple": "linked to more of certain crimes in Europe"
       },
       "source_strength": "moderate",
       "source_type": "single-study",
-      "source_citation": "Crime, Law and Social Change 2024 \u2014 38 European countries, Eurostat 2017\u20132020.",
+      "source_citation": "Crime, Law and Social Change 2024 — 38 European countries, Eurostat 2017–2020.",
       "triggers_split_to": [],
       "tension_with": [
         "F-cr-2",
@@ -1145,7 +1149,7 @@
       "source_cluster": "EuroCrime-2024",
       "caveat": {
         "research": "Correlational; selection and confounding (where immigrants settle, who is selected to migrate) are not fully ruled out.",
-        "simple": "This is a pattern, not proof of cause \u2014 things like where immigrants settle, or who chooses to move, could be behind it."
+        "simple": "This is a pattern, not proof of cause — things like where immigrants settle, or who chooses to move, could be behind it."
       }
     },
     {
@@ -1153,16 +1157,16 @@
       "node_id": "n_social_crime",
       "direction": "CHALLENGES",
       "claim_paragraph": {
-        "research": "A district-level panel for Germany (2008\u20132019) that explicitly corrects for immigrants' non-random location choice finds NO significant positive relationship between immigrant share and total crime; effects average to roughly zero (positive in the early sub-period, negative/insignificant later), with only a specification-sensitive positive effect on drug offences. Identification-aware European evidence does not support a general crime increase.",
-        "simple": "A careful German study that accounted for where immigrants choose to live found no overall rise in crime from immigration between 2008 and 2019 \u2014 only a small, shaky effect on drug offences. Careful European evidence doesn't back a general crime rise."
+        "research": "A district-level panel for Germany (2008–2019) that explicitly corrects for immigrants' non-random location choice finds NO significant positive relationship between immigrant share and total crime; effects average to roughly zero (positive in the early sub-period, negative/insignificant later), with only a specification-sensitive positive effect on drug offences. Identification-aware European evidence does not support a general crime increase.",
+        "simple": "A careful German study that accounted for where immigrants choose to live found no overall rise in crime from immigration between 2008 and 2019 — only a small, shaky effect on drug offences. Careful European evidence doesn't back a general crime rise."
       },
       "effect_size": {
-        "research": "\u22480 overall after correcting for location selection",
+        "research": "≈0 overall after correcting for location selection",
         "simple": "no overall rise, once you account for where people settle"
       },
       "source_strength": "moderate",
       "source_type": "single-study",
-      "source_citation": "CESifo Working Paper / 'Do immigrants affect crime? Evidence for Germany' 2023 \u2014 district panel 2008\u20132019.",
+      "source_citation": "CESifo Working Paper / 'Do immigrants affect crime? Evidence for Germany' 2023 — district panel 2008–2019.",
       "triggers_split_to": [],
       "tension_with": [
         "F-cr-4"
@@ -1170,8 +1174,86 @@
       "evidence_type": "quasi-experimental",
       "source_cluster": "Germany-CESifo",
       "caveat": {
-        "research": "Uses a natural-experiment / identification strategy \u2014 stronger on causation but narrow in setting.",
-        "simple": "Uses a real-world 'natural experiment,' so it's better at showing cause \u2014 but only for that setting."
+        "research": "Uses a natural-experiment / identification strategy — stronger on causation but narrow in setting.",
+        "simple": "Uses a real-world 'natural experiment,' so it's better at showing cause — but only for that setting."
+      }
+    },
+    {
+      "finding_id": "F-geo-1",
+      "node_id": "n_econ_wages_overall",
+      "direction": "CHALLENGES",
+      "claim_paragraph": {
+        "research": "A comparative OECD/ILO synthesis across ten low- and middle-income destination countries found that 'immigration has a limited impact on the labour market outcomes of native-born workers' — the relationship between the immigrant-worker share and native employment is 'generally negligible in the partner countries'. This extends beyond the high-income (largely US) evidence that anchors this leaf: in LMIC destinations too, the overall native wage/employment effect is small, cutting against the claim that immigration lowers native wages/employment overall.",
+        "simple": "A ten-country study of poorer destination countries (from Ghana to Thailand) found immigrants barely move local workers' wages or jobs overall — the effect was 'generally negligible'. So the 'immigrants drive down wages' claim looks weak not just in rich countries but in poorer ones too."
+      },
+      "effect_size": {
+        "research": "native labour-market impact 'limited'/'generally negligible' across ten LMIC partner countries; where impacts exist they are diverse and highly contextual",
+        "simple": "negligible overall effect on native wages/jobs across ten poorer countries"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "OECD/ILO 2018. How Immigrants Contribute to Developing Countries' Economies (ECLM programme, OECD Development Centre + ILO; ten LMIC partner countries: Argentina, Costa Rica, Cote d'Ivoire, Dominican Republic, Ghana, Kyrgyzstan, Nepal, Rwanda, South Africa, Thailand).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-wl-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "oecd-ilo-devecon",
+      "caveat": {
+        "research": "'Negligible on average' can still hide sectoral or informal-market effects (the report notes impacts, where present, are diverse and contextual, and that adjustment can occur via employment where wages are rigid). Institutional note: the OECD-ILO DevEcon programme shares OECD provenance with the OECD-migration cluster used elsewhere in this tool — treat as partially non-independent.",
+        "simple": "'No effect on average' can still hide harm in particular industries or informal jobs. Also, this is an OECD-linked source like another one already used here, so they aren't fully independent."
+      }
+    },
+    {
+      "finding_id": "F-geo-2",
+      "node_id": "n_econ_gdp_pc",
+      "direction": "SUPPORTS",
+      "claim_paragraph": {
+        "research": "The same OECD/ILO synthesis estimates immigrants' contribution to GDP at about 1% (Ghana) to 19% (Cote d'Ivoire), averaging ~7%, with the contribution to value added exceeding immigrants' employment share in half the partner countries; it concludes 'overall, immigration is unlikely to depress GDP per capita', with per-capita contribution higher than the native-born in most partner countries. This extends the GDP-per-capita result beyond the OECD/high-income evidence to ten LMIC destinations.",
+        "simple": "Across ten poorer destination countries, immigrants added roughly 1% (Ghana) to 19% (Cote d'Ivoire) of GDP, about 7% on average, and the report concludes immigration is 'unlikely to depress GDP per capita'. So the 'raises income per head, not just total output' finding also shows up outside rich countries."
+      },
+      "effect_size": {
+        "research": "immigrant GDP contribution ~1% (Ghana) to 19% (Cote d'Ivoire), average ~7%; 'immigration is unlikely to depress GDP per capita'",
+        "simple": "~7% average GDP contribution; does not lower GDP per capita"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "OECD/ILO 2018. How Immigrants Contribute to Developing Countries' Economies (ECLM programme, OECD Development Centre + ILO; ten LMIC partner countries: Argentina, Costa Rica, Cote d'Ivoire, Dominican Republic, Ghana, Kyrgyzstan, Nepal, Rwanda, South Africa, Thailand).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-gp-1"
+      ],
+      "source_strength": "strong",
+      "evidence_type": "review",
+      "source_cluster": "oecd-ilo-devecon",
+      "caveat": {
+        "research": "GDP-share contributions are accounting estimates, not causal per-capita growth effects; productivity results were 'less clear'. Institutional note: shares OECD provenance with the OECD-migration cluster that supplies this leaf's other findings, so it is partially non-independent corroboration, not a fully separate body of work.",
+        "simple": "These are accounting estimates of how much immigrants add, not proof they raise growth; the productivity side was murkier. And it's OECD-linked like the other sources here, so not fully independent."
+      }
+    },
+    {
+      "finding_id": "F-geo-3",
+      "node_id": "n_fiscal_lowskill",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "In the OECD/ILO ten-country synthesis — where migration is predominantly lower-skilled — immigrants raise public revenues but 'the increase may not be always sufficient to offset the public expenditures they generate'; the net position is a deficit under 1% of GDP in two countries (Kyrgyzstan, Nepal) and net-positive in the other partner countries with data. The overall fiscal effect is small and context-dependent rather than a uniform net drain, complicating any general 'low-skilled immigrants are a net fiscal drain' reading with non-US evidence.",
+        "simple": "In these ten mostly-lower-skilled-migration countries, immigrants paid in more but not always enough to cover what they cost — a small shortfall (under 1% of GDP) in Kyrgyzstan and Nepal, but net positive elsewhere. So 'low-skilled immigrants are a drain' isn't a universal rule; the effect is small and depends on the country."
+      },
+      "effect_size": {
+        "research": "net fiscal position small and mixed: deficit <1% of GDP in Kyrgyzstan and Nepal, net-positive in the other partner countries with data",
+        "simple": "small, mixed fiscal impact — slight cost in two countries, net gain in the rest"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "OECD/ILO 2018. How Immigrants Contribute to Developing Countries' Economies (ECLM programme, OECD Development Centre + ILO; ten LMIC partner countries: Argentina, Costa Rica, Cote d'Ivoire, Dominican Republic, Ghana, Kyrgyzstan, Nepal, Rwanda, South Africa, Thailand).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-fl-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "oecd-ilo-devecon",
+      "caveat": {
+        "research": "Immigrant skill mix in these countries is not identical to the US low-skilled cohort the leaf's other findings measure, so this is context-transportability evidence, not a direct like-for-like fiscal comparison. Institutional overlap with the OECD-migration cluster applies.",
+        "simple": "The immigrants here aren't exactly the same group as the US low-skilled immigrants the other studies measured, so it's a rough comparison across contexts, not identical cases."
       }
     }
   ]

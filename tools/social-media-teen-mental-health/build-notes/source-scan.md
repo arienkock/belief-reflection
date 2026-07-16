@@ -296,3 +296,50 @@ literature is thin, flag it — the both-directions rule cuts this way too.
 - Non-Anglosphere evidence generally — current scan is US/UK/Norway/Australia
   heavy; expect a standing `caveat` mirroring Immigration's "US-centric"
   flags.
+
+## Geographic scope (protocol v1.1, §Geographic scope) — COMPLETED 2026-07-16
+
+This tool was flagged Anglosphere/Nordic-centric at authoring, so the geographic
+pass is especially load-bearing here. Queries run and outcomes:
+
+- `social media use adolescent depression anxiety Global South low-income countries meta-analysis` →
+  **FOUND (decisive).** Ghai, Fassi, Awadh & Orben 2023 (Clinical Psychological
+  Science 11(5)) — scoping review + meta-analysis, 34 articles: overall r=.14
+  (.09-.20) but positive/significant in the Global North and **null in the Global
+  South**, with >70% of studies Global North (0% Africa). Added as **F-geo-1**
+  (CHALLENGES n_assoc_magnitude, moderate, cluster `ghai-diversity`). Author
+  overlap with orben-przybylski flagged in the audit (partial non-independence).
+- `social media adolescent mental health cohort China India Latin America Africa longitudinal` →
+  **FOUND (context only).** Global-South well-being reviews (Current Opinion in
+  Psychology 2022, S2352250X22000288; J Adolescent Health 2024 11-country
+  qualitative study) — narrative/qualitative syntheses, no qualifying pooled
+  effect size; both paywalled (403) at authoring. Cited here as context, not
+  authored as findings (no verifiable quantitative claim). NULL for a qualifying
+  non-Western longitudinal cohort with an extractable effect.
+- `adolescent mental health depression trend since 2010 global low-middle-income countries` →
+  **FOUND (decisive).** GBD 2021 adolescent-depression analysis, 204 countries,
+  1990-2021 (Scientific Reports, s41598-024-84843-w; Europe PMC PMC11830012):
+  global age-standardised rates broadly stable; rise concentrated in high-income
+  regions, **fastest in High-income North America (EAPC 1.04 prevalence, 1.30
+  incidence, 1.19 DALYs)**; East Asia/South Asia/Caribbean declining. Added as
+  **F-geo-2** (CHALLENGES n_trend_attrib, strong, cluster `ihme-gbd`) and
+  **F-geo-3** (COMPLICATES n_trend_real, moderate, `ihme-gbd`). Verified via
+  three corroborating search returns of the same figures; full text auth-walled.
+
+Bodies checked: IHME GBD (tagged `ihme-gbd`, not counted as independent of other
+GBD-based analyses). WHO regional offices and Lancet/BMJ Global Health returned
+prevalence reviews (LMIC prevalence often HIGHER than HIC) but no qualifying
+outcome cohort or trend synthesis beyond GBD.
+
+New findings authored: F-geo-1, F-geo-2, F-geo-3. New crosslink tensions:
+F-geo-1↔F-mag-1 (context-transportability), F-geo-2↔F-att-1 (empirical-contradiction),
+F-geo-3↔F-real-2 (scope-aggregation).
+
+Remaining geographic gaps after documented search (standard caveat applied to
+every affected leaf: **"Evidence base is [region(s)]-heavy; external validity to
+other settings is uncertain."**):
+- No qualifying LMIC causal design (n_assoc_causal), subgroup replication
+  (n_assoc_hetero), benefit study (n_assoc_benefits), social-media-specific sleep
+  study (n_mech_sleep), or LMIC policy evaluation (n_policy_school/deact/ban).
+- The association leaf now carries a Global-South null (F-geo-1); the trend leaves
+  now carry a global frame (F-geo-2/3); the rest remain high-income-heavy.
