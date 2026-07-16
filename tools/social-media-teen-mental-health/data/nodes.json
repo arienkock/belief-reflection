@@ -80,7 +80,8 @@
       "scored": true,
       "evidence_caveats": [
         "mostly correlational — causal interpretation is not licensed",
-        "self-reported use dominates — device-log associations run weaker"
+        "self-reported use dominates — device-log associations run weaker",
+        "Evidence base is Global-North-heavy (>70% of studies; 0% Africa) and the pooled association is null in the Global South (Ghai et al. 2023). External validity to other settings is uncertain."
       ]
     },
     {
@@ -104,7 +105,8 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "strongest designs use 2000s college students and adult samples — transportability to today's adolescents not established"
+        "strongest designs use 2000s college students and adult samples — transportability to today's adolescents not established",
+        "Causal designs use Western (US/UK) samples; no qualifying LMIC causal design located. Evidence base is high-income-heavy; external validity to other settings is uncertain."
       ]
     },
     {
@@ -128,8 +130,9 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "no independent AGAINST located — one-sided",
-        "mostly correlational — causal interpretation is not licensed"
+        "mostly correlational — causal interpretation is not licensed",
+        "Subgroup evidence (girls, early adolescence) is Anglosphere/Nordic; no LMIC subgroup replication located. Evidence base is high-income-heavy; external validity to other settings is uncertain.",
+        "no independent AGAINST located — one-sided"
       ]
     },
     {
@@ -153,8 +156,10 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "no independent AGAINST located — one-sided, single-source FOR",
-        "largely qualitative and self-report evidence"
+        "single-source FOR: NAS-2024 is the only qualifying FOR cluster",
+        "largely qualitative and self-report evidence",
+        "Benefit evidence centres on Western marginalized-youth samples; no LMIC benefit study located. Evidence base is high-income-heavy; external validity to other settings is uncertain.",
+        "no independent AGAINST located — one-sided"
       ]
     },
     {
@@ -202,9 +207,10 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: nordic-trend supplies 2/3 findings here",
         "no full AGAINST located — artifact hypothesis carried via COMPLICATES only",
-        "Anglosphere/Nordic-centric evidence — external validity not established"
+        "Anglosphere/Nordic-centric evidence — external validity not established",
+        "GBD 2021 (F-geo-3) shows the rise is high-income-concentrated (fastest in North America) with global rates broadly stable; the deterioration is not established as global. External validity to other settings is uncertain.",
+        "no independent AGAINST located — one-sided"
       ]
     },
     {
@@ -228,8 +234,9 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: twenge supplies 2/4 findings here",
-        "correlational timing evidence — causal interpretation is not licensed"
+        "correlational timing evidence — causal interpretation is not licensed",
+        "GBD 2021 (F-geo-2) shows social media diffused globally while the deterioration did not (global rates stable; several LMIC regions declining). Evidence base is high-income-heavy; external validity to other settings is uncertain.",
+        "FOR single-cluster: twenge supplies all 2 FOR findings"
       ]
     },
     {
@@ -277,7 +284,9 @@
       "scored": true,
       "evidence_caveats": [
         "screens ≠ social media — both meta-analyses measure devices/screens generally",
-        "single cluster per direction — two strong meta-analyses, one each way"
+        "single cluster per direction — two strong meta-analyses, one each way",
+        "Sleep meta-analyses are high-income/general-screen; no LMIC social-media-specific sleep study located. Evidence base is high-income-heavy; external validity to other settings is uncertain.",
+        "recency: carter-sleep-meta (2016) ≥10y old — refresh review"
       ]
     },
     {
@@ -327,7 +336,8 @@
       "scored": true,
       "evidence_caveats": [
         "working-paper-heavy FOR side — peer review pending",
-        "design mismatch: causal ban-timing studies vs cross-sectional policy comparison"
+        "design mismatch: causal ban-timing studies vs cross-sectional policy comparison",
+        "Ban-outcome evidence is Nordic/UK/US; no LMIC school-ban evaluation located. Evidence base is high-income-heavy; transferability to other settings is uncertain."
       ]
     },
     {
@@ -351,7 +361,9 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "adult samples throughout — adolescent transportability assumed, not shown"
+        "adult samples throughout — adolescent transportability assumed, not shown",
+        "Deactivation RCTs are Western adult samples; no LMIC deactivation trial located. Evidence base is high-income-heavy; external validity to other settings is uncertain.",
+        "FOR single-cluster: allcott-gentzkow supplies all 2 FOR findings"
       ]
     },
     {
@@ -375,9 +387,10 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "single-source-heavy: aus-ban-eval supplies 2/2 findings here",
-        "no qualifying FOR evidence — one-sided, single-source",
-        "three-month early evidence during contested rollout — measures use, not mental health"
+        "aus-ban-eval supplies both findings here (single source)",
+        "three-month early evidence during contested rollout — measures use, not mental health",
+        "The only ban evaluation is Australian; no LMIC age-ban evidence exists. Evidence base is high-income-heavy; external validity to other settings is uncertain.",
+        "no qualifying FOR located — one-sided"
       ]
     }
   ]

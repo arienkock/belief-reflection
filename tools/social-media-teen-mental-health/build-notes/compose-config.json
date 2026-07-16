@@ -1,0 +1,48 @@
+{
+  "_comment": "Per-tool editorial input to scripts/compose-tool.py. This tool was authored (2026-07-14) before the compose pipeline was promoted (I4); this config onboards it to scripts/compose-tool.py so its audit and derived artifacts are reproducible. The script computes structural audit flags mechanically; this file supplies the topic-specific substantive caveats, the non-leaf evidence_quality judgements, leaf-quality overrides (with reason), and audit notes. Computed-flag wording is normalised to the canonical script.",
+  "map_version": "v1",
+  "recency_years": 10,
+  "advocacy_note": "none used. The After Babel critiques of Ferguson are carried inside caveats as a documented dispute, not as findings.",
+  "nonleaf_quality": {
+    "n_root": "well-evidenced",
+    "n_assoc": "well-evidenced",
+    "n_trend": "thin",
+    "n_mech": "well-evidenced",
+    "n_policy": "well-evidenced"
+  },
+  "leaf_quality_override": {
+    "n_trend_attrib": {
+      "value": "thin",
+      "reason": "Mechanically two-sided (S1/C2) but the single FOR cluster (twenge) carries both FOR findings, and scaling an individual-level association into the principal population driver requires unearned assumptions. This is the map's most conflation-prone claim; the honest state is thin, not well-evidenced."
+    }
+  },
+  "manual_caveats": {
+    "n_assoc": ["mostly correlational — causal interpretation is not licensed", "self-reported use dominates — device-log associations run weaker"],
+    "n_assoc_magnitude": ["mostly correlational — causal interpretation is not licensed", "self-reported use dominates — device-log associations run weaker", "Evidence base is Global-North-heavy (>70% of studies; 0% Africa) and the pooled association is null in the Global South (Ghai et al. 2023). External validity to other settings is uncertain."],
+    "n_assoc_causal": ["strongest designs use 2000s college students and adult samples — transportability to today's adolescents not established", "Causal designs use Western (US/UK) samples; no qualifying LMIC causal design located. Evidence base is high-income-heavy; external validity to other settings is uncertain."],
+    "n_assoc_hetero": ["mostly correlational — causal interpretation is not licensed", "Subgroup evidence (girls, early adolescence) is Anglosphere/Nordic; no LMIC subgroup replication located. Evidence base is high-income-heavy; external validity to other settings is uncertain."],
+    "n_assoc_benefits": ["single-source FOR: NAS-2024 is the only qualifying FOR cluster", "largely qualitative and self-report evidence", "Benefit evidence centres on Western marginalized-youth samples; no LMIC benefit study located. Evidence base is high-income-heavy; external validity to other settings is uncertain."],
+    "n_trend": ["Anglosphere/Nordic-centric evidence — external validity not established"],
+    "n_trend_real": ["no full AGAINST located — artifact hypothesis carried via COMPLICATES only", "Anglosphere/Nordic-centric evidence — external validity not established", "GBD 2021 (F-geo-3) shows the rise is high-income-concentrated (fastest in North America) with global rates broadly stable; the deterioration is not established as global. External validity to other settings is uncertain."],
+    "n_trend_attrib": ["correlational timing evidence — causal interpretation is not licensed", "GBD 2021 (F-geo-2) shows social media diffused globally while the deterioration did not (global rates stable; several LMIC regions declining). Evidence base is high-income-heavy; external validity to other settings is uncertain."],
+    "n_mech": ["screens ≠ social media — much of this literature measures devices generally"],
+    "n_mech_sleep": ["screens ≠ social media — both meta-analyses measure devices/screens generally", "single cluster per direction — two strong meta-analyses, one each way", "Sleep meta-analyses are high-income/general-screen; no LMIC social-media-specific sleep study located. Evidence base is high-income-heavy; external validity to other settings is uncertain."],
+    "n_policy": ["fast-moving policy literature — several key sources are 2024–2026 working papers"],
+    "n_policy_school": ["working-paper-heavy FOR side — peer review pending", "design mismatch: causal ban-timing studies vs cross-sectional policy comparison", "Ban-outcome evidence is Nordic/UK/US; no LMIC school-ban evaluation located. Evidence base is high-income-heavy; transferability to other settings is uncertain."],
+    "n_policy_deact": ["adult samples throughout — adolescent transportability assumed, not shown", "Deactivation RCTs are Western adult samples; no LMIC deactivation trial located. Evidence base is high-income-heavy; external validity to other settings is uncertain."],
+    "n_policy_ban": ["aus-ban-eval supplies both findings here (single source)", "three-month early evidence during contested rollout — measures use, not mental health", "The only ban evaluation is Australian; no LMIC age-ban evidence exists. Evidence base is high-income-heavy; external validity to other settings is uncertain."]
+  },
+  "audit_notes": {
+    "n_assoc_magnitude": "Geographic (F-geo-1): Ghai et al. 2023 pooled r=.14 overall but positive/significant only in the Global North and null in the Global South, with >70% of studies Global North (0% Africa). Author overlap: Ghai shares an author (Orben) with the orben-przybylski cluster also carried AGAINST here, so the two AGAINST clusters are NOT fully independent — flagged, not treated as clean corroboration.",
+    "n_assoc_hetero": "Three independent clusters support concentration of harm (orben-przybylski windows; twenge trend asymmetry; nordic-ban policy-response heterogeneity), but a targeted search found no qualifying non-replication of the age/sex windows. Marked thin rather than padded; the strongest counter-reading (tiny averages) lives on n_assoc_magnitude and is crosslinked.",
+    "n_assoc_benefits": "NAS-2024 is the only qualifying FOR cluster; Odgers-review carries the both-directions nuance as COMPLICATES. No credible AGAINST located — flagged thin, not manufactured.",
+    "n_trend_real": "The measurement-artifact hypothesis is carried honestly as a COMPLICATES sourced from within a pro-real-increase paper (nordic-trend); a standalone quantitative artifact source did not qualify under the protocol at authoring time. Thin. Geographic (F-geo-3): GBD 2021 (204 countries) reframes the rise as high-income-concentrated (fastest in North America) with global rates broadly stable — the deterioration is a high-income phenomenon in the modelled burden data, not a worldwide one.",
+    "n_trend_attrib": "Both FOR findings are the twenge cluster — the audit treats them as one body of work. Two independent clusters (NAS-2024, odgers-review) push AGAINST. This is the map's most conflation-prone claim and is double-crosslinked to n_assoc_causal. Geographic (F-geo-2): GBD 2021 adds that global adolescent-depression rates were stable 1990-2021 with the rise concentrated in high-income North America (EAPC 1.04 prevalence) while East/South Asia and the Caribbean declined — a globally-diffused exposure with a non-global outcome challenges the principal-driver claim.",
+    "n_policy_ban": "The FOR slot is deliberately empty — no measured evidence that age bans reduce use existed at authoring time. The single AGAINST cluster (aus-ban-eval) is three months of a leaky rollout; the node is scoped to USE, not mental health, and flagged thin.",
+    "n_mech_sleep": "Two strong meta-analyses, one per direction (carter-sleep-meta between-person; uq-withinperson-meta within-person). The disagreement is the design contrast itself — typed as an assumption-sensitivity crosslink.",
+    "n_assoc_causal": "Counter-signal preserved: independent clusters AGAINST its own claim (NAS-2024, reduction-rct-pool) — evidence against was retained, not pruned.",
+    "n_policy_deact": "Counter-signal preserved: independent clusters AGAINST its own claim (antwerp-abstinence-meta, reduction-rct-pool) — evidence against was retained, not pruned. Cluster note: reduction-rct-pool deliberately spans Ferguson 2024 AND its 2025 reanalysis — they analyse the same experiment pool and must not corroborate each other.",
+    "n_policy_school": "Working papers (not yet peer-reviewed at authoring, flagged in caveats): Abrahamsson 2024 (nordic-ban), Figlio & Özek 2025 (nber-florida), Allcott-Gentzkow 2025 (allcott-gentzkow w33697)."
+  },
+  "fast_moving_research": {}
+}
