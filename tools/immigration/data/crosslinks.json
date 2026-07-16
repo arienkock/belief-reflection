@@ -7,8 +7,8 @@
       "b": "F-wl-1",
       "kind": "scope-aggregation",
       "note": {
-        "research": "No measurable overall wage effect vs harm concentrated on low-skilled natives / prior immigrants \u2014 aggregate vs subgroup, not a true contradiction.",
-        "simple": "One says no overall effect on pay; the other says real harm to the lowest-paid. It's the whole versus a specific group \u2014 not a true clash."
+        "research": "No measurable overall wage effect vs harm concentrated on low-skilled natives / prior immigrants — aggregate vs subgroup, not a true contradiction.",
+        "simple": "One says no overall effect on pay; the other says real harm to the lowest-paid. It's the whole versus a specific group — not a true clash."
       }
     },
     {
@@ -16,7 +16,7 @@
       "b": "F-fl-1",
       "kind": "assumption-sensitivity",
       "note": {
-        "research": "'Not heavier benefit users' vs a low-skill net drain \u2014 driven by the average- vs marginal-cost public-goods assumption.",
+        "research": "'Not heavier benefit users' vs a low-skill net drain — driven by the average- vs marginal-cost public-goods assumption.",
         "simple": "One says immigrants aren't a drain; the other says lower-skilled ones are. The difference is how you count shared government costs."
       }
     },
@@ -26,7 +26,7 @@
       "kind": "assumption-sensitivity",
       "note": {
         "research": "Same population: net drain (average-cost) vs net positive (marginal-cost). The accounting assumption alone flips the sign.",
-        "simple": "Same people, opposite results \u2014 a cost or a gain \u2014 depending only on how you count shared costs."
+        "simple": "Same people, opposite results — a cost or a gain — depending only on how you count shared costs."
       }
     },
     {
@@ -44,7 +44,7 @@
       "kind": "context-transportability",
       "note": {
         "research": "US: immigrants ~60% less likely incarcerated vs Europe: positive association for specific offences. Context differs; not a like-for-like clash.",
-        "simple": "In the US immigrants are locked up far less; in Europe some crimes rise with immigration. Different places \u2014 not a head-to-head clash."
+        "simple": "In the US immigrants are locked up far less; in Europe some crimes rise with immigration. Different places — not a head-to-head clash."
       }
     },
     {
@@ -52,7 +52,7 @@
       "b": "F-cr-5",
       "kind": "empirical-contradiction",
       "note": {
-        "research": "European cross-national correlational positive vs German selection-corrected null \u2014 a genuine identification dispute about whether the association is causal.",
+        "research": "European cross-national correlational positive vs German selection-corrected null — a genuine identification dispute about whether the association is causal.",
         "simple": "One European study finds a link to more crime; a more careful one finds none. They genuinely disagree on whether it's real."
       }
     },
@@ -61,8 +61,8 @@
       "b": "F-tr-2",
       "kind": "cross-dimension",
       "note": {
-        "research": "Economic case (\u2248no harm overall) and cohesion case (small local trust erosion) point different ways and CANNOT be netted empirically \u2014 the weighting is a value choice.",
-        "simple": "The economy looks roughly unharmed, but local trust dips a little. These pull different ways and can't be added up \u2014 it's a values call."
+        "research": "Economic case (≈no harm overall) and cohesion case (small local trust erosion) point different ways and CANNOT be netted empirically — the weighting is a value choice.",
+        "simple": "The economy looks roughly unharmed, but local trust dips a little. These pull different ways and can't be added up — it's a values call."
       }
     },
     {
@@ -79,7 +79,7 @@
       "b": "F-econ-3",
       "kind": "scope-aggregation",
       "note": {
-        "research": "GDP-per-capita / surplus framing vs the claim that the surplus is a transfer from low-wage labour to employers \u2014 same facts, distributional reframing.",
+        "research": "GDP-per-capita / surplus framing vs the claim that the surplus is a transfer from low-wage labour to employers — same facts, distributional reframing.",
         "simple": "One frames it as the economy gaining; the other as money moving from low-paid workers to employers. Same facts, different emphasis."
       }
     },
@@ -90,6 +90,33 @@
       "note": {
         "research": "Putnam's constrict claim vs segregation-not-diversity: is the driver ethnic mix itself, or how it is spatially sorted?",
         "simple": "Is it diversity itself that lowers trust, or the way neighbourhoods are split up? The studies point at different causes."
+      }
+    },
+    {
+      "a": "F-geo-1",
+      "b": "F-wl-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "The US National Academies evidence (F-wl-1) finds the clearest native wage/employment pressure among prior immigrants and low-skilled natives; the OECD/ILO ten-country synthesis finds the native labour-market impact 'generally negligible' in LMIC destinations. Both can hold — a concentrated distributional effect in the US labour market and a small aggregate effect in labour markets with large informal sectors and different substitutability — but the wage-depression signal does not transport uniformly across destination contexts.",
+        "simple": "US data show the sharpest wage pressure lands on earlier immigrants and low-skilled locals; the ten-country study finds barely any overall effect in poorer countries. The harm is real in some settings and faint in others — it doesn't travel evenly."
+      }
+    },
+    {
+      "a": "F-geo-2",
+      "b": "F-gp-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "The OECD International Migration Outlook evidence (F-gp-1) supports a positive GDP-per-capita effect in high-income destinations; the OECD/ILO DevEcon synthesis (F-geo-2) reports that immigration is 'unlikely to depress GDP per capita' across ten LMIC destinations. The result appears to replicate across income settings — but the two draw on the same institution (OECD), so this is partially-non-independent corroboration rather than a fully separate confirmation.",
+        "simple": "One OECD study finds immigrants lift income per head in rich countries; a second OECD-linked study finds they don't drag it down in poorer ones. The finding seems to hold across settings — but both come from OECD work, so they don't fully count as two independent confirmations."
+      }
+    },
+    {
+      "a": "F-geo-3",
+      "b": "F-fl-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "The US-based net-fiscal-drain finding for low-skilled immigrants (F-fl-1) contrasts with the OECD/ILO ten-country result that the fiscal impact is small and mostly net-positive, with a sub-1%-of-GDP deficit in only two partner countries. The divergence reflects different tax-transfer systems, informal-sector shares, and public-goods provision — the 'net drain' conclusion is contingent on the fiscal architecture of the destination, not a universal property of low-skilled immigration.",
+        "simple": "US figures say low-skilled immigrants cost more than they pay in; the ten-country study finds mostly the opposite, with a tiny shortfall in just two countries. It depends on each country's tax-and-benefit system — the 'drain' isn't a fixed fact about low-skilled immigrants everywhere."
       }
     }
   ]

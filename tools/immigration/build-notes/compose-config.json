@@ -1,0 +1,63 @@
+{
+  "_comment": "Per-tool editorial input to scripts/compose-tool.py. Immigration is the oldest tool (audit frozen 2026-06-30) and predates the promoted compose pipeline (I4); this config onboards it so its derived artifacts are reproducible. The script computes structural audit flags mechanically; this file supplies substantive caveats, non-leaf evidence_quality, leaf-quality overrides (with reason), and audit notes. Onboarding normalises computed-flag wording to the canonical script (which does not flag non-leaf/dimension nodes and uses total>=3 for single-source-heavy), and unifies the audit label to v1 across all tools; all substantive caveats are preserved here.",
+  "map_version": "v1",
+  "recency_years": 10,
+  "advocacy_note": "CIS-2016 (F-wl-2) and Krol-2021 (F-inn-1, F-is-3) — carried only as labelled position evidence in their finding caveats; neither is any scored node's sole support.",
+  "nonleaf_quality": {
+    "n_root": "well-evidenced",
+    "n_econ": "well-evidenced",
+    "n_fiscal": "well-evidenced",
+    "n_innov": "well-evidenced",
+    "n_social": "thin"
+  },
+  "leaf_quality_override": {
+    "n_fiscal_highskill": {
+      "value": "well-evidenced",
+      "reason": "Mechanically one-sided (S1/C0) but the FOR is genuine near-consensus (high-skilled immigrants net fiscal contributors); the absence of an AGAINST is real, carried honestly as the public-goods COMPLICATES, not a manufactured challenge. Rated well-evidenced, not thin."
+    },
+    "n_innov_share": {
+      "value": "well-evidenced",
+      "reason": "Mechanically one-sided (S2/C0) but the descriptive over-representation in patents/entrepreneurship is corroborated across independent clusters (Diamond; Kerr/NBER) and not seriously contested; the live dispute is about why (composition), carried as COMPLICATES. Rated well-evidenced."
+    },
+    "n_fiscal_lowskill": {
+      "value": "thin",
+      "reason": "Mechanically two-sided (S1/C1) but the net-drain estimate hinges on accounting assumptions (dependent attribution, public-goods allocation, time horizon) and is genuinely contested; LMIC evidence (F-geo-3) further complicates. Rated thin."
+    },
+    "n_fiscal_horizon": {
+      "value": "thin",
+      "reason": "Mechanically two-sided (S1/C1) but the long-run/descendant result is highly assumption-dependent (discount rate, descendant attribution, public-goods treatment). Rated thin."
+    },
+    "n_social_trust": {
+      "value": "thin",
+      "reason": "Mechanically two-sided (S2/C2) but the effect is condition-dependent (contact vs threat), correlational, and heavily reliant on the Dinesen cluster. Rated thin."
+    },
+    "n_social_integration": {
+      "value": "thin",
+      "reason": "Mechanically two-sided (S1/C1) but the evidence is limited, correlational, and single-cluster-heavy (NAS-2016). Rated thin."
+    }
+  },
+  "manual_caveats": {
+    "n_econ": ["US-centric evidence — external validity to other destinations not established"],
+    "n_fiscal": ["mostly correlational — causal interpretation is not licensed"],
+    "n_social": ["US-centric evidence — external validity to other destinations not established"],
+    "n_econ_wages_overall": ["US-centric evidence — external validity to other destinations not established", "Geographic: OECD-ILO adds ten LMIC destinations (F-geo-1) where the native labour-market impact is negligible. Evidence base is US/OECD-heavy; external validity to other settings is partially addressed but remains uncertain."],
+    "n_econ_wages_lowskill": ["US-centric evidence — external validity to other destinations not established", "No LMIC low-skill-specific wage study located beyond the OECD-ILO aggregate. Evidence base is US-heavy; external validity to other settings is uncertain."],
+    "n_econ_gdp_pc": ["Geographic: OECD-ILO (F-geo-2) extends the GDP-per-capita result to ten LMIC destinations ('immigration is unlikely to depress GDP per capita'). Evidence base is OECD-heavy; external validity to other settings is partially addressed but uncertain."],
+    "n_fiscal_highskill": ["US-centric evidence — external validity to other destinations not established", "No LMIC high-skill fiscal study located. Evidence base is US-heavy; external validity to other settings is uncertain."],
+    "n_fiscal_lowskill": ["US-centric evidence — external validity to other destinations not established", "Geographic: OECD-ILO (F-geo-3) finds small/mixed fiscal impact across ten LMIC destinations (net positive in most; small deficit in Kyrgyzstan/Nepal), not a clear drain. Evidence base is US-heavy; external validity to other settings is partially addressed but uncertain."],
+    "n_fiscal_horizon": ["US-centric evidence — external validity to other destinations not established", "No LMIC dynamic-scoring (descendants/long-run) study located. Evidence base is US-heavy; external validity to other settings is uncertain."],
+    "n_innov_share": ["US-centric evidence — external validity to other destinations not established", "mostly correlational — causal interpretation is not licensed", "No LMIC immigrant-innovation study located. External validity to other settings is uncertain."],
+    "n_innov_complement": ["US-centric evidence — external validity to other destinations not established", "mostly correlational — causal interpretation is not licensed", "No LMIC study located. External validity to other settings is uncertain."],
+    "n_social_crime": ["mostly correlational — causal interpretation is not licensed", "Evidence base is US/European-heavy; Global-South immigration-crime evidence is largely qualitative or forced-displacement-focused. External validity to other settings is uncertain."],
+    "n_social_trust": ["mostly correlational — causal interpretation is not licensed", "Evidence base is European/US-heavy; social trust in Global-South settings is largely unexamined. External validity to other settings is uncertain."],
+    "n_social_integration": ["US-centric evidence — external validity to other destinations not established", "mostly correlational — causal interpretation is not licensed"]
+  },
+  "audit_notes": {
+    "n_fiscal_highskill": "FOR rests on the Dallas Fed reading of NAS; the lack of an AGAINST is genuine near-consensus, carried honestly as the public-goods COMPLICATES caveat, not a manufactured challenge.",
+    "n_innov_share": "The descriptive over-representation is corroborated across independent clusters (Diamond; Kerr/NBER). The live dispute is about why (composition), carried as COMPLICATES. No AGAINST exists because the descriptive count is not seriously contested.",
+    "n_fiscal_lowskill": "Counter-signal preserved: n_econ_wages_lowskill and n_fiscal_lowskill carry independent clusters AGAINST their own claim — evidence against was retained, not pruned. Geographic (F-geo-3): OECD-ILO finds small/mixed fiscal impact across ten LMIC destinations — net positive in most, undercutting a universal net-drain reading.",
+    "n_econ_wages_overall": "Geographic (F-geo-1): OECD-ILO finds a negligible native labour-market impact across ten LMIC destinations, consistent with the small US overall effect but extending it beyond high-income settings.",
+    "n_econ_gdp_pc": "Geographic (F-geo-2): OECD-ILO extends the GDP-per-capita result to LMIC destinations ('immigration is unlikely to depress GDP per capita'). Institutional overlap: the OECD-ILO DevEcon programme shares OECD provenance with the OECD-migration cluster, so treat as partially non-independent."
+  },
+  "fast_moving_research": {}
+}
