@@ -109,6 +109,33 @@
         "research": "An observational human association (Marfella) and controlled mechanistic harm (toxicology models) are different estimands: the first measures whether plastic-positive patients fared worse in one real cohort, the second whether particles damage cells/animals under controlled dosing. Treating one as confirming the other assumes the human association is causal and the mechanism operates at human exposure — neither established.",
         "simple": "The human heart study and the lab-animal studies measure different things: whether people with plastic in their plaque did worse, versus whether plastic damages cells and animals at set doses. Treating each as backing up the other assumes the human link is causal and the lab harm happens at real human amounts — neither of which is settled."
       }
+    },
+    {
+      "a": "F-geo-1",
+      "b": "F-assoc-1",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "Two association signals at incompatible levels of aggregation. Marfella (NEJM 2024) is an individual-level cohort: patients whose carotid plaque contained micro/nanoplastics had ~4.5x the rate of cardiovascular events. Wang (GBD 2021) is a country-level ecological correlation across 109 countries of a MODELLED dietary-intake exposure with CVD burden. A positive ecological correlation neither replicates nor validates the individual-level finding (ecological fallacy), and the country-level result is confounded by socio-demographic index; conversely the single cohort cannot speak to global/LMIC populations. They point the same direction at different scales without corroborating each other.",
+        "simple": "One study looked at individual patients (those with plastic in their artery plaque had far more heart attacks); the other compared whole countries (higher estimated intake, higher heart-disease rates). Matching country-level trends don't prove the individual link, and the single patient study can't speak for the whole world. Same direction, but they don't back each other up."
+      }
+    },
+    {
+      "a": "F-geo-2",
+      "b": "F-wild-1",
+      "kind": "context-transportability",
+      "note": {
+        "research": "Both are aquatic-organism effects meta-analyses, but they partition the harm differently. Foley et al. (2018) pools consumption/growth/reproduction/survival effects across taxa as a global signal; Moyo (2022) finds freshwater effects LARGER than marine and, in the underrepresented tropical-freshwater organisms, no significant effect on feeding/growth/survival. The existence of organismal harm is corroborated across both; its magnitude and even its sign vary by habitat and climate zone, so a global mean effect does not transport uniformly to tropical freshwaters where many LMICs sit.",
+        "simple": "Two big analyses agree microplastics can harm water animals, but they split it differently: one gives a global average, the other finds freshwater animals hit harder than sea animals and little clear harm in the few tropical-freshwater studies. So the harm is real but doesn't spread evenly across the world's waters."
+      }
+    },
+    {
+      "a": "F-geo-3",
+      "b": "F-wild-3",
+      "kind": "scope-aggregation",
+      "note": {
+        "research": "Koelmans-style species-sensitivity-distribution risk modelling concludes that modelled effect thresholds are exceeded only in a minority of sampled locations — a conclusion anchored to a globally-sampled but high-income-weighted ambient-concentration distribution. The African meta-analysis reports hotspot concentrations far above global averages (peak ~7,527 items/fish; >40% of sites at highest computed risk). If ambient concentrations in some LMIC hotspots sit orders of magnitude higher, the fraction of locations exceeding a harm threshold is regionally dependent, and the 'minority of locations' reassurance may not hold in the most-polluted settings. Both remain risk-model/index estimates, not measured organismal harm.",
+        "simple": "One risk model says harmful levels are reached in only a minority of places — but that's based mostly on data from wealthier regions. The African review shows some places are far more polluted than the global average. So 'only a few places are dangerous' may be true globally yet wrong for the dirtiest hotspots. Both are still risk scores, not proof of harm."
+      }
     }
   ]
 }

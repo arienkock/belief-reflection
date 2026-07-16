@@ -80,6 +80,7 @@
       "scored": true,
       "evidence_caveats": [
         "rests on interlaboratory comparison exercises; the VAMAS 2025 ring trial (84 labs) is the load-bearing evidence",
+        "Interlaboratory-comparison evidence is high-income-laboratory-heavy; reproducibility in less-resourced labs is unstudied. External validity to other settings is uncertain.",
         "no qualifying FOR located — one-sided",
         "fast-moving: Re-check whether achieved cross-laboratory reproducibility (ISO/VAMAS standardisation) has been demonstrated before any republish — the FOR side is standardisation-in-progress at authoring time."
       ]
@@ -105,7 +106,8 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "all human-tissue detections inherit a contamination risk; concentrations from studies without rigorous procedural blanks may be overestimates"
+        "all human-tissue detections inherit a contamination risk; concentrations from studies without rigorous procedural blanks may be overestimates",
+        "Human-tissue detection studies (blood, placenta) are European/high-income-heavy; external validity to other settings is uncertain."
       ]
     },
     {
@@ -153,7 +155,8 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "FOR evidence is a modelled global apportionment with wide uncertainty; regional source shares differ, and it addresses only the primary fraction"
+        "FOR evidence is a modelled global apportionment with wide uncertainty; regional source shares differ, and it addresses only the primary fraction",
+        "The global source apportionment is high-income-data-weighted; African and South-East Asian inventories document occurrence but do not re-rank sources. Evidence base is high-income-heavy; external validity of the source ranking to other settings is uncertain."
       ]
     },
     {
@@ -202,6 +205,7 @@
       "scored": true,
       "evidence_caveats": [
         "rests essentially on one contested observational study (Marfella 2024); no independent replication located",
+        "Individual-level evidence is European (Marfella, Italy); the only LMIC-inclusive evidence is an ecological GBD cross-country correlation of modelled intake (F-geo-1), which cannot establish individual burden. Evidence base is high-income-country-heavy for individual association; external validity to other settings is uncertain.",
         "fast-moving: Re-search for independent replications of Marfella 2024 before any republish — this leaf rests on a single 2024 study and would move if it is replicated or refuted."
       ]
     },
@@ -227,7 +231,8 @@
       "scored": true,
       "evidence_caveats": [
         "controlled harm is largely demonstrated at doses far above real human exposure — 'harm at a realistic dose' is the contested part",
-        "many studies use uniform polystyrene microspheres, unlike environmental particles"
+        "many studies use uniform polystyrene microspheres, unlike environmental particles",
+        "Controlled toxicology is high-income-laboratory-heavy; no LMIC-specific exposure-calibrated study was located. External validity to real-world exposure in other settings is uncertain."
       ]
     },
     {
@@ -274,7 +279,8 @@
       },
       "scored": true,
       "evidence_caveats": [
-        "demonstrated effects are common but mostly at concentrations above ambient; harm at environmentally realistic concentrations is the contested part"
+        "demonstrated effects are common but mostly at concentrations above ambient; harm at environmentally realistic concentrations is the contested part",
+        "Global effects meta-analyses and risk models are temperate/marine and high-income-data-heavy; tropical-freshwater (Moyo subgroup null, F-geo-2) and African-hotspot (F-geo-3) evidence is now partly covered but sparse. Evidence base is temperate/high-income-heavy; external validity to tropical and LMIC freshwaters is uncertain."
       ]
     },
     {
@@ -323,6 +329,7 @@
       "scored": true,
       "evidence_caveats": [
         "the measured reduction is of the TARGETED source (cosmetic microbeads ≈ 2% of primary microplastics), not of total microplastic pollution",
+        "Ban-outcome evidence is US/UK/EU; no LMIC ban-outcome evaluation was located. Evidence base is high-income-country-heavy; transferability to other waste-management contexts is uncertain.",
         "fast-moving: Re-run the EU intentionally-added-microplastic restriction (2023) and UN global plastics treaty search before any republish — the policy landscape was moving at authoring time."
       ]
     }

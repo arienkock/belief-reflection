@@ -337,6 +337,7 @@
       "tension_with": [
         "F-body-3",
         "F-cause-1",
+        "F-geo-1",
         "F-rel-1"
       ],
       "source_strength": "moderate",
@@ -519,6 +520,7 @@
       "source_citation": "Foley et al. 2018, A meta-analysis of the effects of exposure to microplastics on fish and aquatic invertebrates, Science of the Total Environment 631–632:550–559.",
       "triggers_split_to": [],
       "tension_with": [
+        "F-geo-2",
         "F-wild-2",
         "F-wild-3"
       ],
@@ -573,6 +575,7 @@
       "source_citation": "Koelmans et al. 2022, Risk-based management framework for microplastics in aquatic ecosystems, Microplastics and Nanoplastics 2:12.",
       "triggers_split_to": [],
       "tension_with": [
+        "F-geo-3",
         "F-wild-1"
       ],
       "source_strength": "strong",
@@ -660,6 +663,84 @@
       "caveat": {
         "research": "This bounds what a microbead ban can achieve for the TOTAL; it is not an argument that source policy in general is futile — a ban on a larger source (tyres, textiles) would not face the same ceiling.",
         "simple": "This limits what a microbead ban can do for the total — not a claim that all bans are pointless; a ban on a bigger source (tyres, clothes) wouldn't hit the same ceiling."
+      }
+    },
+    {
+      "finding_id": "F-geo-1",
+      "node_id": "n_health_assoc",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "A global cross-national analysis using GBD 2021 data across 109 countries (2018-2021) found that higher modelled per-capita dietary microplastic intake was associated with higher cardiovascular-disease burden: each +1 mg/capita/day of dietary microplastic intake corresponded to a +0.347 per 100,000 higher CVD age-standardised mortality rate and +7.165 per 100,000 higher CVD age-standardised DALY rate (both p<0.001), with parallel positive all-cause associations. Modelled dietary intake was highest in low and low-middle socio-demographic-index countries. This is an ecological, country-level correlation of a modelled exposure — it extends the association question to LMIC-inclusive global data but cannot establish an individual-level link.",
+        "simple": "A study covering 109 countries found that where estimated microplastic intake from food is higher, heart-disease death rates are higher too — and estimated intake is highest in poorer countries. But this compares whole countries, not individuals, and the intake was estimated by a model, so it can't show that a given person's microplastics harmed them. It widens the picture beyond wealthy countries without proving cause."
+      },
+      "effect_size": {
+        "research": "+0.347 per 100,000 CVD ASMR and +7.165 per 100,000 CVD ASDR per +1 mg/capita/day dietary microplastic intake (country-level, p<0.001)",
+        "simple": "higher estimated microplastic intake tracks higher country-level heart-disease death and disability rates"
+      },
+      "source_type": "modelling-study",
+      "source_citation": "Wang J, Lin D, Wei Y, Cui F, Yang Y, Zhai S, Wang H. Association between Dietary Microplastic Intake with All-Cause and Cardiovascular Diseases Burden: A Global Analysis Based on GBD 2021. Neuroepidemiology 2025. doi:10.1159/000547465.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-assoc-1"
+      ],
+      "source_strength": "thin",
+      "evidence_type": "modelling",
+      "source_cluster": "ihme-gbd",
+      "caveat": {
+        "research": "Ecological (country-level) design: a cross-country correlation of a MODELLED dietary-intake exposure with disease burden cannot establish individual-level association and is highly vulnerable to confounding by socio-demographic index, health-system capacity, and other diet factors. The authors claim no causation and note epidemiological evidence 'remains limited and inconclusive'. GBD-derived (cluster ihme-gbd); do not treat as independent of other GBD-based analyses. Evidence base is LMIC-inclusive here, but the exposure is estimated, not measured in bodies.",
+        "simple": "This compares countries, not people, and uses estimated (not measured) intake, so richer-vs-poorer country differences could easily explain it. The authors say it doesn't prove cause. It's useful because it finally includes poorer countries, but it's weak evidence."
+      }
+    },
+    {
+      "finding_id": "F-geo-2",
+      "node_id": "n_environ_wildlife",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "A second, independent meta-analysis (72 studies, 47 species, freshwater and marine) found that microplastic exposure had a significantly negative overall effect on organism feeding, growth, reproduction and survival, with freshwater systems showing LARGER effects than marine. Two qualifications bear on the realistic-concentration claim: the author states methods for reporting microplastic concentrations 'varied considerably among studies, impeding' any realistic-vs-inflated dose separation; and in the (underrepresented) tropical freshwater organisms, microplastics had no significant effect on feeding, growth or survival. It corroborates that organismal harm is real across taxa but cannot resolve whether it occurs at ambient concentrations, and flags climate-zone heterogeneity.",
+        "simple": "A separate big analysis (72 studies, 47 species) confirmed microplastics overall hurt animals' feeding, growth, breeding and survival — and hurt freshwater animals more than sea animals. But it couldn't tell apart real-world versus extreme lab doses (studies reported amounts too inconsistently), and in tropical freshwater animals it found no clear harm. So harm is real, but whether it happens at everyday levels — and everywhere — is still open."
+      },
+      "effect_size": {
+        "research": "significant negative pooled effect on feeding, growth, reproduction, survival; freshwater > marine; tropical-freshwater subgroup null for feeding/growth/survival",
+        "simple": "overall harm confirmed; stronger in freshwater; no clear harm in the few tropical-freshwater studies"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Moyo S. An enigma: A meta-analysis reveals the effect of ubiquitous microplastics on different taxa in aquatic systems. Frontiers in Environmental Science 2022;10:999349. doi:10.3389/fenvs.2022.999349.",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-wild-1"
+      ],
+      "source_strength": "moderate",
+      "evidence_type": "review",
+      "source_cluster": "moyo-meta",
+      "caveat": {
+        "research": "Does not separate environmentally realistic from inflated exposure concentrations (the author cites inconsistent concentration reporting as a limitation), so it corroborates harm-in-principle rather than harm-at-ambient — the crux of this leaf. Tropical systems are underrepresented; the tropical-freshwater null rests on few studies. Evidence base is temperate and high-income-heavy; external validity to tropical and LMIC freshwaters is uncertain.",
+        "simple": "It shows harm happens but not that it happens at real-world amounts (the studies reported doses too messily to tell), which is the exact thing this question turns on. And there were very few tropical studies, so the 'no harm in the tropics' part is shaky."
+      }
+    },
+    {
+      "finding_id": "F-geo-3",
+      "node_id": "n_environ_wildlife",
+      "direction": "COMPLICATES",
+      "claim_paragraph": {
+        "research": "A review and meta-analysis of microplastics in African aquatic ecosystems (75 studies; water, sediment, biota) reported that African waters are highly contaminated relative to global data — the highest biota load, ~7,527 items per fish, was recorded in the Eastern Harbour of Alexandria, Egypt, exceeding concentrations reported in Chinese coastal and fresh waters — and that over 40% of water and sediment samples fell in the highest computed ecological-risk category. This bears on the realistic-concentration debate: where ambient concentrations in pollution hotspots run far above global averages, the gap between 'inflated laboratory dose' and 'environmental concentration' narrows in those settings. It documents occurrence and hazard-index risk, not measured organismal harm.",
+        "simple": "A review of 75 African studies found African waters are among the most microplastic-polluted measured — one Egyptian harbour's fish carried about 7,527 particles each, more than in Chinese waters — and rated over 40% of sites at the highest risk level. That matters because the usual objection ('lab doses are unrealistically high') weakens where real-world pollution is this heavy. But it measures how much plastic is there and scores a risk index — not whether the animals were actually harmed."
+      },
+      "effect_size": {
+        "research": "African aquatic ecosystems highly contaminated vs global data; peak biota load ~7,527 items/fish (Alexandria, Egypt); >40% of water/sediment samples in highest ecological-risk-index category",
+        "simple": "among the highest microplastic pollution measured anywhere; risk index high at most sites"
+      },
+      "source_type": "systematic-review",
+      "source_citation": "Nyaga et al. Microplastics in aquatic ecosystems of Africa: A comprehensive review and meta-analysis. Environmental Research 2024 (ScienceDirect S0013935124002111).",
+      "triggers_split_to": [],
+      "tension_with": [
+        "F-wild-3"
+      ],
+      "source_strength": "thin",
+      "evidence_type": "review",
+      "source_cluster": "africa-mp-meta",
+      "caveat": {
+        "research": "Reports occurrence/concentrations and a COMPUTED ecological-risk index (hazard scoring from concentration and polymer type), NOT measured biological harm (feeding/growth/reproduction/survival) to organisms — a risk index is not a demonstrated effect. Full text was inaccessible at authoring; the finding is carried at thin strength on the robust qualitative point (African ambient concentrations run high) and the reported figures are cited as published. It complicates, rather than confirms, the realistic-concentration question by shifting the ambient baseline in hotspots.",
+        "simple": "This measured how much plastic is in African waters and scored a risk level — it did not test whether the animals were actually harmed, so a high 'risk score' isn't proof of harm. We also couldn't open the full paper, so it's treated as weak evidence."
       }
     }
   ]

@@ -263,18 +263,66 @@ exceeded only in hotspots):**
   is thin.
 - Whether a second, independent ecological meta-analysis exists distinct from
   Foley 2018 (`fish-meta` independence).
-- **Geographic scope (protocol v1.1, §Geographic scope):** run and record the
-  following queries in the search trail before Phase 2 findings are authored.
-  Record outcomes (found / null) for each:
-  - `microplastics human health association cohort Asia Africa Latin America`
-  - `microplastics freshwater aquatic organisms developing countries meta-analysis`
-  - `nanoplastics human exposure LMIC low-income country monitoring`
-  - `plastic pollution ecological effects Africa Southeast Asia river`
-  Check WHO-SEARO/WPRO/AFRO technical reports and *Lancet Global Health* /
-  *BMJ Global Health* for qualifying syntheses. When checking IHME GBD outputs,
-  tag any GBD-derived sources to cluster `ihme-gbd` — many Lancet Global Health
-  analyses reprocess GBD data and do not count as independent corroboration.
-  Where no qualifying source is found after documented search, record the null
-  result here and apply the standard caveat to every affected leaf:
-  **"Evidence base is [marine/high-income-country]-heavy; external validity to
-  other settings is uncertain."**
+- **Geographic scope (protocol v1.1, §Geographic scope) — COMPLETED 2026-07-16:**
+
+  Queries run and outcomes:
+  - `microplastics human health association cohort Asia Africa Latin America cardiovascular` →
+    **FOUND (ecological only)** — Wang et al. 2025 (Neuroepidemiology), a global
+    cross-national analysis of GBD 2021 dietary-microplastic intake vs CVD burden
+    across 109 countries; modelled intake highest in low/low-middle SDI countries.
+    Ecological/country-level, modelled exposure — added as **F-geo-1** (COMPLICATES,
+    thin, cluster `ihme-gbd`). **No individual-level LMIC cohort found**: the only
+    individual-level association evidence remains Marfella (Italy). NULL for a
+    non-Western individual cohort.
+  - `microplastics freshwater aquatic organisms developing countries Asia Africa meta-analysis toxicity` →
+    **FOUND** — Moyo 2022 (Frontiers Env Sci), a second independent effects
+    meta-analysis (72 studies, 47 species) distinct from Foley 2018: overall
+    significant harm, freshwater > marine, tropical-freshwater subgroup null.
+    Added as **F-geo-2** (COMPLICATES, moderate, cluster `moyo-meta`) — resolves the
+    open `fish-meta` independence question. Also **FOUND** Nyaga et al. 2024
+    (Environmental Research), review + meta-analysis of 75 African studies:
+    African waters among the most contaminated measured (peak ~7,527 items/fish,
+    Alexandria), >40% of sites at highest computed ecological-risk index. Occurrence
+    + risk-index, not organismal harm — added as **F-geo-3** (COMPLICATES, thin,
+    cluster `africa-mp-meta`); full text was paywalled (403/503/PDF unreachable at
+    authoring), so cited at thin strength on the robust qualitative point only.
+  - `nanoplastics human exposure low-income middle-income country monitoring biomonitoring` →
+    **NULL for a qualifying quantitative LMIC biomonitoring cohort.** Reviews
+    (Lancet Planetary Health 2025; biomonitoring syntheses) note LMICs are
+    disproportionately exposed via production/occupational/waste-trade routes, but
+    the primary human-tissue detection studies (blood Leslie NL; placenta Ragusa IT)
+    remain European. Standard geographic caveat applied to n_measure_body,
+    n_health_assoc, n_health_cause.
+  - `plastic pollution microplastic ecological effects Africa Southeast Asia river burden` →
+    **FOUND (occurrence/context only)** — Africa (≈80–90% mismanaged waste;
+    ResearchGate/ScienceDirect burden reviews) and South-East Asia river studies
+    (Chao Phraya, Citarum, Saigon, Jamuna — Jamuna in "extreme danger" risk class).
+    These document heavy regional occurrence and elevated risk indices but do not
+    re-rank global sources or measure organismal harm. Fed into the n_origin_sources
+    and n_environ_wildlife geographic caveats; not authored as separate findings
+    (occurrence/context, not effect evidence).
+
+  Bodies checked:
+  - IHME GBD: Wang et al. 2025 is GBD-2021-derived — tagged cluster `ihme-gbd` per
+    protocol; not counted as independent of other GBD-based analyses.
+  - WHO (SEARO/WPRO/AFRO) and *Lancet Global Health* / *BMJ Global Health*:
+    returned the Lancet Planetary Health 2025 disease-risk review (narrative, not a
+    qualifying tier-2 synthesis with new LMIC outcome data) and the GBD analysis
+    above. No qualifying non-Western outcome cohort located.
+
+  New findings authored from this pass: F-geo-1, F-geo-2, F-geo-3 (see findings.json).
+  New crosslink tensions: F-geo-1↔F-assoc-1 (scope-aggregation), F-geo-2↔F-wild-1
+  (context-transportability), F-geo-3↔F-wild-3 (scope-aggregation).
+
+  Remaining geographic gaps after documented search (standard caveat applied):
+  - No non-Western individual-level human cohort on the burden↔disease association
+    (n_health_assoc); the only LMIC-inclusive evidence is ecological.
+  - No LMIC-specific human-tissue detection with rigorous blanks (n_measure_body).
+  - No LMIC exposure-calibrated controlled toxicology (n_health_cause).
+  - No LMIC ban-outcome evaluation (n_policy_bans); microbead-ban evidence is US/UK/EU.
+  - Source apportionment remains a high-income-data-weighted global model
+    (n_origin_sources); regional inventories document occurrence, not source ranking.
+  - Interlaboratory reproducibility evidence is high-income-laboratory-heavy
+    (n_measure_reliable).
+  Standard caveat phrase applied per protocol: **"Evidence base is [region(s)]-heavy;
+  external validity to other settings is uncertain."**
