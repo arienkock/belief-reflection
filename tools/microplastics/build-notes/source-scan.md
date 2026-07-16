@@ -263,5 +263,14 @@ exceeded only in hotspots):**
   is thin.
 - Whether a second, independent ecological meta-analysis exists distinct from
   Foley 2018 (`fish-meta` independence).
-- Non-Western / freshwater and terrestrial evidence generally — scan is
-  marine- and high-income-heavy; expect a standing external-validity caveat.
+- **Geographic scope (required by protocol amendment 2026-07-16):** run at
+  minimum the following queries before Phase 2 findings are authored:
+  - `microplastics human health association cohort Asia Africa Latin America`
+  - `microplastics freshwater aquatic organisms developing countries meta-analysis`
+  - `nanoplastics human exposure LMIC low-income country monitoring`
+  - `plastic pollution ecological effects Africa Southeast Asia river`
+  Check IHME GBD, WHO-SEARO/WPRO/AFRO technical reports, and *Lancet Global Health*
+  / *BMJ Global Health* for qualifying syntheses. If no qualifying source is
+  found after targeted search, state **"evidence base is marine/high-income-country-heavy;
+  generalisability to other settings uncertain"** in the `caveat` of every
+  affected leaf.
