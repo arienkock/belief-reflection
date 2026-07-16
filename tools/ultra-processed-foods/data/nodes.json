@@ -77,6 +77,7 @@
       "scored": true,
       "evidence_caveats": [
         "rests on a single dedicated reliability study (Braesco 2022)",
+        "Evidence base is US/European/Brazilian-heavy; external validity of inter-rater reliability to other cultural and food-system settings is uncertain.",
         "no qualifying FOR located — one-sided"
       ]
     },
@@ -176,7 +177,8 @@
       "scored": true,
       "evidence_caveats": [
         "the pivotal processing-vs-nutrients dispute — carried live in both directions",
-        "adjustment can over-control if nutrients lie on the causal pathway of processing"
+        "adjustment can over-control if nutrients lie on the causal pathway of processing",
+        "Evidence base is US/Nordic/UK/French-heavy; external validity to other settings is uncertain."
       ]
     },
     {
@@ -251,6 +253,7 @@
       "evidence_caveats": [
         "metabolic-ward / motivated-volunteer settings",
         "the causal lever (processing vs energy density / eating rate) is contested",
+        "Evidence base is US-heavy (single NIH inpatient RCT); no qualifying non-Western RCT found. External validity to other settings is uncertain.",
         "fast-moving: Re-check the Nature Medicine critique/reply thread on Dicken 2025 before republish — the dispute was active at authoring time."
       ]
     },

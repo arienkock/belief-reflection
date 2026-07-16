@@ -18,14 +18,14 @@
   },
   "manual_caveats": {
     "n_concept": ["classification validity is itself contested — read the association leaves in that light"],
-    "n_concept_reliable": ["rests on a single dedicated reliability study (Braesco 2022)"],
+    "n_concept_reliable": ["rests on a single dedicated reliability study (Braesco 2022)", "Evidence base is US/European/Brazilian-heavy; external validity of inter-rater reliability to other cultural and food-system settings is uncertain."],
     "n_concept_beyond": ["exposure and diet-quality adjustment both derive from self-reported diet — over- or under-adjustment cannot be excluded"],
     "n_assoc": ["near-entirely observational, self-reported diet (FFQ) throughout — residual confounding and healthy-user bias are live"],
     "n_assoc_magnitude": ["observational — causal interpretation is not licensed", "graded evidence tiers reflect statistical strength/consistency, not causation"],
-    "n_assoc_confound": ["the pivotal processing-vs-nutrients dispute — carried live in both directions", "adjustment can over-control if nutrients lie on the causal pathway of processing"],
+    "n_assoc_confound": ["the pivotal processing-vs-nutrients dispute — carried live in both directions", "adjustment can over-control if nutrients lie on the causal pathway of processing", "Evidence base is US/Nordic/UK/French-heavy; external validity to other settings is uncertain."],
     "n_assoc_subgroup": ["subgroup breakdown comes from a single cohort", "'no significant association' for a subgroup is not evidence of safety"],
     "n_cause": ["only four qualifying RCTs, small and short — generalisability limited"],
-    "n_cause_intake": ["metabolic-ward / motivated-volunteer settings", "the causal lever (processing vs energy density / eating rate) is contested"],
+    "n_cause_intake": ["metabolic-ward / motivated-volunteer settings", "the causal lever (processing vs energy density / eating rate) is contested", "Evidence base is US-heavy (single NIH inpatient RCT); no qualifying non-Western RCT found. External validity to other settings is uncertain."],
     "n_policy": ["fast-moving: a US federal UPF definition is due 2026 and may move these findings"],
     "n_policy_guidance": ["authorities split on the same literature — partly a dispute about evidentiary standards and the unresolved definition"],
     "n_policy_labels": ["strongest evidence targets NUTRIENTS (sugar/salt/fat), not processing — transportability to a UPF-specific label is an assumption"]
