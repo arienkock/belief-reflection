@@ -272,21 +272,50 @@ This is the pivotal, genuinely two-sided empirical leaf.
   genuine independent AGAINST/COMPLICATES on the causal leaf?
 - Whether any qualifying source makes a *measured* "adds nothing beyond
   nutrients" claim for `n_concept_beyond`, or whether that side is thin.
-- **Geographic scope (protocol v1.1, §Geographic scope):** run and record the
-  following queries in the search trail before Phase 2 findings are authored.
-  Record outcomes (found / null) for each:
-  - `ultra-processed foods cohort Brazil China India Africa meta-analysis`
-  - `NOVA classification ultra-processed food low-income middle-income countries diet`
-  - `ultra-processed food cardiovascular mortality Asia Latin America prospective`
-  - `UPF dietary transition developing countries burden NCD`
-  Check FIOCRUZ, ICMR, NCD-RisC, PAHO/WHO AMRO, and *Lancet Global Health* /
-  *BMJ Global Health* for qualifying syntheses. When checking IHME GBD or
-  NCD-RisC outputs, tag to clusters `ihme-gbd` / `ncd-risc` respectively and
-  verify that co-cited analyses use non-overlapping primary data before treating
-  them as independent corroboration. Brazil-linked FIOCRUZ and USP cohort data
-  are plausible non-cluster-overlap sources (NOVA originated there), but also
-  search East Asian and African contexts — do not treat Brazil as the default
-  stand-in for all non-Western UPF evidence. Where no qualifying source is found
-  after documented search, record the null result here and apply the standard
-  caveat to every affected leaf: **"Evidence base is [US/Nordic/UK]-heavy;
-  external validity to other settings is uncertain."**
+- **Geographic scope (protocol v1.1, §Geographic scope) — COMPLETED 2026-07-16:**
+
+  Queries run and outcomes:
+  - `ultra-processed foods cohort Brazil China India Africa meta-analysis` →
+    **FOUND** (Brazil: ELSA-Brasil cohort T2D/obesity, strong; Korea: KoGES-HEXA
+    113,576 participants null result, strong; China: serial cross-sectional trend
+    data only, no outcome cohort; India/Africa: null for prospective outcomes)
+  - `NOVA classification ultra-processed food low-income middle-income countries diet` →
+    **FOUND (characterisation only)** — South Africa/Ghana/Senegal consumption
+    studies; FAO NOVA technical report (tier-2); no LMIC prospective mortality
+    cohort
+  - `ultra-processed food cardiovascular mortality Asia Latin America prospective` →
+    **FOUND** — Singapore Chinese Health Study (62,197, CVD mortality, SUPPORTS);
+    KoGES-HEXA (113,576, CVD null); Passos et al. AJPM 2025 attributable
+    mortality in four Latin American countries
+  - `UPF dietary transition developing countries burden NCD` →
+    **FOUND (contextual)** — Public Health Nutrition 2024 global nutrition
+    transition SR; China trend data; Popkin et al. 2021 LMIC framing
+
+  Bodies checked:
+  - FIOCRUZ/Brazil: Brazilian Dietary Guidelines (2014, tier-2 equivalent) —
+    first national guidelines organised by processing level; endorsed by FAO.
+    Tagged cluster `brazil-dietary-guidelines`. Added as F-geo-4.
+  - ICMR: ICMR-NIN 2024 dietary guidelines mention UPF restriction; no qualifying
+    prospective Indian cohort found linking UPF to mortality. **NULL.**
+  - NCD-RisC: NCD-RisC data used in IHME GBD modelling — tagged `ihme-gbd` per
+    protocol; independence check: NCD-RisC pooled analyses use different primary
+    inputs from direct GBD estimates, but both fed into the AJPM attributable-
+    mortality modelling. Not counted as independent corroboration.
+  - PAHO/WHO AMRO: PAHO/WHO technical notes on NCDs in the Americas — contextual
+    only, no original outcome synthesis qualifying as tier-2.
+  - *Lancet Global Health* / *BMJ Global Health*: search returned the Singapore
+    cohort (Nutrition Journal) and the AJPM 8-countries paper. EPIC Lancet
+    Regional Health Europe 2025 (9 countries) is a new tier-1 source but Western.
+
+  New findings authored from this pass: F-geo-1 through F-geo-5 (see findings.json).
+
+  Remaining geographic gaps after documented search:
+  - Sub-Saharan Africa: no qualifying prospective cohort linking UPF to mortality
+    or major disease outcomes. Standard caveat applied to n_assoc_magnitude,
+    n_assoc_subgroup.
+  - South Asia (India, Bangladesh, Pakistan): no qualifying prospective cohort.
+    Standard caveat applied.
+  - Mainland China: serial cross-sectional data only; no outcome cohort.
+  - Non-Western RCT on energy intake: null. Standard caveat applied to n_cause_intake.
+  - n_concept_reliable, n_assoc_confound: no non-Western inter-rater or
+    adjustment studies found. Standard caveats applied.

@@ -77,6 +77,7 @@
       "scored": true,
       "evidence_caveats": [
         "rests on a single dedicated reliability study (Braesco 2022)",
+        "Evidence base is US/European/Brazilian-heavy; external validity of inter-rater reliability to other cultural and food-system settings is uncertain.",
         "no qualifying FOR located — one-sided"
       ]
     },
@@ -176,7 +177,8 @@
       "scored": true,
       "evidence_caveats": [
         "the pivotal processing-vs-nutrients dispute — carried live in both directions",
-        "adjustment can over-control if nutrients lie on the causal pathway of processing"
+        "adjustment can over-control if nutrients lie on the causal pathway of processing",
+        "Evidence base is US/Nordic/UK/French-heavy; external validity to other settings is uncertain."
       ]
     },
     {
@@ -251,6 +253,7 @@
       "evidence_caveats": [
         "metabolic-ward / motivated-volunteer settings",
         "the causal lever (processing vs energy density / eating rate) is contested",
+        "Evidence base is US-heavy (single NIH inpatient RCT); no qualifying non-Western RCT found. External validity to other settings is uncertain.",
         "fast-moving: Re-check the Nature Medicine critique/reply thread on Dicken 2025 before republish — the dispute was active at authoring time."
       ]
     },
@@ -300,6 +303,7 @@
       "scored": true,
       "evidence_caveats": [
         "authorities split on the same literature — partly a dispute about evidentiary standards and the unresolved definition",
+        "recency: brazil-dietary-guidelines (2014) ≥10y old — refresh review",
         "fast-moving: Re-run the FDA/USDA federal 'ultra-processed food' definition search before any republish — a federal definition was due in 2026 and would move this leaf."
       ]
     },
