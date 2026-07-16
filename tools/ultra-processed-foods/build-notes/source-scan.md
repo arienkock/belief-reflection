@@ -272,5 +272,21 @@ This is the pivotal, genuinely two-sided empirical leaf.
   genuine independent AGAINST/COMPLICATES on the causal leaf?
 - Whether any qualifying source makes a *measured* "adds nothing beyond
   nutrients" claim for `n_concept_beyond`, or whether that side is thin.
-- Non-US/Nordic/UK evidence generally — scan is high-income-country heavy;
-  expect a standing external-validity caveat.
+- **Geographic scope (protocol v1.1, §Geographic scope):** run and record the
+  following queries in the search trail before Phase 2 findings are authored.
+  Record outcomes (found / null) for each:
+  - `ultra-processed foods cohort Brazil China India Africa meta-analysis`
+  - `NOVA classification ultra-processed food low-income middle-income countries diet`
+  - `ultra-processed food cardiovascular mortality Asia Latin America prospective`
+  - `UPF dietary transition developing countries burden NCD`
+  Check FIOCRUZ, ICMR, NCD-RisC, PAHO/WHO AMRO, and *Lancet Global Health* /
+  *BMJ Global Health* for qualifying syntheses. When checking IHME GBD or
+  NCD-RisC outputs, tag to clusters `ihme-gbd` / `ncd-risc` respectively and
+  verify that co-cited analyses use non-overlapping primary data before treating
+  them as independent corroboration. Brazil-linked FIOCRUZ and USP cohort data
+  are plausible non-cluster-overlap sources (NOVA originated there), but also
+  search East Asian and African contexts — do not treat Brazil as the default
+  stand-in for all non-Western UPF evidence. Where no qualifying source is found
+  after documented search, record the null result here and apply the standard
+  caveat to every affected leaf: **"Evidence base is [US/Nordic/UK]-heavy;
+  external validity to other settings is uncertain."**
